@@ -17,6 +17,23 @@ Depiction: http://modmyi.com/info/ncsettings.d.php
 Name: NCSettings
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
+Package: com.vsz.redeb
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: T.Herak <50dc856b@opayq.com>
+Depends: bash (>= 4.0.17-13), coreutils (>= 8.12-12p), grep (>= 2.5.4-3), sed (>= 4.1.5-7), gawk (>= 3.1.6-2p), apt7 (>= 0.7.25.3-6)
+Filename: ./debs/com.vsz.redeb_1.0.3_iphoneos-arm.deb
+Size: 3572
+MD5sum: b5aa8718f90044be937b72d9f4e7a1f5
+SHA1: 912a6cf3cea1c725df51bb54ad4f849f27bdfa08
+SHA256: 5ec1491fdf630cdb2cbf218a10557d45e5a23271e775b066553cea543cf31c80
+Section: Utilities
+Priority: extra
+Description: Repackage any of your tweaks locally, without the need to download it from Cydia again. This is super usefull when there is an update of your until now perfectly working tweak in Cydia and you want to make a backup of the version installed. Normally you wouldn't be able to backup anything because it is possible to fetch only the most current version of your tweak and so you would be lost. Not anymore :)))
+Author: T.Herak <50dc856b@opayq.com>
+Depiction: https://wiety.github.io/cydia/depictions/?p=com.vsz.redeb
+Name: redeb
+
 Package: com.yourcompany.speedintensifier
 Version: 5.0.1
 Architecture: iphoneos-arm
@@ -31,6 +48,24 @@ Section: Tweaks
 Description: This tweak will speed up the animation transitions to make your device Look faster.
 Author: Philip Wong
 Name: Speed Intensifier
+
+Package: curl
+Version: 7.65.0-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 1896
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libnghttp2-14, libssh2, libssl1.0
+Filename: ./debs/curl_7.65.0-1_iphoneos-arm.deb
+Size: 322348
+MD5sum: 5b755c7b00631efaa87b157048f29b66
+SHA1: 1f3b280ea398194680c63fe884ef0c1774053d66
+SHA256: 5e89a61fc6cb427cff1d34e5ce2edfbb129ab086dcc5471b2ddf7c329dceaaac
+Section: Networking
+Priority: standard
+Homepage: http://curl.haxx.se/
+Description: flexible multi-protocol file transfers
+Name: cURL
 
 Package: dev.preloading.tubereplacer
 Version: 1.0.6
@@ -51,6 +86,74 @@ Author: Preloading <me@preloading.dev>
 Depiction: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
 Icon: file:///Library/PreferenceBundles/TubeReplacerPrefs.bundle/icon@full.png
 Name: TubeReplacer
+
+Package: kloader
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: iOS?Support <iossp@hotmail.com>
+Depends: firmware (>= 6.0), vn.iossp.iconrepo
+Conflicts: cy+cpu.arm64
+Filename: ./debs/kloader_1.0_iphoneos-arm.deb
+Size: 7968
+MD5sum: bf737cdfc86feb9808bfa86c20d4ba97
+SHA1: 048103209fa74ee391bf3271b1963ce6444fa025
+SHA256: 46370fb0de85a2bd4af738878796116306ec8a924472c0701c192b732374d93d
+Section: Utilities
+Priority: optional
+Description: Don't install if you don't know what that is
+ Do not install this package if you don't know what this is.
+ Installing this on a production device is not recommended.
+Author: winocm, xerub
+Name: kloader
+
+Package: libcrippy-1.0.0
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: iOS?Support <iossp@hotmail.com>
+Depends: firmware (>= 6.0), vn.iossp.iconrepo
+Filename: ./debs/libcrippy-1.0.0_1.0_iphoneos-arm.deb
+Size: 15888
+MD5sum: bd0fbd0d732c096279bbdc670e6e753e
+SHA1: 66fcd87fd5a69c3b0564ba70f993f0e976aceb62
+SHA256: 18b4e6a4bab6a64988868fc52c0b4a83f89f541b8cc48355318617c91047de0c
+Section: Utilities
+Priority: optional
+Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
+Name: libcrippy-1.0.0
+
+Package: libnghttp2-14
+Version: 1.40.0-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 400
+Pre-Depends: dpkg (>= 1.14.25-8)
+Conflicts: nghttp2, libnghttp2
+Replaces: nghttp2, libnghttp2
+Provides: nghttp2, libnghttp2
+Filename: ./debs/libnghttp2-14_1.40.0-1_iphoneos-arm.deb
+Size: 53522
+MD5sum: 53af07eb4f034bd96aa719f1aac14433
+SHA1: 3af0126e44c0674efa4acc2b2aa220b64099f217
+SHA256: 7c565c5dbcf6b6d76117ea8cbed650ae6630d93d068769ede4f53d96af621a99
+Section: Development
+Priority: standard
+Homepage: https://nghttp2.org/
+Description: library implementing HTTP/2 protocol (shared library)
+
+Package: libpartialzip-1.0.0
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: iOS?Support <iossp@hotmail.com>
+Depends: firmware (>= 6.0), libcrippy-1.0.0, vn.iossp.iconrepo
+Filename: ./debs/libpartialzip-1.0.0_1.0_iphoneos-arm.deb
+Size: 6854
+MD5sum: 3b82ed4cb8847123bad7c111ff47b203
+SHA1: 2102d0982a79278e2823f6207644391b60c00511
+SHA256: aeff90d408ac50b74d4f40e8aa9a57a1c0e84533f5437bacf23da291c5b37063
+Section: Utilities
+Priority: optional
+Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
+Name: libpartialzip-1.0.0
 
 Package: vn.gsm.auxo.org
 Version: 1.4-2
@@ -110,6 +213,24 @@ Description: This is a compatibility version of Forecast for iOS6.
 Author: Stimpy5050 <dashman@gmail.com>
 Depiction: http://cydia.gsm.vn/t2680/
 Name: Forecast for iOS6
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
+Package: vn.gsm.fullforce
+Version: 1.1.3k1
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Depends: firmware (>= 6), mobilesubstrate, preferenceloader (>= 2.2), applist (>= 1.5.9), cy+model.iphone | cy+model.ipod
+Filename: ./debs/fullforce_v1.1.3.deb
+Size: 106582
+MD5sum: 9d2e31e04eedb51e72051bd899a08ca3
+SHA1: 7107090015ceb3e12d89d793d68f9e0f60fe089a
+SHA256: e195feb5083debff9d77a28f46255ea024ab173c9be1702162c611f914c9c3ea
+Section: !CydiaVn-Tools
+Homepage: http://cydia.vn/
+Description: Force applications to show in fullscreen mode
+Author: Ryan Petrich <repo@cydia.vn>
+Depiction: http://cydia.vn/depic/t3946/
+Name: FullForce for Phone
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
 Package: vn.gsm.speedintensifier
@@ -227,6 +348,52 @@ Description: iOS 5 - 16.3.1.
 Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified
+
+Package: vn.iossp.googlefix
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: iOSSupportVN
+Depends: mobilesubstrate, vn.iossp.iconrepo
+Filename: ./debs/vn.iossp.googlefix.deb
+Size: 8530
+MD5sum: 121054eb1800bfc2a58b9a8dfc0d0300
+SHA1: 78408d6c39c879e6dfebbbe05dfb0245874a693b
+SHA256: 6a8737ae26c9a297879fe5863cb7cc2d29dbc4c4490f1e53e911573f4e9aaee2
+Section: Tweak
+Description: Fixes Google search on iOS 6
+Author: Victor
+Name: GoogleFix
+
+Package: vn.iossp.kDFUApp
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: iOS?Support <iossp@hotmail.com>
+Depends: openssl, libcrippy-1.0.0, libpartialzip-1.0.0, curl, kloader, vn.iossp.kDFUBundles, firmware (>= 6.0), vn.iossp.iconrepo
+Filename: ./debs/vn.iossp.kDFUApp_1.0.3_iphoneos-arm.deb
+Size: 80282
+MD5sum: ac8d238259a12cc98e47e36b0f8b4095
+SHA1: 00f9de9f6a70c6469f74148473cb3f44352c8a1e
+SHA256: 3f7ca3e4b7501f46abb3f92bddac587167e3cab42ad9722d67411b593b64f0d9
+Section: System
+Priority: optional
+Description: easy way to get into kDFU mode.
+Author: tihmstar
+Name: kDFUApp
+
+Package: vn.iossp.kDFUBundles
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: iOS?Support <iossp@hotmail.com>
+Depends: vn.iossp.kDFUApp, vn.iossp.iconrepo
+Filename: ./debs/vn.iossp.kDFUBundles_1.0.1_iphoneos-arm.deb
+Size: 10764
+MD5sum: 5297fac064dff54863a2f0cbd920e5f4
+SHA1: be1765c858286cb02c7987bf1ee1f0839b638dc5
+SHA256: 753eea5c087df9fe6175e79e9ce0cc8eb2f2e3a210f3266262744e28aad5d706
+Section: System
+Description: More device support for kDFUApp
+Author: LukeZGD
+Name: kDFUApp Bundles
 
 Package: vn.iossp.ytlegacybg
 Version: 1.0
