@@ -41,12 +41,12 @@ Version: 1.4.0
 Architecture: iphoneos-arm
 Maintainer: PhucNguyen
 Filename: ./debs/com.phucnguyenvlog.youtube_1.4.0_iphoneos-arm_modified.deb
-Size: 6474668
-MD5sum: fe5d589bf33f2c61afde96f0a6e9b66d
-SHA1: 9522f547bd9457bd9759694eda357a816ca5cfe7
-SHA256: f6b8824639711e3a1eb121ee1a1d127b437e68241fac567383195d881f990df5
+Size: 7961000
+MD5sum: bebb4a6e1dd16e44bdc0b255c6c4e4ec
+SHA1: 8c3dab8a8222f1fb9c10333194d2a6d5feefd77f
+SHA256: fd1a845a0a307c041316911860de9fc5a60631556acda78c3bb3378597328a44
 Section: Applications
-Description: youtube cho ios 6 trở lên đã fix sẵn và tích hợp chạy nền
+Description: youtube cho ios 6 tro len da fix loi va tich hop chay nen
 Name: Youtube
 
 Package: com.vsz.redeb
