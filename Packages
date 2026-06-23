@@ -364,6 +364,22 @@ Description: Fixes Google search on iOS 6
 Author: Victor
 Name: GoogleFix
 
+Package: vn.iossp.iconrepo
+Version: 1.0
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: iOSSupport <iossp@hotmail.com>
+Filename: ./debs/vn.iossp.iconrepo_1.0_iphoneos-arm.deb
+Size: 44434
+MD5sum: 6659d112bf75bfcef4b91d2b5f679abc
+SHA1: 815535230a7905a68528755b5438508460ca402c
+SHA256: c395246b31c311fe84d6a39e068e56c3f4acc27550f836b2be1ab73da91af87d
+Section: System
+Priority: required
+Description: Gói icon bổ trợ cho nguồn iOS Support.
+Author: QuốcBK <iossp@hotmail.com>
+Name: iOSSupport Icon Repo
+
 Package: vn.iossp.kDFUApp
 Version: 1.0.3
 Architecture: iphoneos-arm
