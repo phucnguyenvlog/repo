@@ -36,17 +36,17 @@ Depiction: http://modmyi.com/info/ncsettings.d.php
 Name: NCSettings
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
-Package: com.phucnguyen.youtube
+Package: com.phucnguyenvlog.youtube
 Version: 1.4.0
 Architecture: iphoneos-arm
 Maintainer: PhucNguyen
-Filename: ./debs/com.phucnguyen.youtube_1.4.0_iphoneos-arm_modified.deb
-Size: 6827884
-MD5sum: bb65d46bf49b098dca50ff686e61b33a
-SHA1: f25561038d54dbfd85f5d1490470eb7582335304
-SHA256: f59d2fa876a75363447c1b5c5ac08048a1c793839e837b5d89afb6687ea847a6
+Filename: ./debs/com.phucnguyenvlog.youtube_1.4.0_iphoneos-arm_modified.deb
+Size: 6474668
+MD5sum: fe5d589bf33f2c61afde96f0a6e9b66d
+SHA1: 9522f547bd9457bd9759694eda357a816ca5cfe7
+SHA256: f6b8824639711e3a1eb121ee1a1d127b437e68241fac567383195d881f990df5
 Section: Applications
-Description: youtube cho ios 6 tro len tich hop chay nen
+Description: youtube cho ios 6 trở lên đã fix sẵn và tích hợp chạy nền
 Name: Youtube
 
 Package: com.vsz.redeb
