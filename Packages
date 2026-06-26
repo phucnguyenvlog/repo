@@ -101,6 +101,65 @@ Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 Support: http://support.rockyourphone.com
 Versionssupported: 2.01,2.1,2.2,2.21
 
+Package: com.victorlobe.googlefix
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Victor
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.victorlobe.googlefix_1.0.2_iphoneos-arm.deb
+Size: 6430
+MD5sum: 23d42e5618a5098f4699927ec93ddaae
+SHA1: a82f9e610b1a4ad2195c41454ec420aa0a741ac5
+SHA256: 68589f99f93f4e27a1e07534f0e79754c953a488e47d332f662f3c3fcdd78984
+Section: Tweaks
+Description: Fixes Google on iOS 6
+Author: Victor
+Depiction: http://repo.victorlobe.me/depictions/depiction.html?id=com.victorlobe.googlefix
+Name: GoogleFix
+
+Package: com.victorlobe.veteris
+Version: 2.1.8
+Architecture: iphoneos-arm
+Maintainer: Victor
+Installed-Size: 3676
+Depends: firmware (>= 5.0), com.victorlobe.veterishelper
+Conflicts: com.ixmoe.1pwn.veteris, moe.yzu.veterishelper
+Replaces: com.ixmoe.1pwn.veteris, moe.yzu.veterishelper
+Filename: ./debs/com.victorlobe.veteris_2.1.8_iphoneos-arm.deb
+Size: 1693836
+MD5sum: 92a484f11846af16b46982ba2ffa9f88
+SHA1: fba91300117abce38a06cc08e3d0c9cd97e25d14
+SHA256: 5512cd887737e28702506c5901a98a293806c85fd2f3cc0323564615e0767296
+Section: Utilities
+Homepage: http://www.veteris.victorlobe.me/
+Description: Welcome back!
+Author: Victor
+Compatibility: iOS 5.0+
+Depiction: http://repo.victorlobe.me/depictions/depiction.html?id=com.victorlobe.veteris
+Icon: file:///Applications/Veteris.app/AppIcon57x57@2x.png
+Name: Veteris
+
+Package: com.victorlobe.veterishelper
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Victor
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.ixmoe.1pwn.Veteris, moe.yzu.veterishelper
+Replaces: com.ixmoe.1pwn.Veteris, moe.yzu.veterishelper
+Filename: ./debs/com.victorlobe.veterishelper_1.1_iphoneos-arm.deb
+Size: 6512
+MD5sum: fa61d752faa95da4bb2c5d11c9329a44
+SHA1: fd5c426e4336d935891e8ed24fac631f74bc3a56
+SHA256: 25a2de9b1e64bac0137af4b5ca010bcba2e310830e023b8aa1ececf896f0094f
+Section: Utilities
+Homepage: http://www.veteris.victorlobe.me/
+Description: Veteris's little friend.
+Author: Victor
+Compatibility: iOS 5.0+
+Name: Veteris Helper
+
 Package: com.vsz.redeb
 Version: 1.0.3
 Architecture: iphoneos-arm
@@ -617,21 +676,6 @@ Description: iOS 5 - 16.3.1.
 Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified
-
-Package: vn.iossp.googlefix
-Version: 1.0.2
-Architecture: iphoneos-arm
-Maintainer: iOSSupportVN
-Depends: mobilesubstrate, vn.iossp.iconrepo
-Filename: ./debs/vn.iossp.googlefix.deb
-Size: 8530
-MD5sum: 121054eb1800bfc2a58b9a8dfc0d0300
-SHA1: 78408d6c39c879e6dfebbbe05dfb0245874a693b
-SHA256: 6a8737ae26c9a297879fe5863cb7cc2d29dbc4c4490f1e53e911573f4e9aaee2
-Section: Tweak
-Description: Fixes Google search on iOS 6
-Author: Victor
-Name: GoogleFix
 
 Package: vn.iossp.iconrepo
 Version: 1.0
