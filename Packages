@@ -36,6 +36,32 @@ Depiction: http://modmyi.com/info/ncsettings.d.php
 Name: NCSettings
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
+Package: com.phucnguyenvlog.nct
+Version: 5.3.1
+Architecture: iphoneos-arm
+Maintainer: PhucNguyen
+Filename: ./debs/com.phucnguyenvlog.nct_5.3.1_iphoneos-arm.deb
+Size: 16580326
+MD5sum: 826e157e3469e9644da41740cdb933d0
+SHA1: 13dd184006a5ab7b70a7cd90d3dbe8a87179bb07
+SHA256: 7f0cc643c5f997428d265074df25b50326d7b5e8dffc4e2bdd378b9f6db31384
+Section: Applications
+Description: Đóng gói từ IPA bởi PhucNguyenVlog
+Name: Nhac Cua Tui
+
+Package: com.phucnguyenvlog.tiktok
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: PhucNguyen
+Filename: ./debs/com.phucnguyenvlog.tiktok_1.0_iphoneos-arm.deb
+Size: 8187800
+MD5sum: e9f5bf2e2de209aa620d7213bc207706
+SHA1: da64e8a607499ecdc015b3d662dc537916ac00c9
+SHA256: b16137d3173d086c6bddb9cfa65d364e6de4f071bab5aa79edad093384094f23
+Section: Applications
+Description: Đóng gói từ IPA bởi PhucNguyenVlog
+Name: Tiktok
+
 Package: com.phucnguyenvlog.youtube
 Version: 1.4.0
 Architecture: iphoneos-arm
@@ -48,6 +74,32 @@ SHA256: fd1a845a0a307c041316911860de9fc5a60631556acda78c3bb3378597328a44
 Section: Applications
 Description: youtube cho ios 6 tro len da fix loi va tich hop chay nen
 Name: Youtube
+
+Package: com.rockyourphone.rockextensions
+Version: 1.01-1
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: bugs@intelliborn.com
+Provides: mobilesubstrate
+Filename: ./debs/rockextensions.1.01.sg1.deb
+Size: 81356
+MD5sum: 4b65b5fd4884260dfc4f21dc4e1495f8
+SHA1: 3f4cd8726f669aa64ee73eb141a7f55b7afd2e3d
+SHA256: b25fb19a9e3f715a365a1faf6a9e08a01a5459ffd55a5af52ff617205f93f907
+Section: System
+Priority: standard
+Homepage: http://modmyi.com/info/rockextensions.php
+Description: Enables 3rd Party System Add-Ons for Rock Your Phone apps.  Rock Extensions is a Mobile Substrate port with enhanced error handling and automatic bug submission
+Depiction: http://modmyi.com/info/rockextensions.d.php
+Languages: English
+Name: Rock Extensions
+Numscreenshots: 0
+Price: 0
+Publisher: Rock Your Phone
+Requiresrespring: true
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Support: http://support.rockyourphone.com
+Versionssupported: 2.01,2.1,2.2,2.21
 
 Package: com.vsz.redeb
 Version: 1.0.3
@@ -119,6 +171,25 @@ Depiction: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
 Icon: file:///Library/PreferenceBundles/TubeReplacerPrefs.bundle/icon@full.png
 Name: TubeReplacer
 
+Package: gsmicon
+Version: 4.0-2
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Cydia.vn <repo@cydia.vn>
+Filename: ./debs/gsmicon_4.0-2.deb
+Size: 30822
+MD5sum: eac0c7f9ecb379d939e4dd7343d5f99b
+SHA1: 501e32ee74c2dba866cbc2ddc46570d9a7f4849f
+SHA256: f465a792e91cf6f75257f71594972d2f41133d635c46a41d9429b1571b839440
+Section: !CydiaVn-Tools
+Priority: required
+Homepage: http://cydia.vn/
+Description: Icon cho Cydia.vn source!
+Author: Cydia.vn <repo@cydia.vn>
+Depiction: http://cydia.gsm.vn/t96/
+Name: Cydia.vn Icon
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
 Package: kloader
 Version: 1.0
 Architecture: iphoneos-arm
@@ -137,6 +208,30 @@ Description: Don't install if you don't know what that is
  Installing this on a production device is not recommended.
 Author: winocm, xerub
 Name: kloader
+
+Package: libactivator
+Version: 1.9.13~rc6
+Architecture: iphoneos-arm
+Maintainer: Ryan Petrich <rpetrich+activator@gmail.com>
+Installed-Size: 5060
+Depends: mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.16~rc3), com.rpetrich.rocketbootstrap (>= 1.0.9)
+Conflicts: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), sbsettings (<= 3.0.6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, libhide (<< 2.4.1), com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
+Replaces: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
+Filename: ./debs/libactivator_1.9.13~rc6_iphoneos-arm.deb
+Size: 929288
+MD5sum: edb85ee5c115534b48818d8bb9592152
+SHA1: 31be51e4b89f8e4e39ec1920e945960d3f458d96
+SHA256: 2fcd743e3b3f6e13a5c138c1445cab1d81c66125823f3895e4ef62508e30d8ef
+Section: System
+Priority: optional
+Homepage: https://rpetri.ch/cydia/activator/beta/
+Description: Centralized gestures, button and shortcut management for iOS
+Author: Ryan Petrich <rpetrich+activator@gmail.com>
+Depiction: https://rpetri.ch/cydia/activator/beta/
+Dev: rpetrich
+Icon: file:///Applications/Activator.app/Icon-Small-modern@2x.png
+Name: Activator
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: libcrippy-1.0.0
 Version: 1.0
@@ -263,6 +358,83 @@ Description: Force applications to show in fullscreen mode
 Author: Ryan Petrich <repo@cydia.vn>
 Depiction: http://cydia.vn/depic/t3946/
 Name: FullForce for Phone
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
+Package: vn.gsm.removebackgroundapp
+Version: 1.0-5
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Installed-Size: 95
+Depends: gsmicon, firmware (>= 4.0), mobilesubstrate, libactivator
+Conflicts: jp.rono23.removebackgroundapp
+Filename: ./debs/removebackgroundapp_1.0-5.deb
+Size: 51396
+MD5sum: 2ac210fe81836f9588a420a2d5983561
+SHA1: e660b16620dc751284c90f760a5862ffa80af7b5
+SHA256: 48f1ea3fa206877598fded83af40e9d2ff561a12d83b102df91128e7d6377647
+Section: !GSMVN-Tools
+Homepage: http://cydia.vn/
+Description: Remove all apps from the task switcher.
+Author: rono23 <repo@cydia.vn>
+Depiction: http://cydia.gsm.vn/t982/
+Icon: file:///Applications/RemoveBG.app/Icon.png
+Name: Remove Background
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
+Package: vn.gsm.slide2kill8pro
+Version: 1.1-8
+Architecture: iphoneos-arm
+Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
+Conflicts: com.suu.slide2kill, org.thebigboss.slide2killpro, vn.gsm.slide2killpro
+Filename: ./debs/slide2kill8pro_1.1-8.deb
+Size: 130690
+MD5sum: cd20073b38283d1cb04025683e7e3c69
+SHA1: 2c88b1537ad22406df250f8a8625da06949b0de8
+SHA256: 198838d4bc233339ebde0889b61ea156ca3543a1091a4ac37deb6bbb80a7e011
+Section: !CydiaVn-Tools
+Description: Slide switcher cards to kill apps
+Author: Suu
+Depiction: http://cydia.vn/depic/t5606/
+Icon: file:///Library/PreferenceBundles/Slide2Kill8ProSettings.bundle/Slide2Kill8ProSettings@2x.png
+Name: Slide2Kill8 Pro
+
+Package: vn.gsm.slide2kill9
+Version: 1.0.4-6
+Architecture: iphoneos-arm
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader
+Conflicts: com.suu.slide2kill, org.thebigboss.slide2killpro
+Filename: ./debs/slide2kill9_1.0.4-6.deb
+Size: 39448
+MD5sum: dc652e1c9a54a2dcb6e9f8d7bdcf668a
+SHA1: 189d63603b7947cdccebec05c30af697139a8f0d
+SHA256: e6d84def05362a4e648c51214814021a668151ab2a7bc1c9b94d9624b13becdc
+Section: !CydiaVn-Tools
+Homepage: http://cydia.vn/
+Description: Slide switcher card to kill apps
+Author: Suu
+Depiction: http://cydia.vn/depic/t5989/
+Icon: file:///Library/PreferenceBundles/Slide2Kill9Settings.bundle/Slide2Kill9Settings@2x.png
+Name: Slide2Kill 9
+
+Package: vn.gsm.slide2killpro
+Version: 1.2-1
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Installed-Size: 109
+Depends: gsmicon, firmware (>= 6.0), mobilesubstrate, preferenceloader
+Conflicts: com.suu.slide2kill
+Filename: ./debs/slide2killpro_1.2-1.deb
+Size: 68918
+MD5sum: 3c0e221f4a474bd363e90b6f4ed36568
+SHA1: 532911944831294aa66864383909442eae8552e7
+SHA256: 5679d0688356ec93bb67e64c45fc040a96a5d339fcc784cba65449dbeaa94dd8
+Section: !GSMVN-Tools
+Homepage: http://cydia.vn/
+Description: Slide the icon in switcher to kill app(s)
+Author: Suu
+Depiction: http://cydia.gsm.vn/t4345/
+Icon: file:///Library/PreferenceBundles/Slide2KillSettings.bundle/Slide2KillSettings@2x.png
+Name: Slide2Kill Pro
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
 Package: vn.gsm.speedintensifier
