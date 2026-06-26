@@ -17,6 +17,44 @@ Depiction: http://aoiblog.jp/appstorefix_history.html
 Dev: aoi_satou
 Name: AppStoreFix
 
+Package: com.hackyouriphone.fontss
+Version: 1.0.8~Beta3
+Architecture: iphoneos-arm
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Depends: mobilesubstrate, com.spark.snowboard | com.hackyouriphone.snowboard
+Conflicts: com.ipr.bytafont, com.bytafont.bytafont3
+Replaces: com.ipr.bytafont, com.bytafont.bytafont3
+Provides: com.ipr.bytafont, com.bytafont.bytafont3
+Filename: ./debs/com.hackyouriphone.fontss_1.0.8~Beta3_iphoneos-arm.deb
+Size: 17368
+MD5sum: 7e4ff2d011c3511206182a7b0430aa08
+SHA1: 7869843f96cc3d57177e088f1729251fd8785475
+SHA256: 037dad94ddb0a7d657e02c5d9234e82fe06f2df34433b858be7b1c5a6a89742d
+Section: Tweaks (HYI)
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=fontss
+Description: Fonts for SnowBoard
+Author: Spark <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=fontss
+Name: SnowBoard Fonts Extension
+Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=fontss
+
+Package: com.ipr.bytafont
+Version: 1.8
+Architecture: iphoneos-arm
+Maintainer: iPhoneRuler.net <info@iphoneruler.net>
+Depends: firmware (>> 4.2.1), firmware (<< 7)
+Filename: ./debs/tomkids.bytafont_1.8_iphoneos-arm.deb
+Size: 269448
+MD5sum: f621307870176247c1c17b2234e6f232
+SHA1: f528e1bf0f57d424a93d908fe95ae3084b48645a
+SHA256: 75e59f3c885c09b6e002fb8f37ecc5185f5db86ef3a2dc884233360549a3c315
+Section: System
+Description: BytaFont lets you apply fonts to your iDevice in few taps.
+Author: iPhoneRuler.net <info@iphoneruler.net>
+Depiction: http://www.iphoneruler.net/depiction/BytaFont/
+Name: BytaFont
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+
 Package: com.jamied360.ncsettings
 Version: 1.7.1
 Architecture: iphoneos-arm
@@ -341,6 +379,27 @@ Priority: optional
 Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
 Name: libpartialzip-1.0.0
 
+Package: themesettings
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: mobilesubstrate, winterboard, preferenceloader
+Conflicts: winterboardsettings
+Replaces: winterboardsettings
+Provides: winterboardsettings
+Filename: ./debs/themesettings1.0.0.deb
+Size: 18392
+MD5sum: d777ba6e93e202af6ee1766564d7e974
+SHA1: 91aad442389bd49aa715fbfe8ad350a2f88fdf71
+SHA256: 9cea64f6a47498dffa80700072b4e25c881ba51f5b55a591456024cdcad17f75
+Section: System
+Homepage: http://modmyi.com/info/winterboardsettings.php
+Description: Moves WinterBoard theme preferences into the Settings application.
+Author: David Ashman (Stimpy5050) <dashman@gmail.com>
+Depiction: http://modmyi.com/info/winterboardsettings.d.php
+Name: Theme Settings
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+
 Package: vn.gsm.auxo.org
 Version: 1.4-2
 Architecture: iphoneos-arm
@@ -418,6 +477,61 @@ Author: Ryan Petrich <repo@cydia.vn>
 Depiction: http://cydia.vn/depic/t3946/
 Name: FullForce for Phone
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
+Package: vn.gsm.iclassic
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: Thieu.Bocap <support@gsm.vn>
+Installed-Size: 532
+Depends: gsmicon
+Filename: ./debs/iclassic_1.5.deb
+Size: 680928
+MD5sum: ba8174c8322b2c535f82ff6ed1484565
+SHA1: badba1f40f6ed8feb3392106a0362575b2651ae9
+SHA256: 6176d573f772e73cb2ee47e29739bb3f6ddce5c32a7f30ec966e2d41f77530e5
+Section: !GSMVN-Apps
+Homepage: http://iphone.gsm.vn/
+Description: Giả lập iPod chơi nhạc trên iPhone / iPod Touch!
+Author: Pelaez <me@epelaez.net>
+Depiction: http://cydia.gsm.vn/t603/
+Icon: file:///Applications/iClassic.app/Icon.png
+Name: iClassic
+Sponsor: iPhone GSM.VN <http://gsm.vn/f339/>
+
+Package: vn.gsm.ios86
+Version: 1.2.3
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Depends: gsmicon, winterboard, com.void.themeready, com.ipr.bytafont
+Filename: ./debs/ios86_1.2.3.deb
+Size: 5664956
+MD5sum: ec2f390416acd65da96c81a8c801ca96
+SHA1: 0e6f834a6ff0c433079e06fdaf0da6b1c04c9db9
+SHA256: 1122bf9abd144caf484ca80831c528b27124010b59290af9de0ef8b6e32e7bfb
+Section: !GSMVN-Themes
+Priority: extra
+Homepage: http://cydia.vn/
+Description: iOS'86 consists of months of work and over 1,200 graphic
+Author: Cody-lg
+Depiction: http://cydia.gsm.vn/t4316/
+Name: iOS'86
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
+Package: vn.gsm.ipodiclassictheme
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Thieu.Bocap <icontactiphone@gmail.com>
+Installed-Size: 140
+Depends: gsmicon, winterboard, vn.gsm.iclassic
+Filename: ./debs/ipodclassiciclassictheme_1.0.deb
+Size: 125360
+MD5sum: 55b5a59587075f2933e74c4590edd994
+SHA1: 6e80af28cf82b09467ded94db99fa98e1a7b88e3
+SHA256: 254c0e1b7191a39ed9e412bc40406ff9587e15f5f0657450ee8953057fcfb7e2
+Section: !GSMVN-Themes
+Description: iPod clickwheel skin for iClassic player
+Author: Christian Baroni <Cstsxyfry212@aol.com>
+Name: iPod Classic Theme for iClasic
 
 Package: vn.gsm.removebackgroundapp
 Version: 1.0-5
@@ -620,6 +734,24 @@ Author: chpwn
 Depiction: http://cydia.gsm.vn/t2238/
 Icon: file:///Library/PreferenceLoader/Preferences/Zephyr@2x.png
 Name: Zephyr
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
+Package: vn.gsm.zeppelin
+Version: 2.1.0-12
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Depends: gsmicon, firmware (>= 4.2), mobilesubstrate, preferenceloader
+Conflicts: com.alexzielenski.zeppelin
+Filename: ./debs/zeppelin_2.1.0-12.deb
+Size: 1020358
+MD5sum: d1a66eb10659fac283aef2e6ff27cb8d
+SHA1: 149145debdd3dd565a4d8be76ce33994c9c706a7
+SHA256: 92654a63219b4110b2d59014e00f734cc686b009a7b6b106bb131d24feca04b7
+Section: !CydiaVn-Tools
+Description: Carrier Logo Manager! Replaces carrier text with an image!
+Author: Alex Zielenski
+Depiction: http://cydia.vn/depic/t2329/
+Name: Zeppelin (Carrier Logo Manager)
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
 Package: vn.iossp.appsync31
