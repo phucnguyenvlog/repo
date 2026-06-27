@@ -17,6 +17,23 @@ Depiction: http://aoiblog.jp/appstorefix_history.html
 Dev: aoi_satou
 Name: AppStoreFix
 
+Package: com.hackyouriphone.cracktool2
+Version: 2.3~beta9
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: ldid (>= 1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Filename: ./debs/com.hackyouriphone.cracktool2_2.3~beta9_iphoneos-arm.deb
+Size: 356412
+MD5sum: 2464ae1d77413c69b79668bbd61dd041
+SHA1: f88ebaa9bdd3b0aacb06bd1e2aa2e4f82a94ac82
+SHA256: 68e41ce7a2710da9bee1692e52c8764e07480b0489d900f8ec1f184c8e3cc9d4
+Section: Tweaks (HYI)
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=cracktool2
+Description: Crack Tweaks on one click
+Author: julioverne <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=cracktool2
+Name: CrackTool2
+
 Package: com.hackyouriphone.fontss
 Version: 1.0.8~Beta3
 Architecture: iphoneos-arm
@@ -440,6 +457,22 @@ Depiction: http://cydia.vn/depic/t1/
 Icon: file:///Applications/BarrelSettings.app/Barrel_AppIcon57x57.png
 Name: Barrel
 
+Package: vn.gsm.cracktool
+Version: 2.2
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Filename: ./debs/cracktool_2.2.deb
+Size: 183512
+MD5sum: de2acb0e9fe7c696719395da792881ae
+SHA1: 678ccdadf6c2bb9ebb328e65c63a951b9ca23511
+SHA256: f79f66d1fa1fdf1ad043797d8c7099fb6b1c805dc69ffc18c6b798155b5d9bbf
+Section: !CydiaVn-Tools
+Homepage: http://cydia.vn/
+Description: Crack Tweaks on one click
+Author: julioverne
+Depiction: http://cydia.vn/depic/t5151/
+Name: CrackTool
+
 Package: vn.gsm.forecast
 Version: 2.3.0-1
 Architecture: iphoneos-arm
@@ -532,6 +565,45 @@ Section: !GSMVN-Themes
 Description: iPod clickwheel skin for iClassic player
 Author: Christian Baroni <Cstsxyfry212@aol.com>
 Name: iPod Classic Theme for iClasic
+
+Package: vn.gsm.protube
+Version: 1.9.9-6
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Installed-Size: 6712
+Depends: firmware(>= 4.0), preferenceloader
+Filename: ./debs/protube_v1.9.9-6.deb
+Size: 5549402
+MD5sum: 307b0bfa8b6e7af3c0cad93f6df124a3
+SHA1: e3c1e8232378fe1fd75c1a9eec007826d1ddd1b8
+SHA256: 9307a221b85f96d6f39209934140dc685c7e1aafae4f86dfa3e428b4effaee7d
+Section: !CydiaVn-Apps
+Homepage: http://cydia.vn/
+Description: complete feature-filled YouTube app
+Author: Jonas Gessner
+Depiction: http://cydia.vn/depic/t2248/
+Icon: file:///Applications/ProTube.app/icon.png
+Name: ProTube
+
+Package: vn.gsm.protubehd
+Version: 1.6.9-2
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Installed-Size: 11112
+Depends: firmware(>= 4.3), preferenceloader
+Filename: ./debs/protubehd_1.6.9-2.deb
+Size: 10591352
+MD5sum: 901123144dc246fa16409c29cff874a1
+SHA1: c5a0181e7a8059e40a007900b97e50f70cffa2d7
+SHA256: 96e9ea36baadb57ffb0ef7cf6c62278b658589437a6b9bab7e2242e6ee5053e6
+Section: !CydiaVn-Apps
+Homepage: http://cydia.vn/
+Description: complete feature-filled YouTube app for iPad
+Author: Jonas Gessner
+Depiction: http://cydia.vn/depic/t2294/
+Icon: file:///Applications/ProTubeHD.app/icon.png
+Name: ProTube HD
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
 Package: vn.gsm.removebackgroundapp
 Version: 1.0-5
