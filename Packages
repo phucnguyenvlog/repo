@@ -17,6 +17,23 @@ Depiction: http://aoiblog.jp/appstorefix_history.html
 Dev: aoi_satou
 Name: AppStoreFix
 
+Package: com.hackyouriphone.classiclockscreen
+Version: 3.3.1k
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), curl, firmware(<< 8.0) | org.coolstar.libclassictelephonyui (>= 1.1-1)
+Filename: ./debs/tomkids.classiclockscreen_3.3.1_iphoneos-arm.deb
+Size: 736186
+MD5sum: 7d5da71444883fec6d4273860d981ca3
+SHA1: 3959241070d7b0a0cd41b21a733aaa70351962e1
+SHA256: 225d085f3b8af7bd9b3f1b479efa56c9804c87e7afa322689dc676ffe83ff2ef
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=classiclockscreen
+Description: Hate the iOS 7 Lock Screen?
+Author: CoolStar, Jeremy Goulet, Phillip Tennen <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=classiclockscreen
+Name: ClassicLockScreen
+
 Package: com.hackyouriphone.cracktool2
 Version: 2.3~beta9
 Architecture: iphoneos-arm
@@ -54,6 +71,30 @@ Author: Spark <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=fontss
 Name: SnowBoard Fonts Extension
 Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=fontss
+
+Package: com.ijinshan.kbatterydoctorpro.universal
+Version: 4.6.1-11
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 4712
+Depends: mobilesubstrate, firmware (>= 5.0), firmware (<< 7.0)
+Conflicts: app.weiphone.jinshan.kbatterydoctorpro, app.weiphone.myrepospace.oyoung.guan, app.weiphone.ijinshan.kbatterydoctorpro, com.ijinshan.kbatterydoctorpro, com.ijinshan.kbatterydoctorpro.universal, com.myrepospace.oyoung.guan, kbatterydoctorpro.appvv
+Filename: ./debs/tomkids.kbatterydoctorpro.universal_4.6.1-11_iphoneos-arm.deb
+Size: 3061312
+MD5sum: f80aeb25dd05d44bf7b0f5754ccfbfed
+SHA1: 8db2ec0d20cd2d86e9eab6644fa8597bf782b569
+SHA256: 252da0a358d73c8465b21fe2f96d422178ef493739ce5c45107227a23e000948
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=batterydoctorprouniversalDp
+Description: monitor & optimize battery, system toggles
+Tag: purpose::extension
+Author: Kingsoft Security <app@ijinshan.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=batterydoctorprouniversalDp
+Dev: kingsoftsecurity
+Icon: file:///Applications/kBatteryDoctor.app/icon.png
+Name: BatteryDoctorPro
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.ipr.bytafont
 Version: 1.8
@@ -172,6 +213,85 @@ Description: Fix iOS's Weather & Stocks apps from iPhoneOS 2 to iOS 7, the widge
 Author: Requis, Electimon
 Depiction: http://cydia.skyglow.es/depictions/com.skyglow.weatherx/depictions/index.html
 Name: Weather & Stocks
+
+Package: com.tqm-mos.batterydragon
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Filename: ./debs/com.tqm-mos.batterydragon_1.0_iphoneos-arm.deb
+Size: 2743670
+MD5sum: 4328e2732f769d3f8799e82fb5cc4ab2
+SHA1: cd1aa4fe0e2e3d86413e3f5e8fe62fa4a30d9c82
+SHA256: 840859e4493f236a8c0605bebca196ed4af3cde96555fb3111d4f8545796aaa7
+Section: Battery
+Description: Biểu tượng Sạc Pin thay trực tiếp hệ thống.
+Author: @tqmmos
+Depiction: https://tqm-mos.com/Classic/Info/com.tqm-mos.batterydragon
+Name: Battery Dragon
+
+Package: com.tqm-mos.callrecorder
+Version: 0.7-47k
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.tqm-mos.callrecorder_0.7-47k_iphoneos-arm.deb
+Size: 484230
+MD5sum: ce54e18eebfc665595e3c337c174fdf2
+SHA1: f0de4a74b0dba65c6eff85b64fa2d4b20b0f96d0
+SHA256: a6fb54f9640649790c4dcb5f32be11e1f62f72fcdd51c720defc6599a2ff8493
+Section: Tweaks
+Description: Ứng dụng ghi âm cuộc gọi đầu tiên trên iPhone!
+Author: Elias Limneos
+Depiction: https://tqm-mos.com/Classic/Info/com.tqm-mos.callrecorder
+Name: Audio Recorder
+
+Package: com.tqm-mos.displaycandy
+Version: 1.0.7-48
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: firmware (>= 5.0), mobilesubstrate, com.rpetrich.layersnapshotter, preferenceloader
+Filename: ./debs/com.tqm-mos.displaycandy_1.0.7-48_iphoneos-arm.deb
+Size: 42634
+MD5sum: 4c4d3c4c3eaf836595d8aee8ee0994ef
+SHA1: ba178aafc78ecaf89e3b823d47e8fd969f0d84f8
+SHA256: 0fed01082527c3d076590ac1d5fe84be18ccd8a8ece7f3cbcc734a1581edd0ce
+Section: Tweaks
+Description: Tùy chỉnh hiệu ứng hoạt ảnh khởi chạy/tạm dừng/chuyển đổi.
+Author: Josh Kugelmann (ProtoSphere)
+Depiction: https://tqm-mos.com/Classic/Info/com.tqm-mos.displaycandy
+Name: DisplayCandy
+
+Package: com.tqm-mos.fontchococooky
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Filename: ./debs/com.tqm-mos.fontchococooky_1.0_iphoneos-arm.deb
+Size: 5457738
+MD5sum: dbe247bdf3d3b13476428aec3d74c291
+SHA1: 8a7e69c9c072c4ef975d2f994944825640603259
+SHA256: 4f93bb3dbdeb465ac315bcd83c9c4fdf79a9f95f18e6c74a75f132d76c7a831d
+Section: Fonts
+Description: Phông chữ thay trực tiếp hệ thống.
+Author: @tqmmos
+Depiction: https://tqm-mos.com/Classic/Info/com.tqm-mos.fontchococooky
+Name: Chococooky (iOS6)
+
+Package: com.tqm-mos.weatherx
+Version: 3.3
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: mobilesubstrate (>= 0.9.2586), firmware (>= 2.0), firmware (<= 7.9), preferenceloader, com.tqm-mos.stocksx
+Conflicts: com.ixmoe.1pwn.weatherx
+Filename: ./debs/com.tqm-mos.weatherx_3.3_iphoneos-arm.deb
+Size: 84090
+MD5sum: 5ef4c517bfa5dfd668a737c9648e4fa8
+SHA1: 9fe37eb4807452f5c3e3f4248a4a041b8c57f159
+SHA256: 83cc52d64d541e13b680d4c6ad1a2c5ef85c639f676a49f3e3f81ab9f57f7f19
+Section: Tweaks
+Description: Sửa lỗi ứng dụng thời tiết iOS từ iPhone OS 2 đến iOS 7, tiện ích thời tiết trong trung tâm thông báo và nhiệt độ trong ứng dụng đồng hồ iPad!
+Author: Requis
+Depiction: https://tqm-mos.com/Classic/Info/com.tqm-mos.weatherx
+Name: WeatherX
 
 Package: com.victorlobe.googlefix
 Version: 1.0.2
@@ -413,23 +533,6 @@ Priority: optional
 Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
 Name: libpartialzip-1.0.0
 
-Package: net.kenhtao.icleanerpro
-Version: 7.10.0
-Architecture: iphoneos-arm
-Maintainer: Kênh Táo
-Depends: firmware (>= 4.0), findutils, apt | apt7
-Conflicts: org.altervista.exilecom.icleaner
-Replaces: org.altervista.exilecom.icleaner
-Filename: ./debs/2262.deb
-Size: 2155898
-MD5sum: 6db09bcc05480159cdec71ab4115bb6f
-SHA1: 9ec8892768ad6d784dc5e718dde982432705c0b0
-SHA256: dc60e2b7466ec20ab4e949d3ecb397477a8bf40b3a948967a15ec3657276bb20
-Section: Utilities
-Description: Trình dọn dẹp và tối ưu hóa hệ thống iOS tốt nhất.
-Author: Ivano Bilenchi
-Name: iCleaner Pro VN
-
 Package: themesettings
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -451,6 +554,26 @@ Depiction: http://modmyi.com/info/winterboardsettings.d.php
 Name: Theme Settings
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
+Package: vn.gsm.aquaboard
+Version: 1.0-21
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Installed-Size: 297
+Depends: gsmicon, mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), firmware (>= 5.0)
+Conflicts: com.fuyuchi.unlockize, vn.gsm.unlockize
+Filename: ./debs/vn.gsm.aquaboard_1.0-21_iphoneos-arm.deb
+Size: 86174
+MD5sum: 1ae9c235871af88bdb5c11be95339488
+SHA1: 39ff050d30f8db8cf109f98233018da16f4be43e
+SHA256: 348a646cf74c4e1307c3889441aef9cf9da3ec6a326a281e6653d16584231c65
+Section: !CydiaVn-Tools
+Homepage: http://cydia.vn/>
+Description: Amazing Water Effects On SpringBoard
+Author: Elias Limneos <repo@cydia.vn>
+Depiction: http://cydia.gsm.vn/t3471/
+Name: AquaBoard - Liquid SpringBoard
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
 Package: vn.gsm.auxo.org
 Version: 1.4-2
 Architecture: iphoneos-arm
@@ -470,6 +593,25 @@ Author: A3tweaks
 Depiction: http://cydia.gsm.vn/t4264/
 Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
 Name: Auxo (Original)
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
+Package: vn.gsm.backtodeb
+Version: 0.9b7
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Depends: grep, coreutils, sed
+Filename: ./debs/tomkids.backtodeb_0.9b7_iphoneos-arm.deb
+Size: 98602
+MD5sum: d8e3b8d5227a195f0ec04266c3cb71cc
+SHA1: 0842ae832e5c0540d732f2e3edbfa50a483bc10a
+SHA256: 0d4fda3e5969b09d125c288d919072d2c35aa6390171209b51e9d50aaba7a7a2
+Section: !CydiaVn-Tools
+Homepage: http://cydia.vn/
+Description: Backup deb's file script
+Author: Redenfire <repo@cydia.vn>
+Depiction: http://cydia.vn/depic/t1191/
+Icon: file:///Applications/BTD.app/Icon.png
+Name: BackToDeb
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
 Package: vn.gsm.barrel
@@ -584,6 +726,26 @@ Depiction: http://cydia.gsm.vn/t603/
 Icon: file:///Applications/iClassic.app/Icon.png
 Name: iClassic
 Sponsor: iPhone GSM.VN <http://gsm.vn/f339/>
+
+Package: vn.gsm.icleanerpro
+Version: 7.5.0k
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Pre-Depends: apt, findutils, shell-cmds
+Conflicts: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, vn.gsm.icleanerprobeta
+Replaces: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, vn.gsm.icleanerprobeta
+Filename: ./debs/tomkids.icleanerpro_7.5.0k_iphoneos-arm.deb
+Size: 2843952
+MD5sum: e88b2741ff6dfa390d6415c3f603463e
+SHA1: 87fa6a337816cefed3d6f8679f302e86584e0dd2
+SHA256: e993b4f8352ff23b037eb0028d61303868bad5089a866d6bf10742c62f054275
+Section: !CydiaVn-Tools
+Homepage: http://cydia.vn/
+Description: The ultimate iPhone, iPod and iPad system cleaner & optimizer
+Author: Exile.90
+Depiction: http://cydia.vn/depic/t4096/
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
 
 Package: vn.gsm.ios86
 Version: 1.2.3
@@ -859,6 +1021,25 @@ Icon: file:///Applications/springtomizeapp.app/Icon.png
 Name: Springtomize2-Localizations
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: vn.gsm.videopane
+Version: 2.0.6k
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Depends: mobilesubstrate (>= 0.9.5001), firmware (>= 5.0), preferenceloader (>= 2.2.2), libactivator (>= 1.9.5), applist (>= 1.5.9), com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (<< 7.0)
+Filename: ./debs/tomkids.videopane_2.0.6k_iphoneos-arm.deb
+Size: 451816
+MD5sum: 8a837524460d52048af0c852fc59de89
+SHA1: 169be2d5dcc8c46d4421c5893021adf5cfe421cb
+SHA256: 23ff7c1648fcfe1dc4c0f821768513a35119c3991081c1f3833284caca68e367
+Section: !CydiaVn-Tools
+Homepage: http://cydia.vn/
+Description: Picture-in-picture for video; multitask while playing movies
+Author: Ryan Petrich
+Depiction: http://cydia.vn/depic/t4582/
+Icon: file:///System/Library/PreferenceLoader/Preferences/VideoPane/VideoPane@2x.png
+Name: VideoPane
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
 Package: vn.gsm.zephyr
 Version: 1.6.4-1
 Architecture: iphoneos-arm
@@ -1016,4 +1197,26 @@ Section: Tweak
 Description: Background playing for YouTube app on iOS 5 - 9.
 Author: iOSSupportVN
 Name: YTLegacyBG
+
+Package: xyz.cypwn.icleanerpro
+Version: 7.9.1k
+Architecture: iphoneos-arm
+Maintainer: CyPwn
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Provides: com.exile90.icleanerpro
+Filename: ./debs/xyz.cypwn.icleanerpro_7.9.1k_iphoneos-arm.deb
+Size: 6757502
+MD5sum: 5849449b9e602639deffc331dde67add
+SHA1: c5a7a1831677b68c3650b419ab763db3e2dc568f
+SHA256: befc0beb77c456d35fe0c228cfa776cbb4a94d469b8dab5286596e38b60f3740
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleaner & optimizer. Registered Version.
+Author: Ivano Bilenchi
+Depiction: https://repo.cypwn.xyz/depiction/127
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/icleanerpro.png
+Name: iCleaner Pro
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/127
 
