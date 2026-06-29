@@ -1,3 +1,23 @@
+Package: ca.adrien.appdrop
+Version: 3.2.1
+Architecture: iphoneos-arm
+Maintainer: Adrien Ruest-Lorquet
+Installed-Size: 89
+Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
+Filename: ./debs/ca.adrien.appdrop_3.2.1_iphoneos-arm.deb
+Size: 735540
+MD5sum: 65688157bcf12461d451e65c59e88c27
+SHA1: 9dfb30345d4436502135edf73fac7714e3797918
+SHA256: 0edd55ca8d72fff2617fda9e31a66479b0aaab2d88f280b4058b6576c2aa26ef
+Section: Utilities
+Homepage: https://github.com/AdrienRL1/AppDrop
+Description: Browse 43,000+ iOS apps by category and install them on iOS 5-10. Fully iPad-optimized. v3.2: new "Most Downloaded" home shortcut + per-app download counts + sort by downloads, live active-users count, and you can now contribute IPAs yourself at https://upload.appdrop.ca. Also fixes version/compatibility selection (always the newest installable, non-encrypted build) and a category-loading glitch. v3.2.0.1: "Uncategorized" category now lists apps that have no category, download counts & Most Downloaded refresh continuously, and the iOS 5.x launch crash is fixed. v3.2.0.3: community "compatibility builds" (an app re-targeted to a lower iOS) merge cleanly and are fully reversible. v3.2.1: freezing is a lot better now, especially on older devices; the catalogue is tidier, with apps that don't belong no longer recommended; the Search, Install and Settings icons at the bottom look a lot sharper; and on a colour or dark theme the selected tab follows your theme instead of always being blue. (17 themes + dark mode, Favorites & folders, 9 languages.)
+Tag: compatible_min::ios5.0
+Author: Adrien Ruest-Lorquet
+Depiction: https://adrienrl1.github.io/cydia/depiction.html
+Icon: https://adrienrl1.github.io/cydia/PackageIcon.png
+Name: AppDrop
+
 Package: com.aoi.storefix
 Version: 1.0-6
 Architecture: iphoneos-arm
@@ -553,6 +573,35 @@ Author: David Ashman (Stimpy5050) <dashman@gmail.com>
 Depiction: http://modmyi.com/info/winterboardsettings.d.php
 Name: Theme Settings
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+
+Package: tomkids.ChatGPT
+Version: 31.0.2-5
+Architecture: iphoneos-arm
+Maintainer: Tomkids
+Filename: ./debs/ChatGPT.deb
+Size: 3550040
+MD5sum: de7615cad764466afa2c323d8a2615fc
+SHA1: 501add0d020885d6e4e54a02f3839d109ff288d4
+SHA256: df6347326aee80b555a8ec32a6959d987dda8ec7ca1b5fac2177d58f25fe6df6
+Section: Applications
+Description: Chat GPT app for Low iOS
+Author: Tomkids
+Icon: http://tomkidss.github.io/cydia/icons/chatgpt.png
+Name: ChatGPT
+
+Package: tomkids.soundwave
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Unknown
+Filename: ./debs/codevn-com.soundwave.app_1.0.0-102+debug_iphoneos-arm_Deb.deb
+Size: 819398
+MD5sum: da4d2cee9adf95a7d7475ba9a6e14961
+SHA1: 665939129dfcf95d9365251aef4a3c5d366bba08
+SHA256: 222ac094feff2640f7f5ee83b09e1ef9d1d82945405226b47ac9efe42553777e
+Section: Applications
+Description: Converted from IPA
+Author: Unknown
+Name: Sound Cloud
 
 Package: vn.gsm.aquaboard
 Version: 1.0-21
