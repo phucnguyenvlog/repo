@@ -213,20 +213,6 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=serioussbs
 Dev: maxrudberg
 Name: Serious SBSettings HD
 
-Package: com.nostalgios.protube6
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: t
-Filename: ./debs/com.nostalgios.protube6_1.0_iphoneos-arm.deb
-Size: 5502940
-MD5sum: 8ce0d35bc59e695239ec87f711446c1f
-SHA1: a4cedf49cf2620007b84454c810e9d4df255989a
-SHA256: c8d91a183cf0131a87d6bf7a03fd67c12e817a41787a137eb026a7f101fb68af
-Section: Tweak
-Description: Protube iOS 6 2023
-Author: iOS6NeverDie
-Name: Protube iOS6 2023
-
 Package: com.otyo.quicklock
 Version: 1.0-2
 Architecture: iphoneos-arm
@@ -258,6 +244,19 @@ SHA256: 7f0cc643c5f997428d265074df25b50326d7b5e8dffc4e2bdd378b9f6db31384
 Section: Applications
 Description: Đóng gói từ IPA bởi PhucNguyenVlog
 Name: Nhac Cua Tui
+
+Package: com.phucnguyenvlog.protubehd
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: PhucNguyen
+Filename: ./debs/com.phucnguyenvlog.protubehd_1.2_iphoneos-arm.deb
+Size: 613318
+MD5sum: d7e99c15c5406731214f6614a321e0fd
+SHA1: 8003b14c3812b75d3365266c860dfb2bf3500039
+SHA256: 14e52cf0e99734512943f5cd89b1b0a57e131c0d5e876a9b5f7c706f3ff5822f
+Section: Applications
+Description: Đóng gói từ IPA bởi PhucNguyenVlog
+Name: ProtubeHD
 
 Package: com.phucnguyenvlog.tiktok
 Version: 1.0
@@ -1027,6 +1026,24 @@ Depiction: http://cydia.gsm.vn/t2863/
 Icon: file:///Library/WeeLoader/Plugins/Jukebox.bundle/MusicAppIcon.png
 Name: Jukebox
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
+Package: vn.gsm.protube
+Version: 1.12.1p
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Depends: firmware (>= 4.0), preferenceloader
+Filename: ./debs/vn.gsm.protube_1.12.1p_iphoneos-arm.deb
+Size: 7506492
+MD5sum: 0d54ca872d0b982cea99dc3b551a0e5b
+SHA1: cdacacb38b227fc67e712fc8019840899ebc0988
+SHA256: cbf17b9dcb57e70f4ba65e547f6547f864396b1f15d9410a5f324fc12b3c3dd4
+Section: !CydiaVn-Apps
+Homepage: http://cydia.vn/
+Description: complete feature-filled YouTube app
+Author: Jonas Gessner
+Depiction: http://cydia.vn/depic/t2248/
+Icon: file:///Applications/ProTube.app/icon.png
+Name: ProTube
 
 Package: vn.gsm.removebackgroundapp
 Version: 1.0-5
