@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ProTube(package:org.thebigboss.protube)v1.9.9-6_媒体分类_原创精品源(repo.so)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.5, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Cache-Control" content="max-age=5" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit" />
+    <meta name="author" content="warmwise" />
+    <meta name="copyright" content="Copyright (C) 2014 repo.so. All Rights Reserved." />
+    <meta name="keywords" content="ios插件,deb,cydia,package,repo,repo.so,ios,iphone,精品源,越狱,bigboss" />
+    <meta name="description" content="为iPhone版YouTube增加很多实用的功能。,来自原创精品源(repo.so)." />
+	<meta property="qc:admins" content="01327622507637" />
+    <link href="/Content/bootstrap3.3.css" rel="stylesheet"/>
+<link href="/Content/PCHome.css" rel="stylesheet"/>
+
+</head>
+<body>
+
+    <div class="container-fluid lang-title hide">
+        <div class="container">
+            <div class="row-fluid pull-right">
+                <div class="label"><span class="icon-lang-cn"></span>&nbsp; 中文版 </div>
+                <div class="label"><span class="icon-lang-en"></span>&nbsp;  English </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid header" style="font-size: 18px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-lg-2 col-sm-4 col-xs-4"><a href="/"><span class="icon-logo-word" style="margin-top: 18px;"></span></a></div>
+                <ul class="col-md-10 col-lg-10 col-sm-8 col-xs-8" style="margin-left: 0px;">
+                    <li class="col-md-2 col-lg-2  col-xs-2"><a href="/ContactUs">关于</a></li>
+                    <li class="col-md-2 col-lg-2  col-xs-2"><a href="http://blog.repo.so/" target="_blank">博客</a></li>
+                    <li class="col-md-2 col-lg-2  col-xs-2"><a href="/DebList">插件</a></li>
+                    <li class="col-md-2 col-lg-2  col-xs-2 "><a href="/">首页</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <script src="/Scripts/jquery-1.8.2.min.js"></script>
+<script src="/Scripts/bootstrap.min3.3.js"></script>
+<script src="/Scripts/html5shiv.js"></script>
+<script src="/Scripts/swipe.js"></script>
+<script src="/Scripts/PageJs/noSelectForPC.js"></script>
+
+
+
+    
+<script src="/Scripts/share.js"></script>
+<script src="/Scripts/jquery-1.8.2.min.js"></script>
+<script src="/Scripts/jsResize.js"></script>
+
+
+
+<div class="container" style="margin-top: 20px">
+    <ol class="breadcrumb" style="background-color: #fff">
+        <li><a href="/">首页</a></li>
+        <li><a href="/DebList">插件中心</a></li>
+        <li><a href="/DebList/9"> 媒体 </a> </li>
+        <li class="active">ProTube</li>
+    </ol>
+</div>
+<div class="container">
+    <div class="row" style="margin-bottom: 20px;">
+        <div class="col-lg-3 col-md-4  col-sm-4 col-xs-4">
+            <div id="detail-Lpart">
+
+                <img src=http://repo.zximg.org/SectionICON/9.png />
+                    <p><span class="icon-mobile"></span>&nbsp; iPhone</p>
+
+                <div class="priceTag" style=background:#ec8b00;>
+                     <span  class='icon-money-En pull-left'></span> 
+                    &nbsp;  1.99
+                </div>
+                <div class="l-rate">
+                    评分 &nbsp;<b>
+                        <span class="icon-star-zero"></span>
+                        <span class="icon-star-zero"></span>
+                        <span class="icon-star-zero"></span>
+                        <span class="icon-star-zero"></span>
+                        <span class="icon-star-zero"></span>
+                    </b>
+                </div>
+                <div class="developer">
+
+                         开发者:&nbsp;   <a href="/AuthorInfo/52">Jonas Gessner</a>
+                </div>
+                <div class="debInfo">
+                    <div>类别 : [媒体] </div>
+                    <div>更新 : 1/8/2015</div>
+                    <div>当前版本 :  v1.9.9-6</div>
+                    <div>系统兼容 : iPhone iOS 5.1.1~8.x</div>
+                </div>
+
+                <div class="l-recommendDebs">
+                    <div class="title">浏览此插件的人也浏览了  <span class="icon-reload pull-right" id="changeleftDebList" style="margin-top: 3px"></span></div>
+                    <div id="glance-loading-gif" class="col-xs-12 hide" style="padding: 100px 0">
+                        <img src="/images/ico_loading.gif" class="col-xs-offset-5" />
+
+                    </div>
+                    <div class="debList" id="glanceDebList">
+
+                         
+            <div class="item">
+                <div class="col-lg-4 col-md-3 col-sm-3 col-xs-3 l-part"><a href="/DebDetailPC/com.ruslanardashev.paniclockios8">
+    <img class="img-rounded img-responsive" src=http://repo.zximg.org/SectionICON/3.png
+         alt="ICON" />
+</a> </div>
+                <div class="col-lg-8 col-md-9 col-sm-9 col-xs-9 r-part ">
+                    <p><strong>panicLock [iOS 8]</strong> </p>
+                    <a href="/DebList/3"><p>[工具] </p></a>
+                    <p><a href="/DebDetailPC/com.ruslanardashev.paniclockios8" class="icon-green-block"
+                           style="text-align:center; color:#fff">免费</a>
+                     <a class="btn btn-default" href="/DebDetailPC/com.ruslanardashev.paniclockios8">详情</a></p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="col-lg-4 col-md-3 col-sm-3 col-xs-3 l-part"><a href="/DebDetailPC/com.ruslan.reachabilitytoggles">
+    <img class="img-rounded img-responsive" src=http://repo.zximg.org/SectionICON/3.png
+         alt="ICON" />
+</a> </div>
+                <div class="col-lg-8 col-md-9 col-sm-9 col-xs-9 r-part ">
+                    <p><strong>reachabilityUnlocked</strong> </p>
+                    <a href="/DebList/3"><p>[工具] </p></a>
+                    <p><a href="/DebDetailPC/com.ruslan.reachabilitytoggles" class="icon-green-block"
+                           style="text-align:center; color:#fff">免费</a>
+                     <a class="btn btn-default" href="/DebDetailPC/com.ruslan.reachabilitytoggles">详情</a></p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="col-lg-4 col-md-3 col-sm-3 col-xs-3 l-part"><a href="/DebDetailPC/com.rthakrar.defaultplayer">
+    <img class="img-rounded img-responsive" src=http://repo.zximg.org/SectionICON/3.png
+         alt="ICON" />
+</a> </div>
+                <div class="col-lg-8 col-md-9 col-sm-9 col-xs-9 r-part ">
+                    <p><strong>DefaultPlayer</strong> </p>
+                    <a href="/DebList/3"><p>[工具] </p></a>
+                    <p><a href="/DebDetailPC/com.rthakrar.defaultplayer" class="icon-green-block"
+                           style="text-align:center; color:#fff">免费</a>
+                     <a class="btn btn-default" href="/DebDetailPC/com.rthakrar.defaultplayer">详情</a></p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="col-lg-4 col-md-3 col-sm-3 col-xs-3 l-part"><a href="/DebDetailPC/com.rpetrich.flipcontrolcenter">
+    <img class="img-rounded img-responsive" src=http://repo.zximg.org/SectionICON/3.png
+         alt="ICON" />
+</a> </div>
+                <div class="col-lg-8 col-md-9 col-sm-9 col-xs-9 r-part ">
+                    <p><strong>FlipControlCenter</strong> </p>
+                    <a href="/DebList/3"><p>[工具] </p></a>
+                    <p><a href="/DebDetailPC/com.rpetrich.flipcontrolcenter" class="icon-green-block"
+                           style="text-align:center; color:#fff">免费</a>
+                     <a class="btn btn-default" href="/DebDetailPC/com.rpetrich.flipcontrolcenter">详情</a></p>
+                </div>
+            </div>
+
+                    </div>
+
+                    <div class="title" style="margin-top: 37px;">
+                        此作者更多插件
+                        <a class="icon-white-top-pannel pull-right" style="margin-top:5px" href="/AuthorInfo/52"></a>
+                    </div>
+                        <div class="debList">
+                                <div class="item">
+                                    <div class="col-lg-4 col-md-3 col-sm-3 col-xs-3 l-part">
+                                        <a href="/DebDetailPC/org.thebigboss.bridge">
+                                            <img class="img-rounded img-responsive" src=http://repo.zximg.org/SectionICON/9.png
+                                                     alt="ICON" />
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-8 col-md-9 col-sm-9 col-xs-9 r-part ">
+                                        <p><strong>Bridge</strong> </p>
+                                        <a href="/DebList/9">
+                                            <p>[媒体]</p>
+                                        </a>
+                                        <p><a href="/DebDetailPC/org.thebigboss.bridge" class="icon-yellow-block  " style="text-align:center; color:#fff">$1.99</a> <a class="btn btn-default" href="/DebDetailPC/org.thebigboss.bridge">详情</a></p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-lg-4 col-md-3 col-sm-3 col-xs-3 l-part">
+                                        <a href="/DebDetailPC/org.thebigboss.protubehd">
+                                            <img class="img-rounded img-responsive" src=http://repo.zximg.org/SectionICON/9.png
+                                                     alt="ICON" />
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-8 col-md-9 col-sm-9 col-xs-9 r-part ">
+                                        <p><strong>ProTube HD</strong> </p>
+                                        <a href="/DebList/9">
+                                            <p>[媒体]</p>
+                                        </a>
+                                        <p><a href="/DebDetailPC/org.thebigboss.protubehd" class="icon-yellow-block  " style="text-align:center; color:#fff">$1.99</a> <a class="btn btn-default" href="/DebDetailPC/org.thebigboss.protubehd">详情</a></p>
+                                    </div>
+                                </div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-9 col-md-8 col-sm-8 col-xs-8">
+            <div class="row">
+                <div id="detail-Rpart1">
+                    <div class="title">
+                        ProTube<span>[媒体]</span>
+                        <b class="pull-right">
+                            <span>分享到 : </span>
+
+                            <span onclick="share_sinawb('ProTube:  为iPhone版YouTube增加很多实用的功能。','http://repo.so/DebDetailPC/org.thebigboss.protube','http://repo.zximg.org/SectionICON/9.png')" class='icon-sina'></span>
+                            <span onclick="share_qqzone('ProTube:  为iPhone版YouTube增加很多实用的功能。','http://repo.so/DebDetailPC/org.thebigboss.protube','http://repo.zximg.org/SectionICON/9.png')" class='icon-qzone'></span>
+                            <span onclick="share_twitter('ProTube:  为iPhone版YouTube增加很多实用的功能。','http://repo.so/DebDetailPC/org.thebigboss.protube')" class='icon-twitter'></span>
+                            <span onclick="share_facebook('ProTube:  为iPhone版YouTube增加很多实用的功能。','http://repo.so/DebDetailPC/org.thebigboss.protube')" class='icon-facebook'></span>
+                        </b>
+                    </div>
+                    <div class="r-rate">
+                        <span>未评分 </span>&nbsp; &nbsp;  <a href="#plugin-comment"><b>0</b></a>条评论
+                    </div>
+                    <p>
+                        <strong>简介 :</strong>
+                        为iPhone版YouTube增加很多实用的功能。
+                    </p>
+                    <div class="user-intro">
+                        <div class="title">插件使用说明&nbsp;&nbsp;<span class="big-am-btn icon-minus" data-toggle="collapse" aria-expanded="true" data-target="#instroduce"></span></div>
+                        
+                        <div id="instroduce" class="collapse in" style="padding: 0 20px 20px 20px;">
+                            
+                            <!--内容防止复制区域-->
+   <div id="picModal" style="position: relative; width: 100%; height: 100%; margin-left: 20px;">
+                                  <img src="/images/ico_loading.gif" style="vertical-align: middle" />
+                              </div>
+                                <img id="descriptionImg" src="" alt="插件使用说明" />
+
+                        </div>
+                    </div>
+                    <!--插件更新日志-->
+                    <div class="update-log">
+                        <div class="title">
+                            插件更新日志&nbsp;
+                            <span class="big-am-btn icon-add" data-toggle="collapse" aria-expanded="true" data-target=".update-info"></span>
+                        </div>
+                        <div class="update-info collapse">
+                                <div class="accordion-group">
+                                    <div class="accordion-heading">
+                                        <p>
+                                            1.  1.9.9-6 更新日志<a class="icon-white-drop-top bw-updown-collapse" style="margin-left:30px" data-toggle="collapse" href="#log1"></a>
+                                            <br />
+                                            <span style="width: 100px;"><a class="icon-download"></a>&nbsp;1.9.9-6 </span>
+                                            <span style="vertical-align: middle;"><a style="margin-left: 20px;" class="icon-time"></a>&nbsp;1/2/2015 11:04:00 AM </span>
+                                        </p>
+                                    </div>
+                                    <div class="collapse " id="log1">
+                                        <div class="accordion-inner">
+                                            v1.9.9-6:
+* Bug fixes
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-group">
+                                    <div class="accordion-heading">
+                                        <p>
+                                            2.  1.9.9-5 更新日志<a class="icon-white-drop-top bw-updown-collapse" style="margin-left:30px" data-toggle="collapse" href="#log2"></a>
+                                            <br />
+                                            <span style="width: 100px;"><a class="icon-download"></a>&nbsp;1.9.9-5 </span>
+                                            <span style="vertical-align: middle;"><a style="margin-left: 20px;" class="icon-time"></a>&nbsp;12/29/2014 11:06:00 AM </span>
+                                        </p>
+                                    </div>
+                                    <div class="collapse " id="log2">
+                                        <div class="accordion-inner">
+                                            v1.9.9-5:
+* Bug fixes
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-group">
+                                    <div class="accordion-heading">
+                                        <p>
+                                            3.  1.9.9-2  更新日志<a class="icon-white-drop-top bw-updown-collapse" style="margin-left:30px" data-toggle="collapse" href="#log3"></a>
+                                            <br />
+                                            <span style="width: 100px;"><a class="icon-download"></a>&nbsp;1.9.9-2  </span>
+                                            <span style="vertical-align: middle;"><a style="margin-left: 20px;" class="icon-time"></a>&nbsp;11/14/2014 9:33:00 PM </span>
+                                        </p>
+                                    </div>
+                                    <div class="collapse " id="log3">
+                                        <div class="accordion-inner">
+                                            支持iOS8v1.6.9:
+* 修复下载问题
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                        </div>
+                    </div>
+                    <!--插件评测-->
+                    <div class="ad hide">
+                        <span class="icon-yellow-pc" style="vertical-align: bottom; margin-right: 20px"></span>内置广告
+                    </div>
+
+                    <!--图片展览-->
+                        <div class="pic-title">插件截图预览</div>
+                        <div class="swipe" id="img-part" style="visibility: visible; text-align: center; vertical-align: middle; margin: 0px auto; min-height: 500px">
+<div class='swipe-wrap' style='max-height:570px;'><figure><div class='wrap'style='height:570px'vertical-align:middle>                                <img src='http://repo.zximg.org//\BigBoss\org.thebigboss.protube\1.9.9-6\0.jpg' style="max-height:570px;max-width:288px; cursor:pointer" data-toggle="modal" data-target="#picDetail" />
+</div></figure><figure><div class='wrap'>                                 <img src='http://repo.zximg.org//\BigBoss\org.thebigboss.protube\1.9.9-6\1.jpg' style="max-height:570px;max-width:288px; cursor:pointer" data-toggle="modal" data-target="#picDetail" />
+</div></figure></div>
+                            <div class="goLeft"><span class="icon-big-left-pointer" style="vertical-align: middle"></span></div>
+                            <div class="goRight"><span class="icon-big-right-pointer" style="vertical-align: middle"></span></div>
+
+                        </div>
+                        <div id="pannel-part" style="margin-top: 20px; text-align: center">
+                                <span tag="0" style="width:126px;height:160px;line-height:160px; display:inline-block;margin-left:10px" class="active">
+                                    <img src='http://repo.zximg.org//\BigBoss\org.thebigboss.protube\1.9.9-6\0.jpg' style="border: #808080 1px solid;max-height:160px;max-width:126px;cursor:pointer" />
+                                </span>
+                                <span tag="1" style="width:126px;height:160px;line-height:160px; display:inline-block;margin-left:10px" class="">
+                                    <img src='http://repo.zximg.org//\BigBoss\org.thebigboss.protube\1.9.9-6\1.jpg' style="border: #808080 1px solid;max-height:160px;max-width:126px;cursor:pointer" />
+                                </span>
+                        </div>
+
+
+
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal  fade" id="picDetail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-body" style="text-align: center">
+                            <img src="" style="width: 100%" />
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="detail-Rpart2">
+                    <div class="title"><span class="icon-chat" style="vertical-align: middle"></span><b style="margin-left: 10px; vertical-align: middle;">评论区</b> </div>
+                    <div class="comment-part">
+                        <div style="font-size: 16px; margin-top: 10px">
+                            <p>
+                                您的昵称 : &nbsp; &nbsp;<input id="NickName" type="text" />
+                                <span style="font-size: 16px; display: inline-block; padding: 10px 0" class="rate">点击评分 :  &nbsp; &nbsp;
+                                    <b>
+                                        <span class="icon-star-two"></span>
+                                        <span class="icon-star-two"></span>
+                                        <span class="icon-star-two"></span>
+                                        <span class="icon-star-zero"></span>
+                                        <span class="icon-star-zero"></span>
+                                    </b><a id="thanks">6 分？&nbsp; &nbsp;</a>
+                                </span>
+                            </p>
+
+                        </div>
+                        <!--评论展示区域-->
+                        <div style="margin-top: 20px;">
+                            <div class="col-lg-1 col-md-1 col-xs-1 comment-icon">
+                                <img class="img-rounded" src="http://repo.zximg.org//authorICON.png" />
+                            </div>
+                            <textarea name="comment" class="col-lg-9 col-md-10 col-xs-10"></textarea>
+                        </div>
+                        <div class="row">
+                            <input id="btn-comment" type="button" class="pull-right btn" value="提交" />
+                        </div>
+                    </div>
+                    <a name="plugin-comment"></a>
+
+                    <div class="tabs" style="border-bottom: 2px #efefef solid;">
+                        <a class="tab active" style="margin-left: 20px" role="tab" data-toggle="tab" href="#curComments">当前版本</a>
+                        <a class="tab" role="tab" data-toggle="tab" href="#hisComments">历史版本</a>
+                    </div>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="curComments">
+
+                            <div id="cur-loading-gif" class="col-xs-12 hide" style="padding: 100px 0">
+                                <img src="/images/ico_loading.gif" class="col-xs-offset-5" />
+
+                            </div>
+                            
+
+<div class="comment-title">
+    <span  class="rate">
+        当前版本 : <a>未评分&nbsp; &nbsp;</a>
+
+    </span>
+</div>
+<div id="cur-loading-gif" class="col-xs-12 hide" style="padding: 100px 0">
+    <img src="/images/ico_loading.gif" class="col-xs-offset-5" />
+
+</div>
+
+        <p class="infomation">暂无评论.</p>
+
+
+
+
+    <script type="text/javascript">
+        var currentPage=1;
+        $("#curCommentPager .index :not(:last)").addClass("disable").first().removeClass("disable");
+        $(function () {
+            $(".comment-item:last").css("border-bottom","0px")
+            if(currentPage==(0))
+            {
+                $("#curCommentPager .right_pointer").css("background-color","#808080").css("cursor","default");
+            }
+            if(currentPage==1)
+            {
+                $("#curCommentPager .left_pointer").css("background-color","#808080").css("cursor","default");
+            }
+
+            $("#curCommentPager .right_pointer").bind("click",function(){
+                if(currentPage==(0))
+                {//alert("已经是最后一页...");
+                }
+                else{
+                    $("#curHide-part").fadeOut(function(){
+                        $("#cur-loading-gif").removeClass("hide");
+                        commentAjax(currentPage+1,"#curComments",1,'org.thebigboss.protube',"#curHide-part",1);
+                    })
+                  
+                }
+            })
+            $("#curCommentPager .left_pointer").bind("click",function(){
+                if(currentPage==1)
+                {//alert("已经是第一页...");
+                }
+                else{
+                    $("#curHide-part").fadeOut(function(){
+                        $("#cur-loading-gif").removeClass("hide");
+                        commentAjax(currentPage-1,"#curComments",1,'org.thebigboss.protube',"#curHide-part",1);
+                    })
+                }
+            })
+            //每次加载将当前页面的颜色变成激活状态
+            $("#curCommentPager .index").each(function () {
+                if($(this).attr("tag")==currentPage)
+                {
+                    $(this).addClass("active")
+                }
+            })
+            if(currentPage<=3)
+            {
+                for(var i=1;i<4;i++)
+                {
+                    $($("#curCommentPager .index")[i]).removeClass("disable");
+                }
+            }
+            if(currentPage>3)
+            {
+                for(var i=3;i>0;i--)
+                {
+                    $($("#curCommentPager .index")[currentPage-i+1]).removeClass("disable");
+                }
+            }
+            if(currentPage>0-2)
+            {
+                for(var i=4;i>0;i--)
+                {
+                    $($("#curCommentPager .index")[0-i]).removeClass("disable");
+                }
+            }
+            $("#curCommentPager .index").click(function () {
+                var tag=$(this).attr("tag")
+                $("#curHide-part").fadeOut(function(){
+                    $("#cur-loading-gif").removeClass("hide");
+                    commentAjax(tag,"#curComments",1,'org.thebigboss.protube',"#curHide-part",1);
+                })
+                })
+            //curHide-part
+            //给每一个评论者的星级进行绘画
+
+            $(".rate-star").each(function(){
+                var  pointer=$(this).attr("tag");
+                //用天花板函数来决定star
+                var double_star=Math.ceil(pointer-1)/2;
+                var only_star=Math.ceil(pointer)%2;
+
+                for(var i=0;i<double_star;i++)
+                {
+                    $($(this).children("span")[i]).addClass("icon-star-two").removeClass("icon-star-zero");
+                }
+                for(var j=double_star;j<double_star+only_star;j++)
+                {
+                    $($(this).children("span")[i]).addClass("icon-star-one").removeClass("icon-star-zero");
+                }
+
+            })
+
+        })
+      
+    </script>
+
+
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="hisComments">
+
+                            <div id="his-loading-gif" class="col-xs-12 hide" style="padding: 100px 0">
+                                <img src="/images/ico_loading.gif" class="col-xs-offset-5" />
+
+                            </div>
+                            
+<p  class="comment-title">
+    <span class="rate">
+        历史版本 : <a>未评分&nbsp; &nbsp;</a>
+    </span>
+</p>
+<div id="his-loading-gif" class="col-xs-12 hide" style="padding: 100px 0">
+    <img src="/images/ico_loading.gif" class="col-xs-offset-5" />
+
+</div>
+        <p class="infomation">暂无评论. </p> 
+
+ 
+
+    <script type="text/javascript">
+    var hisCurrentPage=1;
+    $("#hisCommentPager .index :not(:last)").addClass("disable").first().removeClass("disable");
+    $(function () {
+        if(hisCurrentPage==(0))
+        {
+            $("#hisCommentPager .right_pointer").css("background-color","#808080").css("cursor","default");
+        }
+        if(hisCurrentPage==1)
+        {
+            $("#hisCommentPager .left_pointer").css("background-color","#808080").css("cursor","default");
+        }
+
+        $("#hisCommentPager .right_pointer").bind("click",function(){
+            if(hisCurrentPage==(0))
+            {//alert("已经是最后一页...");
+            }
+            else{
+                $("#hisHide-part").fadeOut(function(){
+                    $("#his-loading-gif").removeClass("hide");
+                    commentAjax(hisCurrentPage+1,"#hisComments",2,'org.thebigboss.protube',"#hisHide-part",0);
+                })
+
+            }
+        })
+        $("#hisCommentPager .left_pointer").bind("click",function(){
+            if(hisCurrentPage==1)
+            {//alert("已经是第一页...");
+            }
+            else{
+                $("#hisHide-part").fadeOut(function(){
+                    $("#his-loading-gif").removeClass("hide");
+                    commentAjax(hisCurrentPage-1,"#hisComments",2,'org.thebigboss.protube',"#hisHide-part",0);
+                })
+
+            }
+        })
+        //每次加载将当前页面的颜色变成激活状态
+        $("#hisCommentPager .index").each(function () {
+            if($(this).attr("tag")==hisCurrentPage)
+            {
+                $(this).addClass("active")
+            }
+        })
+        if(hisCurrentPage<=3)
+        {
+
+            for(var i=1;i<4;i++)
+            {
+                $($("#hisCommentPager .index")[i]).removeClass("disable");
+            }
+        }
+        if(hisCurrentPage>3)
+        {
+            for(var i=3;i>0;i--)
+            {
+                $($("#hisCommentPager .index")[hisCurrentPage-i+1]).removeClass("disable");
+            }
+        }
+        if(hisCurrentPage>0-2)
+        {
+            for(var i=4;i>0;i--)
+            {
+                $($("#hisCommentPager .index")[0-i]).removeClass("disable");
+            }
+        }
+        $("#hisCommentPager .index").click(function () {
+            var tag=$(this).attr("tag")
+            $("#hisHide-part").fadeOut(function(){
+                $("#his-loading-gif").removeClass("hide");
+                commentAjax(tag,"#hisComments",2,'org.thebigboss.protube',"#hisHide-part",0);
+            })
+           
+        })
+        //给每一个评论者的星级进行绘画
+
+        $(".rate-star").each(function(){
+            var  pointer=$(this).attr("tag");
+            //用天花板函数来决定star
+            var double_star=Math.ceil(pointer-1)/2;
+            var only_star=Math.ceil(pointer)%2;
+
+            for(var i=0;i<double_star;i++)
+            {
+                $($(this).children("span")[i]).addClass("icon-star-two").removeClass("icon-star-zero");
+            }
+            for(var j=double_star;j<double_star+only_star;j++)
+            {
+                $($(this).children("span")[i]).addClass("icon-star-one").removeClass("icon-star-zero");
+            }
+
+        })
+    })
+
+</script>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+<div class="right-slider width0 col-lg-5 col-md-7  col-sm-8 col-md-7 col-xs-9">
+    <div id="right_button">
+        <div class="top">
+            <a class="icon-submit-bug" style="vertical-align: middle;"></a>
+        </div>
+        <p>
+            本页面有误<br />
+            ?
+        </p>
+    </div>
+    <div class="err-title">
+        本插件页信息有误?点击反馈
+    </div>
+    <p>由于国外插件咨询量，较大，我们已经尽可能的保证插件详细页内容的准确，和可靠性。建立一个准确可读的数据内容 ，离不开大家的共同努力。如果发现本页面下列地方内容有误，勾选错误内容的类别。如果可以，请同时备注错误的地方。</p>
+    <div class="selectPannel row">
+            <span class="col-xs-12  col-sm-6  col-lg-6 col-md-6">
+                <input type="radio" name="errorType" value="0" id="0" /><label for="0">简介有误</label>
+            </span>
+            <span class="col-xs-12  col-sm-6  col-lg-6 col-md-6">
+                <input type="radio" name="errorType" value="1" id="1" /><label for="1">使用说明(详细介绍)有误</label>
+            </span>
+            <span class="col-xs-12  col-sm-6  col-lg-6 col-md-6">
+                <input type="radio" name="errorType" value="2" id="2" /><label for="2">支持设备类型有误</label>
+            </span>
+            <span class="col-xs-12  col-sm-6  col-lg-6 col-md-6">
+                <input type="radio" name="errorType" value="3" id="3" /><label for="3">版本未及时更新</label>
+            </span>
+            <span class="col-xs-12  col-sm-6  col-lg-6 col-md-6">
+                <input type="radio" name="errorType" value="4" id="4" /><label for="4">截图有误</label>
+            </span>
+            <span class="col-xs-12  col-sm-6  col-lg-6 col-md-6">
+                <input type="radio" name="errorType" value="5" id="5" /><label for="5">更新日志内容有误</label>
+            </span>
+            <span class="col-xs-12  col-sm-6  col-lg-6 col-md-6">
+                <input type="radio" name="errorType" value="6" id="6" /><label for="6">含有恶意代码</label>
+            </span>
+            <span class="col-xs-12  col-sm-6  col-lg-6 col-md-6">
+                <input type="radio" name="errorType" value="7" id="7" /><label for="7">功能异常</label>
+            </span>
+
+
+
+    </div>
+    <p class="title"><span class="icon-blue-chain" style="vertical-align: middle;"></span>&nbsp; &nbsp; 备注 :</p>
+    <textarea placeholder="请简单告诉我们错误的具体位置" id="err-msg"></textarea>
+    <div class="btn-submit btn" id="err-submit">提交</div>
+</div>
+
+
+<script language="javascript" type="text/javascript">
+
+    var g_resize_count = 0;
+    $(document).ready(function () {
+
+        try {
+            $window = $(window);
+            var resize = $window.jqElemResize();
+            //resize.$self.on("resize", function (size)或
+            $(resize).on("resize", function (size) {
+                ++g_resize_count;
+                //document.title = g_resize_count.toString();
+                var currentWidth=$("#instroduce").width();
+                $("#descriptionImg").attr("src","http://resources.repo.so/org.thebigboss.protube/Description-" + currentWidth + ".jpg");
+            });
+        } catch (exp) {
+            //   alert(exp.message);
+            window.location="/Error404";
+        }
+    });
+
+    /*页面卸载时*/
+    $(window).unload(function () {
+        try {
+            $(window).jqElemResize("destroy");
+        } catch (exp) {
+            window.location="/Error404";
+            //         alert(exp.message);
+        }
+    });
+    //评论分页点击事件
+    function commentAjax(page, container,pageType, packagename,effectId,curOrhis) {
+        $(effectId).html("");
+        $.ajax({
+            type: "get",
+            url: "/DebDetailPC/" + packagename + "?page=" + page + "&pageType=" + pageType,
+            success: function (jsObj) {
+
+                $(container).html(jsObj);
+                $(effectId).fadeIn(function(){
+
+                });
+                if(curOrhis==1)
+                {
+                    $("#cur-loading-gif").addClass("hide");
+                }
+                else
+                {
+                    $("#his-loading-gif").addClass("hide");
+                }
+            }, error: function (jsOBj) {
+                //  window.location = "/50PagePC.html";
+                $(container).html("<p style='text-align:center;margin:100px 0'>评论列表显示错误,请刷新重试,或者联系我们...</p>");
+
+
+            }
+        });
+        $(effectId).fadeIn();
+    }
+    /*禁止浏览器滚动*/
+    var setPreventDefault = {
+        oldScrollTop:0,/*记录滚动条位置*/
+        docEle:document.documentElement,
+        /*开始*/
+        start:function(){
+            this.oldScrollTop = this.docEle.scrollTop || document.body.scrollTop;
+
+            this.docEle.className = 'setPreventDefault';
+        },
+        /*结束*/
+        end:function(){
+            this.docEle.className = '';
+            window.scrollTo(0,this.oldScrollTop);
+        }
+    }
+    //评测分页事件
+    function reviewAjax(page,effectId)
+    {
+
+        $.ajax({
+            type: "get",
+            url: "/DebDetailPC/org.thebigboss.protube?page="+currentReviewPage+"&pageType=0",
+            success: function (jsObj) {
+                $("#pagerReview").html(jsObj);
+                $(effectId).fadeIn(function(){
+
+                    $("#review-loading-gif").addClass("hide");
+                });
+
+            }, error: function (jsOBj) {
+                $(effectId).html("<p style='text-align:center;margin:100px 0'>评测列表显示错误,请刷新重试,或者联系我们...</p>").fadeIn();
+
+                $("#review-loading-gif").addClass("hide");
+                // window.location="/505PagerPC.html";
+            }
+        });
+
+    }
+
+    var picDisplay =
+        Swipe($('#img-part')[0], {
+            startSlide: 0,
+            auto: 3000,
+            continuous: false,
+            callback: function (pos) {
+                $("#pannel-part span").each(function () {
+                    if ($(this).attr("tag") == pos) {
+                        $(this).addClass("active").siblings().removeClass("active");
+                    }
+                })
+            }
+        });
+    $(function () {
+        var currentWidth=$("#instroduce").width();
+        $("#descriptionImg").attr("src","http://resources.repo.so/org.thebigboss.protube/Description-" + currentWidth + ".jpg");
+
+        $("#descriptionImg").load(function () {
+            $("#picModal").fadeOut();
+        })
+
+        $("#right_button").bind("click",function(){
+            $(".right-slider").toggleClass("width0")
+        })
+
+        //点击查看大图功能
+        $("#img-part img").bind("click",function(){
+
+            var imgPath= $(this).attr("src");
+            $("#picDetail img").attr("src",imgPath);
+            setPreventDefault.start();
+
+        })
+        //模态窗口消失的时候触发的事件
+        $("#picDetail").bind('click', function (e) {
+
+            setPreventDefault.end();
+        })
+        //图片预览左右
+        $(".goLeft").click(function(){
+            picDisplay.prev();
+        })
+        $(".goRight").click(function(){
+            picDisplay.next();
+        })
+        //调整图片的高度 bug
+        $("#img-part figure img").each(function(){
+            var height= $(this).height();
+
+            if(height<570)
+            {
+                if(height==0)
+                {
+                    setTimeout(function(){
+                        if(height==0)
+                        {
+                            setTimeout(function(){
+                                var  margintop = (570 - height) / 2;
+                                $(this).css("margin-top",margintop);
+                            },1000)
+                        }
+                        var  margintop = (570 - height) / 2;
+                        $(this).css("margin-top",margintop);
+                    },1000)
+                }
+                else{
+                    var  margintop = (570 - height) / 2;
+                }
+                $(this).css("margin-top",margintop);
+            }
+        })
+
+        var pointer=0;
+        //用天花板函数来决定star
+        var double_star=Math.ceil(pointer-1)/2;
+        var only_star=Math.ceil(pointer)%2;
+
+        for(var i=0;i<double_star;i++)
+        {
+            $($(".l-rate b span")[i]).addClass("icon-star-two").removeClass("icon-star-zero");
+        }
+        for(var j=double_star;j<double_star+only_star;j++)
+        {
+            $($(".l-rate b span")[i]).addClass("icon-star-one").removeClass("icon-star-zero");
+        }
+
+        //加减按钮的变化 以及collapse效果
+        $(".small-am.btn").click(function(){
+            if($(this).hasClass("icon-small-minus"))
+            {
+                $(this).removeClass("icon-small-minus").addClass("icon-small-add")
+            }
+            else{
+                $(this).addClass("icon-small-minus").removeClass("icon-small-add")
+            }
+        })
+
+        $(".big-am-btn").click(function(){
+            if($(this).hasClass("icon-minus"))
+            {
+                $(this).removeClass("icon-minus").addClass("icon-add")
+            }
+            else{
+                $(this).addClass("icon-minus").removeClass("icon-add")
+            }
+        })
+        //上下箭头
+        $(".bw-updown-collapse").click(function(){
+            if($(this).hasClass("icon-white-drop-down"))
+            {
+                $(this).removeClass("icon-white-drop-down").addClass("icon-white-drop-top");
+
+            }
+            else{
+                $(this).removeClass("icon-white-drop-top").addClass("icon-white-drop-down");
+                //  $(".accordion-group .collapse").removeClass("in");
+            }
+        })
+
+        $("#pannel-part span").bind("click", function () {
+            if ($(this).attr("tag") != picDisplay.getPos()) {
+                var times = parseInt($(this).attr("tag")) - parseInt(picDisplay.getPos());
+                if (times > 0) {
+                    for (var i = 0; i < times; i++) {
+                        picDisplay.next();
+                    }
+                }
+                else {
+                    for (var i = 0; i > times; i--) {
+                        picDisplay.prev();
+                    }
+                }
+            }
+        })
+        $("#detail-Rpart2 .tab").click(function(){
+            if($(this).hasClass("active"))
+            {
+
+            }
+            else{
+                $(this).addClass("active").siblings(".tab").removeClass("active")
+            }
+        })
+        //评分的效果
+        $(".rate>b>span").mouseover(function () {
+            $(this).addClass("icon-star-two").removeClass("icon-star-zero").prevAll().addClass("icon-star-two").removeClass("icon-star-zero");
+            $(this).nextAll().removeClass("icon-star-two").addClass("icon-star-zero");
+            $("#thanks").html($('.rate>b .icon-star-two').length*2+" 分")
+            
+        })
+        var lock=0;
+        //刷新浏览此插件的人也浏览了
+        $("#changeleftDebList").bind("click",function(){
+            if(lock==0){
+
+                lock=1;
+                $("#glanceDebList").fadeOut(function(){
+                    $("#glance-loading-gif").removeClass("hide")
+                    $.ajax({
+                        type:"Get",
+                        url:"/Review/glanceDebList?ts="+Date.now(),
+
+                        success:function(jsObj){
+                            $("#glanceDebList").html(jsObj);
+                            $("#glanceDebList").fadeIn(function(){
+                                lock=0;
+
+                            });
+                            $("#glance-loading-gif").addClass("hide")
+                        }
+                            ,error:function(){
+                                $("#glance-loading-gif").addClass("hide");
+                                $("#glanceDebList").html("<p style='text-align:center;margin:100px 0'>暂无他人浏览项,请刷新重试...</p>").fadeIn();
+
+                            }
+                    })
+                })
+
+            }
+
+        })
+
+        //提交错误信息
+        $(".right-slider .btn-submit").bind("click",function(){
+            if($(".selectPannel :radio:checked").length==0)
+            {
+                alert("请选择错误的分类!");
+            }
+            else {
+
+                var data = {
+                    "type": $(".selectPannel :radio:checked").val(),
+                    "note":$("#err-msg").val(),
+                    "reviewdebversionid":3925,
+                }
+
+                $.ajax({
+                    type:"Post",
+                    url:"/CommitError",
+                    data:data,
+                    success:function(jsObj){
+                        alert("您的提交已经成功")
+                        $("textarea").val("");
+                        $(".right-slider").addClass("width0");
+                    }
+                    ,error:function(){
+                        alert("出现错误")
+                    }
+                },"JSON")
+            }
+
+        })
+        //提交评论
+        $("#btn-comment").bind("click", function () {
+            if ($("#NickName").val() == "")
+            {
+                alert("您输入您的昵称");
+                $("#NickName").focus();
+            }
+            else  if ($("#textarea").val() == "")
+            {
+                alert("您还未做评论哦");
+                //   $("textarea").focus();
+            }
+            else {
+                var data = {
+                    "NickName": $("#NickName").val(),
+                    "Graded": $(" #detail-Rpart2 .rate b .icon-star-two").length,//修改评分的提交规则
+                    "CommentContent":$("textarea").val(),
+                    "ReviewDebPrimaryID":2295,
+                }
+                $.ajax({
+                    type:"Post",
+                    url:"/CommitComment",
+                    data:data,
+                    success:function(jsObj){
+                        if(jsObj.Status!=undefined)
+                        {
+                            alert(jsObj.Msg);
+                        }
+                        if(jsObj.Status!="err")
+                        {
+                            $("#curComments").html(jsObj);
+                        }
+                        $("textarea").val("");
+                        $("#NickName").val("");
+                        $("#thanks").html("(感谢你的评分)");
+                        $("#thanks").show();
+                    }
+                },"JSON")
+            }
+        })
+
+
+    })
+</script>
+
+    <div class="footer container-fluid">
+        <div class="container">
+            <div class="row" style="text-align: center">
+                Copytight 2014 @REPO.SO  All Rights Reserved<br />
+                粤ICP备14081675号
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript">
+        function GotodebList(sectionID) { window.location = '/DebList/' + sectionID; }
+        function GotoAuthorInfo(authorID) { window.location = '/AuthorInfo/' + authorID }
+
+
+        //向插件详细页面跳转的方法
+        function pageJump(Package) {
+            window.location = "/DebDetailPC/" + Package;
+        }
+        $(function () {
+
+            $(".icon-white-circle-right-pointer").mouseenter(function () {
+                $(this).toggleClass("icon-blue-circle-right-pointer").toggleClass("icon-white-circle-right-pointer")
+            }).mouseleave(function () {
+                $(this).toggleClass("icon-blue-circle-right-pointer").toggleClass("icon-white-circle-right-pointer")
+            })
+
+            $(".header ul li:eq(" + 2 + ")").addClass("active");
+
+
+
+    })
+    </script>
+    <div hidden="hidden">
+        
+        <script type="text/javascript">
+            var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+            document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F2e1a3c7fe92a2fd11c3cffdaffba1ac9' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    </div>
+
+</body>
+</html>

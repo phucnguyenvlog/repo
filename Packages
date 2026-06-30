@@ -37,6 +37,26 @@ Depiction: http://aoiblog.jp/appstorefix_history.html
 Dev: aoi_satou
 Name: AppStoreFix
 
+Package: com.exile90.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/com.exile90.icleanerpro_7.10.0_iphoneos-arm.deb
+Size: 2450460
+MD5sum: 830ebd462d173a9211f5f7c41ce64d1a
+SHA1: 437f5c5097cdab433698b11dab81c3cb8fc82917
+SHA256: 99c90c0f4629d47af1c52772f374eb74828f7cdafc469fcc42af0eea6d417c66
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleanup and management utility
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
 Package: com.hackyouriphone.classiclockscreen
 Version: 3.3.1k
 Architecture: iphoneos-arm
@@ -152,6 +172,80 @@ Depiction: http://modmyi.com/info/ncsettings.d.php
 Name: NCSettings
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
+Package: com.mathieubolard.killbackground
+Version: 1.3.1-7
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 133
+Depends: mobilesubstrate, firmware (>= 4.0), preferenceloader, applist
+Filename: ./debs/com.mathieubolard.killbackground_1.3.1-7_iphoneos-arm.deb
+Size: 71280
+MD5sum: 3d33c09acb224ea7078601c180e80de1
+SHA1: 048554dfee5778b9aca58770d695d5b1d26be977
+SHA256: 8742b22b13da8fa2a528b54f6e6fea275f874f1e7a473dc795c547a3a699f397
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=killbackgroundData
+Description: kill all background apps from switcher
+Tag: purpose::extension
+Author: Mathieu Bolard (mattlawer) <mattlawer08@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=killbackgroundData
+Dev: mattlawer
+Icon: file:///Library/PreferenceBundles/KillBackgroundPreferences.bundle/Icon@2x.png
+Name: KillBackground
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.modmyi.serioussbsettingshd
+Version: 1.4-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 2694
+Depends: sbsettings
+Filename: ./debs/tomkids.serioussbsettingshd_1.4-1_iphoneos-arm.deb
+Size: 2454242
+MD5sum: 7b30ab5e6d3ab24427323b200f0f2fdd
+SHA1: 679044151556cbc365e4d44bc11d3721f48e7624
+SHA256: e8fda09320cd310363028b58bb7684bd2b16c6a57490b2e523d09fdf8e31db04
+Section: Themes (SBSettings)
+Description: Retina / HD SBSettings theme for SBSettings
+Author: Max Rudberg <max@maxthemes.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=serioussbsettingshdData
+Dev: maxrudberg
+Name: Serious SBSettings HD
+
+Package: com.nostalgios.protube6
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: t
+Filename: ./debs/com.nostalgios.protube6_1.0_iphoneos-arm.deb
+Size: 5502940
+MD5sum: 8ce0d35bc59e695239ec87f711446c1f
+SHA1: a4cedf49cf2620007b84454c810e9d4df255989a
+SHA256: c8d91a183cf0131a87d6bf7a03fd67c12e817a41787a137eb026a7f101fb68af
+Section: Tweak
+Description: Protube iOS 6 2023
+Author: iOS6NeverDie
+Name: Protube iOS6 2023
+
+Package: com.otyo.quicklock
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: firmware (>= 4.0)
+Filename: ./debs/tomkids.quicklock_1.0-2_iphoneos-arm.deb
+Size: 15120
+MD5sum: 4707865e3aef083d8ced94e3e95b39f0
+SHA1: 76cfb57cf19ebf4fff0098864a528289e119c46b
+SHA256: 1ecc929ae81bfc07e990dc49b0169e91fcf1943180c902b275c282640376a1fa
+Section: Tweaks
+Priority: extra
+Homepage: http://modmyi.com/info/quicklock2.php
+Description: (iOS 4) This tweak is a very simple tweak that when you tap it will lock your screen.
+Author: againstnighto <againstnight0@aim.com>
+Depiction: http://modmyi.com/info/quicklock2.d.php
+Name: QuickLock 2
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+
 Package: com.phucnguyenvlog.nct
 Version: 5.3.1
 Architecture: iphoneos-arm
@@ -190,6 +284,25 @@ SHA256: fd1a845a0a307c041316911860de9fc5a60631556acda78c3bb3378597328a44
 Section: Applications
 Description: youtube cho ios 6 tro len da fix loi va tich hop chay nen
 Name: Youtube
+
+Package: com.ravirajm.torch
+Version: 1.5.2
+Architecture: iphoneos-arm
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.ravirajm.torch_1.5.2_iphoneos-arm.deb
+Size: 34688
+MD5sum: a77b7ce2b9388d5a7c9d12e663df52c5
+SHA1: 8cf8ef240cf89a83bbd25edcbc2b6b3566695e51
+SHA256: d0adfbf3b43136cc8a5b98cdff3ed18ef5b3ec7662fbb163586da98409b3c73f
+Section: Tweaks
+Priority: extra
+Homepage: http://modmyi.com/info/torch.php
+Description: Toggle LED Flash from the LockScreen.
+Author: rvirajm <rvirajm@gmail.com>
+Depiction: http://modmyi.com/info/torch.d.php
+Name: Torch
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
 Package: com.rockyourphone.rockextensions
 Version: 1.01-1
@@ -553,6 +666,51 @@ Priority: optional
 Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
 Name: libpartialzip-1.0.0
 
+Package: sbsettings
+Version: 6.0.5-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1953
+Depends: libhide (>= 2.0.6-4), mobilesubstrate, sbsettingstoggles (>= 3.0.5), shell-cmds, firmware (<< 4.0) | libactivator (>= 1.3.2), firmware (<< 5.0) | com.chpwn.weeloader
+Conflicts: com.ripdev.hood, hk.org.iphone.respring, net.ispazio.swapmode
+Replaces: com.ripdev.hood, hk.org.iphone.respring
+Filename: ./debs/tomkids.sbsettings_6.0.5-1_iphoneos-arm.deb
+Size: 2142502
+MD5sum: d7348d306902a3b875ce3496fb3e34cd
+SHA1: 06c4d1917ef5d2cd89e78a24392ac7e14249ca59
+SHA256: 7b7eb8637e967b768fedb78be83824004871896e0d5b9e96551607b40b345dad
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=SBSettingsDpData
+Description: Move common toggles directly into springboard where they're always there!
+Author: BigBoss <bigboss@thebigboss.org>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=SBSettingsDpData
+Dev: bigboss
+Name: SBSettings
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: sbsettingstoggles
+Version: 6.0-2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 822
+Depends: com.modmyi.serioussbsettingshd, com.sbsdefaulthdtheme, firmware (>= 3.2) | sbsettingsdata2
+Conflicts: sbsettingstoggles1, sbsettingsfastnotes, sbsettingsprocesses, sbslocationservices, sbsettingsdata, com.yllier.mdatatoggle
+Replaces: sbsettingstoggles1, sbsettingsfastnotes, sbsettingsprocesses, sbslocationservices, sbsettingsdata, com.yllier.mdatatoggle, sbsettings (<= 3.0.6b3)
+Filename: ./debs/tomkids.sbsettingstoggles_6.0-2_iphoneos-arm.deb
+Size: 389562
+MD5sum: 6cd59eda676cde5f709bcc70b11c6692
+SHA1: ca679606c8bf4366aab2b85b599da345ccc77f50
+SHA256: cda83325df0218ae1f31e5e9fcb24da69e31d383a4909505e7515d5d38498360
+Section: SBSettings Addons
+Homepage: http://moreinfo.thebigboss.org/moreinfo/SBSettings.php
+Description: These are the built in toggles for the SBSettings app.
+Tag: role::developer purpose::library
+Author: BigBoss <bigboss@thebigboss.org>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sbsettingstoggles
+Dev: bigboss
+Name: sbsettingstoggles
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: themesettings
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -796,6 +954,26 @@ Depiction: http://cydia.vn/depic/t4096/
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
 
+Package: vn.gsm.intelliscreenx
+Version: 7.10.6-2a
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Installed-Size: 5919
+Depends: firmware (>= 7.1.1), firmware (<< 8.0), mobilesubstrate, preferenceloader, libstatusbar, com.rpetrich.rocketbootstrap, vn.gsm.libjuche2 (>= 1.0.5)
+Conflicts: com.intelliborn.messagesplus, com.intelliscreenx, kim.cracksby.com.intelliborn.intelliscreenx71
+Filename: ./debs/vn.gsm.intelliscreenx_7.10.6-2a.deb
+Size: 3739274
+MD5sum: a569835eaeba5144a034c141f70b31c8
+SHA1: 9620782ec9c8315c46f338248da6de572f09ebeb
+SHA256: 8a74baad9c3c7ac6df7cd789869e6cf6da01ce742a1d8510263c945f6d67ab01
+Section: !CydiaVn-Tools
+Homepage: http://cydia.vn/
+Description: Facebook, Twitter, RSS, Enhanced Mail, ++ in your iOS 7 Notification Center and on your Lock Screen!
+Author: intelliborn
+Depiction: http://cydia.vn/depic/t5312/
+Name: IntelliScreenX
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
 Package: vn.gsm.ios86
 Version: 1.2.3
 Architecture: iphoneos-arm
@@ -848,45 +1026,6 @@ Author: aricha
 Depiction: http://cydia.gsm.vn/t2863/
 Icon: file:///Library/WeeLoader/Plugins/Jukebox.bundle/MusicAppIcon.png
 Name: Jukebox
-Sponsor: Cydia.vn Blog's <http://cydia.vn/>
-
-Package: vn.gsm.protube
-Version: 1.9.9-6
-Architecture: iphoneos-arm
-Maintainer: Cydia.vn <repo@cydia.vn>
-Installed-Size: 6712
-Depends: firmware(>= 4.0), preferenceloader
-Filename: ./debs/protube_v1.9.9-6.deb
-Size: 5549402
-MD5sum: 307b0bfa8b6e7af3c0cad93f6df124a3
-SHA1: e3c1e8232378fe1fd75c1a9eec007826d1ddd1b8
-SHA256: 9307a221b85f96d6f39209934140dc685c7e1aafae4f86dfa3e428b4effaee7d
-Section: !CydiaVn-Apps
-Homepage: http://cydia.vn/
-Description: complete feature-filled YouTube app
-Author: Jonas Gessner
-Depiction: http://cydia.vn/depic/t2248/
-Icon: file:///Applications/ProTube.app/icon.png
-Name: ProTube
-
-Package: vn.gsm.protubehd
-Version: 1.6.9-2
-Architecture: iphoneos-arm
-Maintainer: Cydia.vn <repo@cydia.vn>
-Installed-Size: 11112
-Depends: firmware(>= 4.3), preferenceloader
-Filename: ./debs/protubehd_1.6.9-2.deb
-Size: 10591352
-MD5sum: 901123144dc246fa16409c29cff874a1
-SHA1: c5a0181e7a8059e40a007900b97e50f70cffa2d7
-SHA256: 96e9ea36baadb57ffb0ef7cf6c62278b658589437a6b9bab7e2242e6ee5053e6
-Section: !CydiaVn-Apps
-Homepage: http://cydia.vn/
-Description: complete feature-filled YouTube app for iPad
-Author: Jonas Gessner
-Depiction: http://cydia.vn/depic/t2294/
-Icon: file:///Applications/ProTubeHD.app/icon.png
-Name: ProTube HD
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
 Package: vn.gsm.removebackgroundapp
@@ -1246,26 +1385,4 @@ Section: Tweak
 Description: Background playing for YouTube app on iOS 5 - 9.
 Author: iOSSupportVN
 Name: YTLegacyBG
-
-Package: xyz.cypwn.icleanerpro
-Version: 7.9.1k
-Architecture: iphoneos-arm
-Maintainer: CyPwn
-Depends: firmware (>= 4.0), findutils, apt | apt7
-Conflicts: org.altervista.exilecom.icleaner
-Replaces: org.altervista.exilecom.icleaner
-Provides: com.exile90.icleanerpro
-Filename: ./debs/xyz.cypwn.icleanerpro_7.9.1k_iphoneos-arm.deb
-Size: 6757502
-MD5sum: 5849449b9e602639deffc331dde67add
-SHA1: c5a7a1831677b68c3650b419ab763db3e2dc568f
-SHA256: befc0beb77c456d35fe0c228cfa776cbb4a94d469b8dab5286596e38b60f3740
-Section: Utilities
-Homepage: http://ib-soft.net/icleaner
-Description: The first real iOS system cleaner & optimizer. Registered Version.
-Author: Ivano Bilenchi
-Depiction: https://repo.cypwn.xyz/depiction/127
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/icleanerpro.png
-Name: iCleaner Pro
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/127
 
