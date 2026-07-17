@@ -297,6 +297,38 @@ Section: Applications
 Description: youtube cho ios 6 tro len da fix loi va tich hop chay nen
 Name: Youtube
 
+Package: com.podpod123.fbcrashfix
+Version: 1.0-4+debug
+Architecture: iphoneos-arm
+Maintainer: Pod
+Installed-Size: 108
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.podpod123.fbcrashfix_1.0-4+debug_iphoneos-arm.deb
+Size: 7934
+MD5sum: 10088bec6790363cad62201b85cee83d
+SHA1: 527b9104f5eebf97b12d1e42624845d32919d78e
+SHA256: 6e2b6a446ea631bcc28634b88b7804d92c5fc30be2e047787821ae84136d9467
+Section: Tweaks
+Description: A tweak that prevents the Facebook app from crashing
+Author: Pod
+Name: FBCrashFix
+
+Package: com.podpod123.fbintegrationfix
+Version: 1.0-8+debug
+Architecture: iphoneos-arm
+Maintainer: Pod
+Installed-Size: 108
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0), firmware (<= 10.3.4)
+Filename: ./debs/com.podpod123.fbintegrationfix_1.0-8+debug_iphoneos-arm.deb
+Size: 8852
+MD5sum: 9118ab7dee947602c61f2cb2db354e18
+SHA1: b2d4ce5c8e9d1f9f710659781ecea9b8d74c10c5
+SHA256: cfeef199025d5e53e1154b21755439a504581ba9007aeb739e71d684fc6fbf64
+Section: Tweaks
+Description: A fix for iOS's Facebook system integration
+Author: Pod
+Name: FBIntegrationFix
+
 Package: com.ravirajm.torch
 Version: 1.5.2
 Architecture: iphoneos-arm
