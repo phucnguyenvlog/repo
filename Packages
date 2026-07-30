@@ -583,19 +583,6 @@ Description: This tweak will speed up the animation transitions to make your dev
 Author: Philip Wong
 Name: Speed Intensifier
 
-Package: com.youtubeios5.vn
-Version: 1.3.0
-Architecture: iphoneos-arm
-Maintainer: PhucNguyen
-Filename: ./debs/com.youtubeios5.vn_1.3.0_iphoneos-arm.deb
-Size: 6865648
-MD5sum: ccf9e0df181b7829b92f867c83ba1a90
-SHA1: 28c24514b3ef26d2100b451437474f3e1ef2f0c8
-SHA256: 0c88a11651aa9163f2f8278dd1fa7d1d0a92aa55adfa9f5dc6dda71664ed8e5e
-Section: Applications
-Description: Đóng gói từ IPA bởi PhucNguyenVlog
-Name: Youtubeios5
-
 Package: curl
 Version: 7.65.0-1
 Architecture: iphoneos-arm
@@ -991,6 +978,48 @@ Description: Force applications to show in fullscreen mode
 Author: Ryan Petrich <repo@cydia.vn>
 Depiction: http://cydia.vn/depic/t3946/
 Name: FullForce for Phone
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
+Package: vn.gsm.iapfree
+Version: 4.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Installed-Size: 800
+Depends: gsmicon, firmware (>= 5.0), mobilesubstrate (>= 0.9.4001)
+Conflicts: vn.gsm.iap, com.urus.iap, vn.gsm.localiapstore, com.crazydoraemon.commonlibs (>= 1.0.1), vn.gsm.commonlibs (>= 1.0.1), com.crazydoraemon.iapfree.toggle
+Filename: ./debs/iapfree_4.0.1-1.deb
+Size: 1736060
+MD5sum: 7172a19fc8a9964b51c8405cbad9a922
+SHA1: 03d496d6706bf95310c6f44fa64b2d64f8c80acf
+SHA256: d1678d474eddf2b9274392a031f341439c21f71769850683d331b09b8b70bb5b
+Section: !CydiaVn-Tools
+Homepage: http://cydia.vn/
+Description: FREE In-App Purchases for most Apps/Games, Includes CorePlugin v2.0.3, commonlibs v1.0.1, and SBSettings Toggle v1.0.0
+Author: crazydoraemon <repo@cydia.vn>
+Depiction: http://cydia.gsm.vn/t2457/
+Name: IAPFree
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
+Package: vn.gsm.iapfree103f
+Version: 1.0.3f
+Architecture: iphoneos-arm
+Maintainer: Thieu.Bocap <repo@cydia.vn>
+Installed-Size: 400
+Depends: gsmicon, mobilesubstrate (>= 0.9.3995)
+Conflicts: vn.gsm.iapfree, vn.gsm.iap, com.urus.iap
+Replaces: vn.gsm.iapfree
+Filename: ./debs/iapfreereup_1.0.3f.deb
+Size: 190844
+MD5sum: 3a4df3259ef6f07dbfc5362b80c29591
+SHA1: a204555790d871ffd0781133945021a0a1801351
+SHA256: cd13cda10393b56d0e47d23fc6880929d01fe7e95bc2c6eaac041182a58df8d4
+Section: !GSMVN-Tools
+Homepage: http://cydia.vn/
+Description: Re-up v1.0.3f - New Free In-App Purchases
+Author: crazydoraemon <repo@cydia.vn>
+Depiction: http://cydia.gsm.vn/t3102/
+Icon: file:///Applications/IAPFree.app/Icon.png
+Name: IAPFree (1.0.3f)
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
 Package: vn.gsm.iclassic
