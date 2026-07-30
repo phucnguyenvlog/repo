@@ -428,6 +428,31 @@ Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 Support: http://support.rockyourphone.com
 Versionssupported: 2.01,2.1,2.2,2.21
 
+Package: com.rpetrich.retinapad
+Version: 1.3.7
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 760
+Pre-Depends: firmware (>= 4.2), cy+model.ipad | gsc.ipad | gsc.wildcat
+Depends: mobilesubstrate (>= 0.9.5001), preferenceloader (>= 2.2.2), applist (>= 1.5.7), cydia (>= 1.1.1), curl, firmware (<< 7.0) | com.rpetrich.rocketbootstrap (>= 1.0.1), firmware (<< 7.0) | libactivator (>= 1.8.3)
+Conflicts: com.booleanmagic.fullforce
+Replaces: com.booleanmagic.fullforce
+Filename: ./debs/cydiastore_com.rpetrich.retinapad_v1.3.7.deb
+Size: 269090
+MD5sum: 16e86b3a4405bd01842df0b04ae094d6
+SHA1: de62f185d82e5c33b4120424780faa6e389fabf2
+SHA256: 5c40771414c5bc7887fc46f3b9c9eb8211fb17968f70180704a2574c82530d0a
+Section: Tweaks
+Homepage: http://rpetri.ch/cydia/retinapad/
+Description: Enable Retina Display for iPhone apps on iPad
+Tag: purpose::extension, cydia::commercial
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depiction: http://rpetri.ch/cydia/retinapad/
+Dev: rpetrich
+Icon: file:///Library/RetinaPad/RetinaPadCydia.png
+Name: RetinaPad
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.skyglow.weatherx
 Version: 3.5
 Architecture: iphoneos-arm
