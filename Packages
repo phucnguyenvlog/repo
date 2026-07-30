@@ -125,6 +125,60 @@ Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=fonts
 Name: SnowBoard Fonts Extension
 Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=fontss
 
+Package: com.hackyouriphone.iunlock
+Version: 1.0.6k
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Filename: ./debs/com.hackyouriphone.iunlock_1.0.6k_iphoneos-arm.deb
+Size: 132676
+MD5sum: e0e089f9ed39bc518426d2382e261ff9
+SHA1: 8eb6403bd248b21d14c09614525252cb786f62e4
+SHA256: f1dfebcc381d30c8a376139b5da1fbc9f9ecf2372f52738b6476e68acf1c2ef8
+Section: Tweaks (HYI)
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=iunlock
+Description: Custom unlock animation and sound
+Author: Ma Jun <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=iunlock
+Name: iUnlock
+
+Package: com.hackyouriphone.sleepfx
+Version: 2.4-1
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), firmware (>= 5.1)
+Filename: ./debs/com.hackyouriphone.sleepfx_2.4-1_iphoneos-arm.deb
+Size: 841688
+MD5sum: 8b35216f6c479106b03a123c9ea02b93
+SHA1: 89f085a15082f506fb5b3a63544848b3a81acc41
+SHA256: 3b645e9ceb016cfb6db56db3c1471e9bb9b8320e5640fd0a726b9cb4b84fa078
+Section: Tweaks (HYI)
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=sleepfx
+Description: Enjoy stunning FX when entering sleep
+Author: Malcolm Hall <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=sleepfx
+Name: SleepFX
+
+Package: com.heaveniphone.quicklock45
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: Heaveniphone-ThanhThi <heaveniphone@heaveniphone.com>
+Depends: com.heaveniphone.icon, firmware (>= 4.0)
+Conflicts: com.heaveniphone.quicklockios
+Replaces: com.heaveniphone.quicklockios
+Filename: ./debs/QuickLock_1.0-4.deb
+Size: 15118
+MD5sum: a1f5dd2aa0135722bfd5dcb99bb156d8
+SHA1: 31e8431f642a8c932320f653aa224b526ff9a03f
+SHA256: 535525ecaf0e7ed1fc33d7c3a3e356fa1fa6c7ef6ddb3b0a967067f0a9c6514a
+Section: HiPhone-Apps
+Priority: extra
+Description: (iOS 4) This tweak is a very simple tweak that when you tap it will lock your screen.
+Author: HeaveniPhone <heaveniphone@heaveniphone.com>
+Depiction: http://heaveniphone.com/cydia/info/quicklockios.php
+Name: QuickLock iOS 4/5
+Sponsor: Heaven iPhone <http://heaveniphone.com/>
+
 Package: com.ijinshan.kbatterydoctorpro.universal
 Version: 4.6.1-11
 Architecture: iphoneos-arm
@@ -1136,6 +1190,25 @@ Icon: file:///Library/WeeLoader/Plugins/Jukebox.bundle/MusicAppIcon.png
 Name: Jukebox
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
+Package: vn.gsm.libactivator-vi
+Version: 1.8.3
+Architecture: iphoneos-arm
+Maintainer: Thieu.Bocap <repo@cydia.vn>
+Installed-Size: 45
+Depends: gsmicon, libactivator (>= 1.8.3)
+Filename: ./debs/activatorviet_1.8.3.deb
+Size: 9288
+MD5sum: 754b78d9bcbcd4d23b128823d8f3841d
+SHA1: 0ceb6daeff7a598e0b4f569a772fb2893ac541fa
+SHA256: 8207ef44625d2e9c7f064b49f3f3ea2b921eea44856ca78cf987738fcba088ed
+Section: !GSMVN-VietHoa
+Homepage: http://cydia.vn/
+Description: Gói ngôn ngữ tiếng Việt cho Activator 1.8.3.
+Author: Cydia.vn <repo@cydia.vn>
+Depiction: http://cydia.gsm.vn/t2365/
+Name: Activator Việt
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
 Package: vn.gsm.protube
 Version: 1.12.1p
 Architecture: iphoneos-arm
@@ -1153,6 +1226,65 @@ Author: Jonas Gessner
 Depiction: http://cydia.vn/depic/t2248/
 Icon: file:///Applications/ProTube.app/icon.png
 Name: ProTube
+
+Package: vn.gsm.quicklock
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: Thieu.Bocap <repo@cydia.vn>
+Installed-Size: 49
+Pre-Depends: firmware (>= 4.0)
+Depends: gsmicon
+Filename: ./debs/quicklock_1.0-2.deb
+Size: 15094
+MD5sum: 0f05d452eaa9766846db613d190f8803
+SHA1: 7f15469ea6c202bd833d77e71daaee44c2aa233b
+SHA256: d1523a804346d34fe519fd85b956bbc3d6dd54862ac70f2059fa8865b54f54b9
+Section: !GSMVN-Tools
+Homepage: http://cydia.vn/
+Description: Lock Screen quickly from SpringBoard by clicking on an icon.
+Author: Zotyo
+Depiction: http://cydia.gsm.vn/t78/
+Name: QuickLock 2
+Sponsor: iPhone GSM.VN <http://gsm.vn/f339/>
+
+Package: vn.gsm.quicklock3
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Installed-Size: 49
+Depends: gsmicon, firmware (>= 6.0)
+Filename: ./debs/quicklock3_1.0.deb
+Size: 60528
+MD5sum: b57f66bab490b579f4b9526d52bacd21
+SHA1: 3b18f8cc560f158d075d828af0830e4bbcc0e071
+SHA256: a579937fdd4543600f9c229d5037a755fc43b82f15f2d41f7bbb05b31a96dac8
+Section: !GSMVN-Tools
+Homepage: http://cydia.vn/
+Description: Lock Screen quickly from SpringBoard by clicking on an icon.
+Author: Zotyo
+Depiction: http://cydia.gsm.vn/t78/
+Name: QuickLock 3
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
+Package: vn.gsm.quicklock46
+Version: 0.0.1-18
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Installed-Size: 348
+Depends: mobilesubstrate, firmware (>= 6.0), firmware (<< 7.2)
+Conflicts: vn.gsm.quicklock3
+Filename: ./debs/quicklock46_0.0.1-18.deb
+Size: 55390
+MD5sum: a35a424ea3d1231e30f7fcf30ae53d38
+SHA1: 8b6c183afe4c9fac06c96a7646ba06477b16c180
+SHA256: 01daa4d0ba54f267fcd04ea1b283ce3ed65e42ab91c970b627260b78d84d1d39
+Section: !CydiaVn-Tools
+Homepage: http://cydia.vn/
+Description: Just touch to lock your device! This package supports iOS 6 and iOS 7.x
+Author: deVbug
+Depiction: http://cydia.gsm.vn/t4531/
+Name: QuickLock46
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
 Package: vn.gsm.removebackgroundapp
 Version: 1.0-5
@@ -1335,6 +1467,26 @@ Icon: file:///Applications/springtomizeapp.app/Icon.png
 Name: Springtomize2-Localizations
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: vn.gsm.unlockize
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: Thieu.Bocap <repo@cydia.vn>
+Installed-Size: 140
+Depends: gsmicon, firmware(>= 5.0), mobilesubstrate, preferenceloader
+Filename: ./debs/unlockize_1.3.deb
+Size: 72970
+MD5sum: b89460a3be63959949a0b0c2262b2b06
+SHA1: cbb1497572a989da34bb3b04548edff478693e28
+SHA256: cf06fb30a9a2bbc0060ca2b78b0cd5c937e944ff6c7c30994152c0e53fec83cc
+Section: !GSMVN-Tools
+Homepage: http://cydia.vn/
+Description: customize your slide to unlock style
+Author: John Coates
+Depiction: http://cydia.gsm.vn/t2837/
+Icon: file:///Library/PreferenceBundles/UnlockizeSettings.bundle/unlockize@2x.png
+Name: Unlockize
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
 Package: vn.gsm.videopane
 Version: 2.0.6k
 Architecture: iphoneos-arm
@@ -1353,6 +1505,25 @@ Depiction: http://cydia.vn/depic/t4582/
 Icon: file:///System/Library/PreferenceLoader/Preferences/VideoPane/VideoPane@2x.png
 Name: VideoPane
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
+Package: vn.gsm.wraparound
+Version: 1.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Thieu.Bocap <support@gsm.vn>
+Installed-Size: 17
+Depends: firmware(>= 4.0), mobilesubstrate, gsmicon
+Filename: ./debs/wraparound_1.0.1-1.deb
+Size: 6146
+MD5sum: 33dfdf5524e3d5cb977e89cd61aa527f
+SHA1: 9ac037f6a157c7b5f2bbcf10a284da65ff4a84ea
+SHA256: 1d438f9c12d7bf920d0927fc1314c67b715a67b10aacf3c773c73e1a9a2850cf
+Section: !GSMVN-Tools
+Homepage: http://cydia.vn/
+Description: Scroll foverever through icon pages with infinite scrolling! Last icon page wraps around to Spotligh
+Author: Aaron Ash (Charybdis) <support@gsm.vn>
+Depiction: http://cydia.gsm.vn/t1559/
+Name: Wraparound
+Sponsor: iPhone GSM.VN <http://gsm.vn/f339/>
 
 Package: vn.gsm.zephyr
 Version: 1.6.4-1
