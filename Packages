@@ -470,6 +470,797 @@ Author: Requis, Electimon
 Depiction: http://cydia.skyglow.es/depictions/com.skyglow.weatherx/depictions/index.html
 Name: Weather & Stocks
 
+Package: com.tqm-mos.29v2vn
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Filename: ./debs/com.tqm-mos.29v2vn_1.0_iphoneos-arm.deb
+Size: 976204
+MD5sum: 9a4a1a7d0331485201eb240ee2873328
+SHA1: d784fa170a109b6c4a783c519112fc60d26c0716
+SHA256: 47f6b94fc76e56fd2f715c86b6dc4a79bf49183882b9298902dd8f25ce7eb0d3
+Section: Fonts
+Description: Phông chữ 2/9 Quốc Khánh cho iOS
+Author: TQM-MOS
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.29v2vn
+Name: 2.9 V2 (iOS14-18)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.29v2vn.json
+
+Package: com.tqm-mos.29v2vn
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Filename: ./debs/com.tqm-mos.29v2vn_1.0_iphoneos-arm64.deb
+Size: 976306
+MD5sum: 0ac7da15d9013c799afc71033536b1ce
+SHA1: 60e1777de75da4ad9d47e1fa79613c593bd6f11c
+SHA256: 3c941e95ddf8d9c1026de5963fcfe0123faae45ed3c22352edb3e30455f575a4
+Section: Fonts
+Description: Phông chữ 2/9 Quốc Khánh cho iOS
+Author: TQM-MOS
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.29v2vn
+Name: 2.9 V2 (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.29v2vn.json
+
+Package: com.tqm-mos.29v2vn
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: @tqmmos
+Filename: ./debs/com.tqm-mos.29v2vn_1.0_iphoneos-arm64e.deb
+Size: 976208
+MD5sum: bb24bccc67824c16fb218b28c3cf7e34
+SHA1: 94adaa9017751118e1be23b001166194c9e7ff18
+SHA256: b6350819c0133d9905d5685f0584a1eed16c61fc804f6e3223b3398bdbabfe0e
+Section: Fonts
+Description: Phông chữ 2/9 Quốc Khánh cho iOS
+Author: TQM-MOS
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.29v2vn
+Name: 2.9 V2 (Roothide)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.29v2vn.json
+
+Package: com.tqm-mos.29vn
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Filename: ./debs/com.tqm-mos.29vn_1.0_iphoneos-arm.deb
+Size: 1753790
+MD5sum: a163b11a84998747266ac4a649a4d8d8
+SHA1: 9a77ce5842775285d81ecaa12e4cf2f96aa65efc
+SHA256: b56095cd1a7257db38ea9924520cce60943b5c2ef6813d8ceb2a4e48a6a68b25
+Section: Fonts
+Description: Phông chữ 2/9 Quốc Khánh cho iOS
+Author: TQM-MOS
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.29vn
+Name: 2.9 V1 (iOS14-18)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.29vn.json
+
+Package: com.tqm-mos.29vn
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Filename: ./debs/com.tqm-mos.29vn_1.0_iphoneos-arm64.deb
+Size: 1753878
+MD5sum: 2f9a3c7ac60466f508bde3a65c5b9b0e
+SHA1: abdd27242acbbc427d6614135fd8769a47193b5b
+SHA256: 94ebf804ef232a2bf761f931228b883c54e9dd18766fdbfea4f5924a80c2753f
+Section: Fonts
+Description: Phông chữ 2/9 Quốc Khánh cho iOS
+Author: TQM-MOS
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.29vn
+Name: 2.9 V1 (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.29vn.json
+
+Package: com.tqm-mos.29vn
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: @tqmmos
+Filename: ./debs/com.tqm-mos.29vn_1.0_iphoneos-arm64e.deb
+Size: 1753796
+MD5sum: 4bca94ec14889020d81e6ca175d0780e
+SHA1: d12560abba2fa05bf2b6bb32df04b70b9849e7b3
+SHA256: 00fdc184ddf26f4b09a1683979b9eb5bb78655f347394bc94971019986109db0
+Section: Fonts
+Description: Phông chữ 2/9 Quốc Khánh cho iOS
+Author: TQM-MOS
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.29vn
+Name: 2.9 V1 (Roothide)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.29vn.json
+
+Package: com.tqm-mos.afont
+Version: 1.10
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 2380
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1)
+Filename: ./debs/com.tqm-mos.afont_1.10_iphoneos-arm.deb
+Size: 839800
+MD5sum: e5aae2ea1f8c8f87cb9435c7e17cbd93
+SHA1: 7425196443ddaf31b438c7d456e66c891be76199
+SHA256: 65855d2355163ba8fc3bc8f539311ee6674e6c54fb1ef81c35b7180cb3fc74e7
+Section: Tweaks
+Description: Cài đặt Font chữ cho iPhone của bạn!
+Author: Baw Appie <pp121324@gmail.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.afont
+Name: A-Font
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.afont.json
+
+Package: com.tqm-mos.afont
+Version: 1.10.1
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Installed-Size: 2380
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.tqm-mos.afont_1.10.1_iphoneos-arm64.deb
+Size: 842896
+MD5sum: 1d5be9aeccb0961aa156553183211ac6
+SHA1: cd4396e6dc57eac590f486cdd803a839df5124ac
+SHA256: cdc619f89af902c245c950bfe87397d7879799cdb18a14103ca7437a86cca169
+Section: Tweaks
+Description: Cài đặt Font chữ cho iPhone của bạn!
+Author: Baw Appie <pp121324@gmail.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.afont
+Name: A-Font ( Rootless )
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.afont.json
+
+Package: com.tqm-mos.afont
+Version: 1.10.1
+Architecture: iphoneos-arm64e
+Maintainer: TQM-MOS
+Installed-Size: 2476
+Depends: mobilesubstrate, com.opa334.altlist, preferenceloader
+Filename: ./debs/com.tqm-mos.afont_1.10.1_iphoneos-arm64e.deb
+Size: 844584
+MD5sum: 6486b736819e2ea60acb113e260cca9e
+SHA1: 833a371b5c4e8381c84b3541905dccd71cb99ef2
+SHA256: 313788b4948e668ade235b0b705e8860f8af9b4505e84ec0cbc20c63fe4adf20
+Section: Tweaks
+Description: Cài đặt Font chữ cho iPhone của bạn!
+Author: Baw Appie <pp121324@gmail.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.afont
+Name: A-Font (Roothide)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.afont.json
+
+Package: com.tqm-mos.afont
+Version: 1.7.1
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 2380
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1)
+Filename: ./debs/com.tqm-mos.afont_1.7.1_iphoneos-arm.deb
+Size: 825922
+MD5sum: 9a4b8690efd0f7b8f6c83e944e9ff69d
+SHA1: 674b483f6c2a1eb259c5466c1d136529c7093987
+SHA256: 3d5554e579e45a733d65b1990000b6e36afab2be4a19191a984eb4b1dc810a20
+Section: Tweaks
+Description: Cài đặt Font chữ cho iPhone của bạn!
+Author: Baw Appie <pp121324@gmail.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.afont
+Name: A-Font
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.afont.json
+
+Package: com.tqm-mos.afont
+Version: 1.9.6
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 2380
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1)
+Filename: ./debs/com.tqm-mos.afont_1.9.6_iphoneos-arm.deb
+Size: 840366
+MD5sum: 4589d98fd0c1b921aab88302ce84ac6b
+SHA1: f9bd5564e46ab62e486cd064679c4b7364822fe8
+SHA256: 1da9957a001175b076b61b7939912b84837d83bea58351771b00fd7749b8244c
+Section: Tweaks
+Description: Cài đặt Font chữ cho iPhone của bạn!
+Author: Baw Appie <pp121324@gmail.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.afont
+Name: A-Font
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.afont.json
+
+Package: com.tqm-mos.aim
+Version: 1.2.9
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, ws.hbang.common (>= 1.14), com.spark.libsparkcolourpicker
+Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, com.rpgfarm.groupingaxon, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.peterdev.grupi
+Filename: ./debs/com.tqm-mos.aim_1.2.9_iphoneos-arm.deb
+Size: 2685162
+MD5sum: 9487396bdfd6347a51454713a1301ca9
+SHA1: 10e0d2bd4b81e04c6ff8f17b6fb35bc82feadd6a
+SHA256: acb40bbc98ed6d805b4cf7a4f220f1345ff0bb6ddafb738727cab6d97c0847f0
+Section: Tweaks
+Description: Màn hình khoá phong cách iOS 16
+Author: alimaulana
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.aim
+Name: AIM
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.aim.json
+
+Package: com.tqm-mos.aim
+Version: 1.3
+Architecture: iphoneos-arm64e
+Maintainer: @tqmmos
+Installed-Size: 4904
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, ws.hbang.common (>= 1.14), com.spark.libsparkcolourpicker, oldabi
+Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aimpro, com.icraze.nexus, com.bienvannhat.aimprorooess
+Filename: ./debs/com.tqm-mos.aim_1.3_iphoneos-arm64e.deb
+Size: 2776150
+MD5sum: 6aa3919a7744d898049a6f53307a37e8
+SHA1: 2d48f08cf473db3fb7804da237f3266a38d39ed6
+SHA256: f2871e1ba1968be03ecb22e0ac283f6c5a95cfbdd7198eeeb9fa71d5323366c3
+Section: Tweaks
+Description: Màn hình khóa thời gian và ngày kiểu iOS 16
+Author: alimaulana
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.aim
+Name: AIM (Roothide)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.aim.json
+
+Package: com.tqm-mos.aim
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Installed-Size: 4904
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, ws.hbang.common (>= 1.14), com.spark.libsparkcolourpicker, oldabi
+Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aimpro, com.icraze.nexus
+Filename: ./debs/com.tqm-mos.aim_1.3.1_iphoneos-arm64.deb
+Size: 2779366
+MD5sum: 2100356ea1da5d78ad51ba4c25c6c80b
+SHA1: 049ef3bb014be580eacfabc371f7e2ca161b4754
+SHA256: c34e726e066b5a2c7b0a82270e22bda26de203fef625d10d469444d81a8ac274
+Section: Tweaks
+Description: Màn hình khóa iOS 16
+Author: alimaulana
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.aim
+Name: AIM (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.aim.json
+
+Package: com.tqm-mos.aimpro
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 5708
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, ws.hbang.common (>= 1.14), com.spark.libsparkcolourpicker
+Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aim, com.icraze.nexus
+Filename: ./debs/com.tqm-mos.aimpro_1.0.3_iphoneos-arm.deb
+Size: 2954468
+MD5sum: 36076fb6b5285249243615113df39ce5
+SHA1: d1d9a5458f25e31aac95ac29568d33831a8f2732
+SHA256: 2679aecd2defcdbb79dfa18ca68ea3ad6163e00206b8b69bc4a967256a16f75f
+Section: Tweaks
+Description: Màn hình khoá kiểu IOS 16
+Author: alimaulana
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.aimpro
+Name: AIM Pro
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.aimpro.json
+
+Package: com.tqm-mos.aimpro
+Version: 1.0.5
+Architecture: iphoneos-arm64e
+Maintainer: @tqmmos
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader, ws.hbang.common (>= 1.14), com.spark.libsparkcolourpicker
+Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aim, com.icraze.nexus
+Filename: ./debs/com.tqm-mos.aimpro_1.0.5_iphoneos-arm64e.deb
+Size: 2780888
+MD5sum: b49ee4280cefa544fdfc5fb85325c5f7
+SHA1: 7bb883157c6c91e5b35779e17a1b077a673737eb
+SHA256: e375f0e4e9cd9655645f35849e2b99044fef0b9a1e642b44e084c6f5c43f18bc
+Section: Tweaks
+Description: Màn hình khóa ngày và giờ phong cách iOS 16
+Author: alimaulana
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.aimpro
+Name: AIM Pro (Roothide)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.aimpro.json
+
+Package: com.tqm-mos.aimpro
+Version: 1.1.3k
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common (>= 2.0), com.spark.libsparkcolourpicker
+Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aim, com.icraze.nexus
+Filename: ./debs/com.tqm-mos.aimpro_1.1.3k_iphoneos-arm64.deb
+Size: 2876404
+MD5sum: 264dbf4b2163c7d840bc8bfa6d6a4ef8
+SHA1: fcfdae011cbb7d28889e69c230e10fa9d0fbe55f
+SHA256: 0462d6f2c3c61b6d180bf2d49e8249241c44a799ab58a4dac6295bf9e13371a9
+Section: Tweaks
+Description: Màn hình khóa thời gian và ngày kiểu iOS 16
+Author: alimaulana
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.aimpro
+Name: AIM Pro (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.aimpro.json
+
+Package: com.tqm-mos.airpodscompanion
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: preferenceloader
+Filename: ./debs/com.tqm-mos.airpodscompanion_1.1_iphoneos-arm.deb
+Size: 511264
+MD5sum: 1712a955f871f53d7ddca69a20d63507
+SHA1: 2c4a531e794b05bd5e021772c304a14ecb878db8
+SHA256: aff07570803e5f3ec8a590fff6034bfa8eccd0d6ebf9e66c6c07e3e9a3746e24
+Section: Tweaks
+Description: Điều khiển khử tiếng ồn nổi bên cạnh thanh trượt âm lượng
+Author: Ethan Whited
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.airpodscompanion
+Icon: https://media.havoc.app/65e4177bc97a362fa842d940
+Name: AirpodsCompanion
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.airpodscompanion.json
+
+Package: com.tqm-mos.airpodscompanion
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Installed-Size: 10704
+Depends: preferenceloader
+Filename: ./debs/com.tqm-mos.airpodscompanion_1.5_iphoneos-arm64.deb
+Size: 10328326
+MD5sum: 2a2896f488f37dafd516dedb6a94ada7
+SHA1: 342ed25b6ec3aec622f4904244cfeb9d5ea06229
+SHA256: 229dfc6ca6d6f5cf3900ca3057f2683ee0c9076a5bb50e1c0b0bbe970ef2192c
+Section: Tweaks
+Description: Điều khiển khử tiếng ồn nổi bên cạnh thanh trượt âm lượng
+Author: Ethan Whited
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.airpodscompanion
+Name: AirpodsCompanion (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.airpodscompanion.json
+
+Package: com.tqm-mos.anemonefixfonts
+Version: 2.1.8-2
+Architecture: iphoneos-arm
+Maintainer: @tqmmos <devmos388373@mail.com>
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), com.rpetrich.rocketbootstrap, pincrush
+Conflicts: org.coolstar.themelib, anemoneteam.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Replaces: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, com.codethemed.iconbundles, com.idd.iconomatic
+Filename: ./debs/com.tqm-mos.anemonefixfonts_2.1.8-2_iphoneos-arm.deb
+Size: 4239588
+MD5sum: 436108e9edb7c55ec43bae8ac692e3fe
+SHA1: 72480396f1c4ce1fdc765643546bb11d6641b5c2
+SHA256: 7544866e59d6fa5adf47edb97f0cd1ba1ec72e85797c9584c80e5090ecca6352
+Section: Tweaks
+Description: Hiển thị chủ đề đã được fix lại để hiển thị font.
+Author: @tqmmos
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.anemonefixfonts
+Icon: file:///Applications/Anemone.app/icon.png
+Name: Anemone FixFonts
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.anemonefixfonts.json
+
+Package: com.tqm-mos.appdata
+Version: 1.4.1
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.tqm-mos.appdata_1.4.1_iphoneos-arm.deb
+Size: 7401114
+MD5sum: bb79281e8891f82ed941f7a8319d11d7
+SHA1: 5547406ce53b58e6db22486bbc3e17c24aabb847
+SHA256: c3b1be79c2e51458957caddd15731c7267b34a772e005cd5bc8070792aa34f94
+Section: Tweaks
+Description: Xem & Truy cập Dữ liệu Ứng dụng từ Màn hình Chính
+Author: Fouad Raheb <support@fouadraheb.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.appdata
+Icon: file:///Library/PreferenceLoader/Preferences/AppData@3x.png
+Name: AppData
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.appdata.json
+
+Package: com.tqm-mos.appdata
+Version: 1.4.2
+Architecture: iphoneos-arm64e
+Maintainer: @tqmmos
+Installed-Size: 3772
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.tqm-mos.appdata_1.4.2_iphoneos-arm64e.deb
+Size: 1249560
+MD5sum: dea6c3e201c81cde157cca9c2a7d9b83
+SHA1: 99781d65e6f2949328cc856457519a4c30211d8e
+SHA256: cecac937ccb13cebe9940203a641193a1a4a210d74474b28e5c3b6c94644cbfa
+Section: Tweaks
+Description: Xem & Truy cập Dữ liệu Ứng dụng từ Màn hình Chính
+Author: Fouad Raheb
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.appdata
+Name: AppData (Roothide)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.appdata.json
+
+Package: com.tqm-mos.appdata
+Version: 1.4.6
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.tqm-mos.appdata_1.4.6_iphoneos-arm64.deb
+Size: 2154426
+MD5sum: ecec5f6b7c5ee839b1b2affe1f391652
+SHA1: 2d46a47f4c8c74f3d0ef41bb52b2ee859ffb7af8
+SHA256: 79b44f652d68a0ebac5106b626aa10031b3fbb45be237d1bb33f78fe7c716896
+Section: Tweaks
+Description: Xem & Quản lý Dữ liệu Ứng dụng từ Màn hình Chính của bạn
+Author: Fouad Raheb
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.appdata
+Name: AppData (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.appdata.json
+
+Package: com.tqm-mos.aquaboard
+Version: 1.0-21
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: mobilesubstrate (>= 0.9.5000), preferenceLoader (>= 2.2.2), firmware (>= 5.0)
+Conflicts: com.fuyuchi.unlockize
+Filename: ./debs/com.tqm-mos.aquaboard_1.0-21_iphoneos-arm.deb
+Size: 86220
+MD5sum: 968bf73e430b06c4b95e769bc509cafa
+SHA1: 5db59a3271300d553d0c109203ca3d5efd3edec9
+SHA256: 50d986dbb85e87e4ce627c1950cacb3c96d35987f6d2fcc9639a27b65a409850
+Section: Tweaks
+Description: Hiệu ứng nước tuyệt vời trên thiết bị.
+Author: Elias Limneos
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.aquaboard
+Name: AquaBoard (iOS 5/6/7)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.aquaboard.json
+
+Package: com.tqm-mos.aquaboardx
+Version: 2.0-3
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Installed-Size: 755
+Depends: mobilesubstrate, preferenceloader, com.tqm-mos.unsubs, com.tqm-mos.limneos-crack, firmware (>= 11)
+Conflicts: net.limneos.aquaboard, net.limneos.aquaboard8, com.fuyuchi.unlockize
+Filename: ./debs/com.tqm-mos.aquaboardx_2.0-3_iphoneos-arm64.deb
+Size: 175944
+MD5sum: 60e33434ca27cf5481a6aea2d35c768b
+SHA1: e03a46927f70eeb142c2e6530fc107163f1d67a5
+SHA256: 4da864e007b0a3390493752118b4543f44f23b9ec46b236f67041bf17ebc4f7e
+Section: Tweaks
+Description: Hiệu ứng nước tuyệt vời trên màn hình
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.aquaboardx
+Icon: file:///Library/PreferenceBundles/AquaPrefs.bundle/AquaBoard@2x.png
+Name: AquaBoard XS (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.aquaboardx.json
+
+Package: com.tqm-mos.aquaboardx
+Version: 2.0-58
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 755
+Depends: mobilesubstrate, preferenceloader, ru.rejail.limneosos, firmware (>= 11)
+Conflicts: net.limneos.aquaboard, net.limneos.aquaboard8, com.fuyuchi.unlockize
+Filename: ./debs/com.tqm-mos.aquaboardx_2.0-58_iphoneos-arm.deb
+Size: 170644
+MD5sum: f10745040c121f1f2f5d805bcb15cdfc
+SHA1: 52e066393d0265de639c6d1cf25c564736134810
+SHA256: be8010f35da64e6c6c87d5718cbfb1e31c1fa5983dfc30fbe630d9b35e4cf9be
+Section: Tweaks
+Description: Hiệu ứng nước tuyệt vời trên màn hình
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.aquaboardx
+Icon: file:///Library/PreferenceBundles/AquaPrefs.bundle/AquaBoard@2x.png
+Name: AquaBoard XS (iOS 11/12/13/14/15/16)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.aquaboardx.json
+
+Package: com.tqm-mos.audioios6
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Filename: ./debs/com.tqm-mos.audioios6_1.0_iphoneos-arm.deb
+Size: 152150
+MD5sum: 4aba8a92c1b761a5c4e5a02c078dc61a
+SHA1: e53f88216691be18c4674d2836a3ea431c2cbef5
+SHA256: 3db957ed26db9b6a035d7af3e7bb24b3603880609d025841ba1cf4411d49482e
+Section: System
+Description: Âm thanh hệ thống , khoá máy , pin yếu , kết nối sạc ios 6 trên thiết bị đời cao
+Author: @tqmmos
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.audioios6
+Name: Audio IOS6
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.audioios6.json
+
+Package: com.tqm-mos.audiorecorder2
+Version: 1.6-46k
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
+Conflicts: net.limneos.callrecorder, com.hackyouriphone.callrecorder
+Filename: ./debs/com.tqm-mos.audiorecorder2_1.6-46k_iphoneos-arm.deb
+Size: 3821826
+MD5sum: 32a5d8eaa5f4c5abafc7f99ce35a1394
+SHA1: 801865b48fdec349c1e58fe3be8877535624b47c
+SHA256: 13bd0afcd20478be77178c1ae7d8c7a3d10e167f2b705e1ed9fdd80d3dd1db84
+Section: Tweaks
+Description: Ứng dụng ghi âm cuộc gọi tiên tiến nhất dành cho iOS từ trước đến nay!
+Author: Elias Limneos
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.audiorecorder2
+Name: AudioRecorder 2 (iOS 8,9,10)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.audiorecorder2.json
+
+Package: com.tqm-mos.audiorecorderxs
+Version: 5.0-17
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 23088
+Depends: mobilesubstrate, preferenceloader, net.limneos.simpleactivationactions, firmware(>=12.0), ru.rejail.limneosos
+Conflicts: net.limneos.callrecorder, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Replaces: net.limneos.audiorecorder,net.limneos.audiorecorderx
+Filename: ./debs/com.tqm-mos.audiorecorderxs_5.0-17_iphoneos-arm.deb
+Size: 1862202
+MD5sum: 7e25e974247cbe99d6b0f5811236cf19
+SHA1: 0c22823d0cfcc1330a1f6a6f1ad9114e20eb9329
+SHA256: 6f7f9b202a79d8d89f571d9504f6c5e37ab50bcb1ec9ab4323556e2db8a19f68
+Section: Tweaks
+Description: Ghi âm cuộc điện thoại của bạn!
+Author: Elias Limneos
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.audiorecorderxs
+Name: AudioRecorder XS (iOS 12 - 16)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.audiorecorderxs.json
+
+Package: com.tqm-mos.audiorecorderxs
+Version: 5.0-17
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Installed-Size: 23088
+Depends: mobilesubstrate, preferenceloader, net.limneos.simpleactivationactions, firmware(>=12.0), com.tqm-mos.unsubs, com.tqm-mos.limneos-crack
+Conflicts: net.limneos.callrecorder, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Replaces: net.limneos.audiorecorder,net.limneos.audiorecorderx
+Filename: ./debs/com.tqm-mos.audiorecorderxs_5.0-17_iphoneos-arm64.deb
+Size: 1860430
+MD5sum: dbfa325402a2736d0ec5961d9144aed0
+SHA1: 2e2d8c84c14ca07e4f12b6a6e2eec857601b31e5
+SHA256: 4660045d34c017ee149f3b604a241862da42cc538d906c64ac41ffe9646dc3eb
+Section: Tweaks
+Description: Ghi âm cuộc điện thoại của bạn!
+Author: Elias Limneos
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.audiorecorderxs
+Name: AudioRecorder XS (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.audiorecorderxs.json
+
+Package: com.tqm-mos.auxo
+Version: 1.4.1-83
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader, applist
+Filename: ./debs/com.tqm-mos.auxo_1.4.1-83_iphoneos-arm.deb
+Size: 1887096
+MD5sum: 429bbb4c87300b59bdeb2316568e55cb
+SHA1: 9ee70efeea322253d07fabdd1fd29fe9f99a8c79
+SHA256: da35e0944aef2429eb9fc53870bb36a76d0c716cacf1d611897ad3af2454baee
+Section: Tweaks
+Description: Một công cụ chuyển đổi tác vụ được thiết kế lại tuyệt vời!
+Author: A³tweaks
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.auxo
+Name: Auxo Beta
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.auxo.json
+
+Package: com.tqm-mos.auxo-le
+Version: 1.1k2
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5001), applist (>= 1.5.9), preferenceloader (>= 2.2.2)
+Conflicts: com.rpetrich.sectional, com.hackyouriphone.sectional
+Filename: ./debs/com.tqm-mos.auxo-le_1.1k2_iphoneos-arm.deb
+Size: 436784
+MD5sum: 86d06ad43c8fd8f7a1485d31554ec8e8
+SHA1: 5d3573f6b9fdd233044c1b43ce614e1175de5000
+SHA256: 282dd83824015e5c331b5bc6c5925af18d3bdca27b557c7413ca50c6d439503d
+Section: Tweaks
+Description: Bộ chuyển đổi ứng dụng hiện đại trong trung tâm điều khiển
+Author: A3Tweaks
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.auxo-le
+Name: Auxo Legacy Edition
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.auxo-le.json
+
+Package: com.tqm-mos.auxo2
+Version: 1.2.3
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist
+Conflicts: com.danyl.cccontrols (<= 1.0.2), kr.slak.cctoggles (<< 0.1-18), org.thebigboss.vertex
+Filename: ./debs/com.tqm-mos.auxo2_1.2.3_iphoneos-arm.deb
+Size: 859658
+MD5sum: 17d3def3ee6d564755e3dded9e2030a0
+SHA1: e339490df2d4c78233c92fdad2cf94a5b40e9b83
+SHA256: c2f1888748395211e8eac71662b91bcfaac5698c1900aa0ba5e8bd928f3439a7
+Section: Tweaks
+Description: Một công cụ chuyển đổi tác vụ được thiết kế lại tuyệt vời!
+Author: A3tweaks
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.auxo2
+Name: Auxo 2 (iOS 7)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.auxo2.json
+
+Package: com.tqm-mos.auxo3
+Version: 1.1k
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Filename: ./debs/com.tqm-mos.auxo3_1.1k_iphoneos-arm.deb
+Size: 834142
+MD5sum: 78c57263a9cb7b99ab0645c8d8905ba1
+SHA1: f922fa86436dcb0142d6d71e5c1b2eaffc58c091
+SHA256: 389f546745a2e8e9dc177e7c7d71ec853352653e939d80406956fdcda689ac73
+Section: Tweaks
+Description: Một công cụ chuyển đổi tác vụ được thiết kế lại tuyệt vời!
+Author: PjStarsky
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.auxo3
+Name: Auxo 3 (iOS 8)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.auxo3.json
+
+Package: com.tqm-mos.auxo3ios9
+Version: 1.1.2
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist
+Conflicts: com.a3tweaks.auxo2, com.a3tweaks.auxo3
+Filename: ./debs/com.tqm-mos.auxo3ios9_1.1.2_iphoneos-arm.deb
+Size: 375602
+MD5sum: 2302a05ccc5713268e7ed5416febe8e1
+SHA1: 1a00bdf1f00a54067d415e6536553656447c6134
+SHA256: 91f0bc3ecbafb335937f40ddd136b2f2a37c1426034c6c60edd4074c46f3f102
+Section: Tweaks
+Description: Một công cụ chuyển đổi tác vụ được thiết kế lại tuyệt vời!
+Author: A3tweaks
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.auxo3ios9
+Name: Auxo 3 (iOS 9)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.auxo3ios9.json
+
+Package: com.tqm-mos.auxo5
+Version: 1.1-4
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 2077
+Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader
+Filename: ./debs/com.tqm-mos.auxo5_1.1-4_iphoneos-arm.deb
+Size: 1546762
+MD5sum: 2fbfafebbdaa4bccecf17b8a757aba9f
+SHA1: 160dec043748167d61a4ceeb069f86e0b180ebfd
+SHA256: 99f926f29997f74fdb8305fb4b1e70c1692da996bcabbacd446cfefeb2fc6c07
+Section: Tweaks
+Description: Một công cụ chuyển đổi tác vụ được thiết kế lại tuyệt vời!
+Author: A3tweaks <A3tweaks@gmail.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.auxo5
+Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
+Name: Auxo for iOS5
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.auxo5.json
+
+Package: com.tqm-mos.auxoios56
+Version: 1.4-2
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 2127
+Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader, applist
+Conflicts: com.tqm-mos.auxo
+Filename: ./debs/com.tqm-mos.auxoios56_1.4-2_iphoneos-arm.deb
+Size: 1820274
+MD5sum: 658c3c6684ef4cdbca0107e3ce7b4c50
+SHA1: e93a71c829627ff957c9f99a30024b1c0633d197
+SHA256: 40fe2fc9eeb00eb9cc4a017f39f1bb27dff0e2e5def7244be765de8e1b30a80a
+Section: Tweaks
+Description: Một công cụ chuyển đổi tác vụ được thiết kế lại tuyệt vời!
+Author: A3tweaks
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.auxoios56
+Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
+Name: Auxo (iOS 5 & 6)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.auxoios56.json
+
+Package: com.tqm-mos.auxopad
+Version: 1.0.2-1
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader, applist, com.a3tweaks.flipswitch
+Filename: ./debs/com.tqm-mos.auxopad_1.0.2-1_iphoneos-arm.deb
+Size: 675166
+MD5sum: 74e0f076906fa62136780f8af67bdac6
+SHA1: 62b30757489565c8b526013534605e5e0afc958f
+SHA256: 02b613530700456896af8164be4e7cea0bf54a6938cee253e66056e57af4a09f
+Section: Tweaks
+Description: Một công cụ chuyển đổi tác vụ được thiết kế lại tuyệt vời!
+Author: A3Tweaks
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.auxopad
+Name: Auxo for iPad
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.auxopad.json
+
+Package: com.tqm-mos.auxopad
+Version: 1.0.2-19
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader, applist, com.a3tweaks.flipswitch
+Filename: ./debs/com.tqm-mos.auxopad_1.0.2-19_iphoneos-arm.deb
+Size: 675020
+MD5sum: b268cfacae7f736df91a4c92bd1f5da1
+SHA1: 36ee5c492900f2ff42d00a2844869e3d4da1810b
+SHA256: d91c852f9d6a9c0e8a3871007b0912d9382521aab7ff5cfc4773b96fff24cfcb
+Section: Tweaks
+Description: Một công cụ chuyển đổi tác vụ được thiết kế lại tuyệt vời!
+Author: A3Tweaks
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.auxopad
+Name: Auxo for iPad
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.auxopad.json
+
+Package: com.tqm-mos.axon
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 584
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: ./debs/com.tqm-mos.axon_1.4_iphoneos-arm.deb
+Size: 203214
+MD5sum: 09732620294de32eb65225708aaa9612
+SHA1: a698d7be78cb6910c58843df132c7a7af6083615
+SHA256: 0ed11ccc8e185766770262ede21dd0fa193d69dc2d16488eb498c5149879e2ee
+Section: Tweaks
+Description: Thiết kế lại thông báo màn hình khoá.
+Author: Nepeta & Baw Appie
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.axon
+Name: Axon
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.axon.json
+
+Package: com.tqm-mos.axon
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Installed-Size: 584
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: ./debs/com.tqm-mos.axon_1.4_iphoneos-arm64.deb
+Size: 193862
+MD5sum: f6f5e309b32cb13692fb23e84f8c7a3c
+SHA1: 4f6594415fff8cf8e86aea360d0bb9365fbd31db
+SHA256: 3e1f5ab522e59137b7321139045afcccb7eb6fb157b64f78367ecd5e110b0014
+Section: Tweaks
+Description: Thiết kế lại thông báo màn hình khoá.
+Author: Nepeta & Baw Appie
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.axon
+Name: Axon ( Rootless )
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.axon.json
+
+Package: com.tqm-mos.axon
+Version: 1.4
+Architecture: iphoneos-arm64e
+Maintainer: @tqmmos
+Installed-Size: 584
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: ./debs/com.tqm-mos.axon_1.4_iphoneos-arm64e.deb
+Size: 192984
+MD5sum: 69f8b7ee8f8113aa2ed9aab29ea929ee
+SHA1: 55b6027c0733035905fb39ad0209de4dadea9b11
+SHA256: d9f48bb7292b871f5f932903356292f7baa787d69cacf0d279daf7db4528f115
+Section: Tweaks
+Description: Thiết kế lại thông báo màn hình khoá.
+Author: Nepeta & Baw Appie
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.axon
+Name: Axon (Roothide)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.axon.json
+
+Package: com.tqm-mos.axon
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/com.tqm-mos.axon_1.5_iphoneos-arm64.deb
+Size: 193172
+MD5sum: e2f42c892ad6c35e9987de069369ea17
+SHA1: 51103bb361a28bb940ec1e835333efbef99a39e8
+SHA256: 7e069bc44d978dbf0a3cd7f10bf5bd6338e446c28d1018acfde6b49f715a8e2c
+Section: Tweaks
+Description: Trung tâm ưu tiên cho iOS 15 - 16
+Author: Nepeta & Baw Appie
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.axon
+Name: Axon (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.axon.json
+
+Package: com.tqm-mos.axon
+Version: 1.5
+Architecture: iphoneos-arm64e
+Maintainer: @tqmmos
+Installed-Size: 584
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: ./debs/com.tqm-mos.axon_1.5_iphoneos-arm64e.deb
+Size: 194746
+MD5sum: 10788e475c34acc1c93f94f1de848355
+SHA1: 3603cf65f228b80695a238be92ad5f774a7f827b
+SHA256: 94bc21e0230ac5fc696aba550ba356f08ac415b839b8b1458ace54bfe1f4d60e
+Section: Tweaks
+Description: Thiết kế lại thông báo màn hình khoá.
+Author: Nepeta & Baw Appie
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.axon
+Name: Axon (Roothide)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.axon.json
+
 Package: com.tqm-mos.batterydragon
 Version: 1.0
 Architecture: iphoneos-arm
@@ -485,21 +1276,576 @@ Author: @tqmmos
 Depiction: https://tqm-mos.com/Classic/Info/com.tqm-mos.batterydragon
 Name: Battery Dragon
 
+Package: com.tqm-mos.bioprotectxs
+Version: 4.6-26
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 2125
+Depends: mobilesubstrate, preferenceloader, firmware (>= 12.0), ru.rejail.limneosos
+Conflicts: net.limneos.bioprotect, net.limneos.bioprotectx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: ./debs/com.tqm-mos.bioprotectxs_4.6-26_iphoneos-arm.deb
+Size: 856558
+MD5sum: bedaa1f4292b59e8cbba7a96cf0ed83a
+SHA1: 99372504bef566814975c4903f42848106a3079b
+SHA256: 9b151687b830c5733aaf3b026c517bcb0e7c9fda59e91421f5d2320689898695
+Section: Tweaks
+Description: Bảo vệ ứng dụng của bạn bằng Touch/Face ID!
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.bioprotectxs
+Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/BioProtect.png
+Name: BioProtect XS (12 to 16)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.bioprotectxs.json
+
+Package: com.tqm-mos.bioprotectxs
+Version: 4.6-30
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Installed-Size: 2125
+Depends: mobilesubstrate, preferenceloader, firmware (>= 12.0), com.tqm-mos.unsubs, com.tqm-mos.limneos-crack
+Conflicts: net.limneos.bioprotect, net.limneos.bioprotectx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: ./debs/com.tqm-mos.bioprotectxs_4.6-30_iphoneos-arm64.deb
+Size: 798280
+MD5sum: 88216486e4fb8f407ebbe9f48ab492f4
+SHA1: 37ff75039b6cab59434c10bf42e65c5986bdf765
+SHA256: 761e8c0f03f82380823093061a52bb9c4dbd503fda1c54880dfe0842b1f63c7c
+Section: Tweaks
+Description: Bảo vệ ứng dụng của bạn bằng Touch/Face ID!
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.bioprotectxs
+Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/BioProtect.png
+Name: BioProtect XS (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.bioprotectxs.json
+
+Package: com.tqm-mos.bridge
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Installed-Size: 7104
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common
+Filename: ./debs/com.tqm-mos.bridge_1.2.1_iphoneos-arm64.deb
+Size: 5713676
+MD5sum: f24a2e5a10fffd511f8478c6d9410689
+SHA1: d7abe370698258c7aa5ba324a2059d9631487ae5
+SHA256: 1fa0adf6f1517d593133ce943e6986935c735b4a933e906298320d641687c2c4
+Section: Tweaks
+Description: Trải nghiệm Homescreen của Apple Watch được mang đến iOS
+Author: MTAC • ETHN
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.bridge
+Name: Bridge (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.bridge.json
+
+Package: com.tqm-mos.callbar
+Version: 2.3-480
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 4.0), preferenceloader (>= 2.2.2)
+Suggests: de.j-gessner.ccloader
+Filename: ./debs/com.tqm-mos.callbar_2.3-480_iphoneos-arm.deb
+Size: 2971402
+MD5sum: 13149062f26fefc210722cece14196a3
+SHA1: 0cc3fb443d23821886bbbffd7cb486b337ae2b0e
+SHA256: f319c7d36ed2aa4819a2ede1d4b7cee5bada47b1374377b65f3036c10c6edd18
+Section: Tweaks
+Description: Đừng để cuộc gọi đến làm gián đoạn công việc của bạn!
+Author: E. Limneos & J. Tuckek
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.callbar
+Name: CallBar
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.callbar.json
+
 Package: com.tqm-mos.callrecorder
 Version: 0.7-47k
 Architecture: iphoneos-arm
 Maintainer: @tqmmos
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Depends: mobilesubstrate (>= 0.9.5000) ,preferenceLoader
 Filename: ./debs/com.tqm-mos.callrecorder_0.7-47k_iphoneos-arm.deb
-Size: 484230
-MD5sum: ce54e18eebfc665595e3c337c174fdf2
-SHA1: f0de4a74b0dba65c6eff85b64fa2d4b20b0f96d0
-SHA256: a6fb54f9640649790c4dcb5f32be11e1f62f72fcdd51c720defc6599a2ff8493
+Size: 484398
+MD5sum: 12286c452a7b0194e2a7da43a0ac69fc
+SHA1: 94360bbd816dfdeebdf2c808a3a32aaa6e97a54f
+SHA256: 09d99e15e0fd9789bd2bdc4502867fcacc4c319877845a7aa3e81838bcc88aad
 Section: Tweaks
 Description: Ứng dụng ghi âm cuộc gọi đầu tiên trên iPhone!
 Author: Elias Limneos
-Depiction: https://tqm-mos.com/Classic/Info/com.tqm-mos.callrecorder
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.callrecorder
 Name: Audio Recorder
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.callrecorder.json
+
+Package: com.tqm-mos.cc18
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (< 18.0)
+Filename: ./debs/com.tqm-mos.cc18_0.0.3_iphoneos-arm.deb
+Size: 6744
+MD5sum: 1a3c8fae8116425d8c5601969558591d
+SHA1: edb3519058ddb146816fce5e31672ff7945a16d8
+SHA256: 0939601295d2256a4cb2b04f91c07201c89223ccbdcc54e31a6acc7cf681212d
+Section: Tweaks
+Description: Sao chép mô-đun CC tròn, như trong iOS 18
+Author: dvntm
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.cc18
+Icon: https://raw.githubusercontent.com/dayanch96/CC18/refs/heads/main/Sileo/icon.png
+Name: CC18
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.cc18.json
+
+Package: com.tqm-mos.cc18
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (< 18.0)
+Filename: ./debs/com.tqm-mos.cc18_0.0.3_iphoneos-arm64.deb
+Size: 6892
+MD5sum: e207a29101124e4ee2fbdb558f66644b
+SHA1: 805caaf62ccfe66c15cddc348d2223511166f740
+SHA256: d493c5a112c439f31754dc58e90e6bd8d8051e999883693c9e8dc78ddecb6001
+Section: Tweaks
+Description: Sao chép mô-đun CC tròn, như trong iOS 18
+Author: dvntm
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.cc18
+Icon: https://raw.githubusercontent.com/dayanch96/CC18/refs/heads/main/Sileo/icon.png
+Name: CC18 (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.cc18.json
+
+Package: com.tqm-mos.cc18
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: @tqmmos
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (< 18.0)
+Filename: ./debs/com.tqm-mos.cc18_0.0.3_iphoneos-arm64e.deb
+Size: 6780
+MD5sum: 9f5f83ba1a641598f252c8e06c0703e0
+SHA1: 2176a553bc6ca430edf7eb84d4bd3caf16870a5e
+SHA256: 8a782abe500b7d188dbe2373be874dc637819a6300bca396ca25d6ac6b7adb65
+Section: Tweaks
+Description: Sao chép mô-đun CC tròn, như trong iOS 18
+Author: dvntm
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.cc18
+Icon: https://raw.githubusercontent.com/dayanch96/CC18/refs/heads/main/Sileo/icon.png
+Name: CC18 (Roothide)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.cc18.json
+
+Package: com.tqm-mos.cc26
+Version: 0.4.9.10
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0)
+Conflicts: com.dvntm.cc18
+Provides: com.cureux.cc26
+Filename: ./debs/com.tqm-mos.cc26_0.4.9.10_iphoneos-arm.deb
+Size: 31364
+MD5sum: 5b974e8b40053626249bfcb4e3534e1d
+SHA1: e7c03dd3cc03d2b2aec4350a8e441db7d06fc3e9
+SHA256: 82eb9d8bcbc210996accf015539afe1077c348ecb60e1a854d54ec302d5ff77b
+Section: Tweaks
+Description: Một sự tái hiện kiểu dáng đẹp của Trung tâm điều khiển
+Author: therealhoodboy
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.cc26
+Name: CC26
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.cc26.json
+
+Package: com.tqm-mos.cc26
+Version: 0.4.9.10
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0)
+Conflicts: com.dvntm.cc18
+Provides: com.cureux.cc26
+Filename: ./debs/com.tqm-mos.cc26_0.4.9.10_iphoneos-arm64.deb
+Size: 31516
+MD5sum: 797667a936df2f83574d5e8cd85b1e07
+SHA1: 8307dd1fdf202d34886fa1b6d83126fb8110f307
+SHA256: f2b713900fcf27c736cff63a0ddf2ad67ee78abd30a3d0e45b6de134f454f3f7
+Section: Tweaks
+Description: Một sự tái hiện kiểu dáng đẹp của Trung tâm điều khiển
+Author: therealhoodboy
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.cc26
+Name: CC26 (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.cc26.json
+
+Package: com.tqm-mos.cc26
+Version: 0.4.9.9b
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Installed-Size: 220
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0)
+Conflicts: com.dvntm.cc18, com.tqm-mos.cc18
+Provides: com.cureux.cc26
+Filename: ./debs/com.tqm-mos.cc26_0.4.9.9b_iphoneos-arm64.deb
+Size: 41672
+MD5sum: 443b81253a302dc668690ab5720b9ed6
+SHA1: bb700defc599ab98e06ba3e762e9215a6f2d4a07
+SHA256: 815c70d465c912289f4dd89bc1ea707c347dfd6101e9d472478bb7fce9a307c8
+Section: Tweaks
+Description: Một sự tái hiện kiểu dáng đẹp của Trung tâm điều khiển.
+Author: therealhoodboy
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.cc26
+Name: CC26 (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.cc26.json
+
+Package: com.tqm-mos.ccbackground
+Version: 1.3-1
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 161
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Conflicts: gsc.ipad, de.j-gessner.ccloader
+Filename: ./debs/com.tqm-mos.ccbackground_1.3-1_iphoneos-arm.deb
+Size: 35154
+MD5sum: 8b34d47e4f1c086a8c25ee7662e0f64c
+SHA1: f6904cec5206f6d0216bf00ff90b0fa6da71e777
+SHA256: dd350449510becc0697778ccb8ac91baed5f668853130cc3f8849c9e7a6a17fb
+Section: Tweaks
+Description: Đặt hình nền cho Trung tâm điều khiển
+Author: TheJailPad <thejailpad@gmail.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.ccbackground
+Icon: file:///Library/PreferenceBundles/CCBackground_pref.bundle/CCBackground_pref@2x.png
+Name: CCBackground
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.ccbackground.json
+
+Package: com.tqm-mos.ccborder
+Version: 1.1.8
+Architecture: iphoneos-arm
+Maintainer: TQM-MOS
+Installed-Size: 448
+Depends: mobilesubstrate, firmware (>= 16.0), ws.hbang.alderis
+Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc, com.ioscreatix.sugarcane, com.hk.sugarcane13, com.daodao.sugarcane, com.hk.sugarcane, com.dao.sugarcane, com.bvn.sugarcane
+Filename: ./debs/com.tqm-mos.ccborder_1.1.8_iphoneos-arm.deb
+Size: 52358
+MD5sum: 909cf03ec4b8d12c1d56681f6fa44c4a
+SHA1: 5886c5bcee9422bed3bbae8b4763d04137c98b5b
+SHA256: 8159b006ac9ae395c6dbb30f6bf77de25cd0cf57e3fe75e6d2e5f248705ae3d9
+Section: Tweaks
+Description: Trung tâm điều khiển kiểu iOS18 có thể điều chỉnh và điều khiển hình dạng mô-đun 。
+Author: fiore & p2kdev & 妖刀
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.ccborder
+Name: CCBorder
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.ccborder.json
+
+Package: com.tqm-mos.ccborder
+Version: 1.1.8
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Installed-Size: 448
+Depends: mobilesubstrate, firmware (>= 16.0), ws.hbang.alderis
+Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc, com.ioscreatix.sugarcane, com.hk.sugarcane13, com.daodao.sugarcane, com.hk.sugarcane, com.dao.sugarcane, com.bvn.sugarcane
+Filename: ./debs/com.tqm-mos.ccborder_1.1.8_iphoneos-arm64.deb
+Size: 53364
+MD5sum: fbc0bc8112730f7e5503a7f95f53e312
+SHA1: 7837737bf9dd36661a8a69a6f5ba9de41c8b63ae
+SHA256: e40b61492e51ba949fcdacf34e6585ebf52078286b8312456c219ec4463ceb35
+Section: Tweaks
+Description: Trung tâm điều khiển kiểu iOS18 có thể điều chỉnh và điều khiển hình dạng mô-đun 。
+Author: fiore & p2kdev & 妖刀
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.ccborder
+Name: CCBorder (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.ccborder.json
+
+Package: com.tqm-mos.ccborder
+Version: 1.1.8
+Architecture: iphoneos-arm64e
+Maintainer: TQM-MOS
+Installed-Size: 448
+Depends: mobilesubstrate, firmware (>= 16.0), ws.hbang.alderis
+Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc, com.ioscreatix.sugarcane, com.hk.sugarcane13, com.daodao.sugarcane, com.hk.sugarcane, com.dao.sugarcane, com.bvn.sugarcane
+Filename: ./debs/com.tqm-mos.ccborder_1.1.8_iphoneos-arm64e.deb
+Size: 53286
+MD5sum: 4884e548a230bf119d403b827d8a25f4
+SHA1: 37ba2291fab278bf9674b87501f0e3510c25fad8
+SHA256: 6484531fd235e71767113bcb083f1c364e9a227aff80bdcd95c2f3189671e448
+Section: Tweaks
+Description: Trung tâm điều khiển kiểu iOS18 có thể điều chỉnh và điều khiển hình dạng mô-đun 。
+Author: fiore & p2kdev & 妖刀
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.ccborder
+Name: CCBorder (RootHide)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.ccborder.json
+
+Package: com.tqm-mos.ccborder14
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: TQM-MOS
+Installed-Size: 448
+Depends: mobilesubstrate, firmware (>= 14.0), ws.hbang.alderis
+Filename: ./debs/com.tqm-mos.ccborder14_1.0_iphoneos-arm.deb
+Size: 9148
+MD5sum: 1d89d2e4c87eda876ebcc7b3703001fe
+SHA1: 0128d6bc04c5e267e267bc5c17e635a887823496
+SHA256: 921032c63753581db63d3687290fde7a36ae88b869a1f32ac68be5d40d53026e
+Section: Tweaks
+Description: Trung tâm điều khiển kiểu iOS18 có thể điều chỉnh và điều khiển hình dạng mô-đun 。
+Author: fiore & p2kdev & 妖刀
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.ccborder14
+Name: CCBorder14
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.ccborder14.json
+
+Package: com.tqm-mos.ccborder14
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: TQM-MOS
+Installed-Size: 448
+Depends: mobilesubstrate, firmware (>= 14.0), ws.hbang.alderis
+Filename: ./debs/com.tqm-mos.ccborder14_1.0_iphoneos-arm64.deb
+Size: 9230
+MD5sum: 509b41add7e7a6a3215ff8d9246cfb62
+SHA1: 956a53c587af003f632b99dbe81b373563cb4232
+SHA256: b2db5f7d03952fd908447522b63123520f7eef482b9fb77eb0fcb7dfd726f48a
+Section: Tweaks
+Description: Trung tâm điều khiển kiểu iOS18 có thể điều chỉnh và điều khiển hình dạng mô-đun 。
+Author: fiore & p2kdev & 妖刀
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.ccborder14
+Name: CCBorder14 (Roothide )
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.ccborder14.json
+
+Package: com.tqm-mos.ccborder14
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: TQM-MOS
+Installed-Size: 448
+Depends: mobilesubstrate, firmware (>= 14.0), ws.hbang.alderis
+Filename: ./debs/com.tqm-mos.ccborder14_1.0_iphoneos-arm64e.deb
+Size: 9184
+MD5sum: bda84281fc52f8df75b4c26b008c6a24
+SHA1: 0815bf1dbbb27cc70f483ed92bd05410921a2d05
+SHA256: 05a896c7015dcb5337ac0dfbfd53f07cd1c3de468b05594c290ab9a735f334db
+Section: Tweaks
+Description: Trung tâm điều khiển kiểu iOS18 có thể điều chỉnh và điều khiển hình dạng mô-đun 。
+Author: fiore & p2kdev & 妖刀
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.ccborder14
+Name: CCBorder14 (Roothide )
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.ccborder14.json
+
+Package: com.tqm-mos.cconoff
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 129
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.jakeashacks.realcc, ru.rejail.realcc
+Filename: ./debs/com.tqm-mos.cconoff_1.1.0_iphoneos-arm.deb
+Size: 8038
+MD5sum: 9a9aca8b43da115984fa8dfbf2cea365
+SHA1: 8e761507ab5751978ebd3050ddfdb5ca8eb7d44d
+SHA256: 21f6a1209013c1c366e4d794ee7dc7b20bbe7f23cc7a9c8a02eed43e67d91457
+Section: Tweaks
+Description: Tắt hoàn toàn Wi-Fi và Bluetooth
+Author: PoomSmart
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.cconoff
+Name: CC On & Off
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.cconoff.json
+
+Package: com.tqm-mos.cconoff
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Installed-Size: 129
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.jakeashacks.realcc, ru.rejail.realcc
+Filename: ./debs/com.tqm-mos.cconoff_1.1.0_iphoneos-arm64.deb
+Size: 8328
+MD5sum: 53bfbfd51263e470e71b97bb60f5a3e2
+SHA1: 4f5b825d654c2d4d4874d16ce4555314b260f172
+SHA256: ec48e7338394d0f76547d096b75ac490be5cfa84dc8c028753fb6f46d0f69b1f
+Section: Tweaks
+Description: Tắt hoàn toàn Wi-Fi và Bluetooth
+Author: PoomSmart
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.cconoff
+Name: CC On & Off ( Rootless )
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.cconoff.json
+
+Package: com.tqm-mos.cconoff
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: TQM-MOS
+Installed-Size: 156
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.jakeashacks.realcc
+Filename: ./debs/com.tqm-mos.cconoff_1.1.0_iphoneos-arm64e.deb
+Size: 10880
+MD5sum: 8d372843f4d5aa8d6b464948b43b62d4
+SHA1: 1bd8fd62594d741c7224083741c4583427836ae3
+SHA256: cca466a9f4a22d82f37e6a1125f91ea1dcc7015e833b5c0b122a5b7c57fc9961
+Section: Tweaks
+Description: Bật/tắt Wi-Fi và Bluetooth từ Trung tâm điều khiển.
+Author: PoomSmart
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.cconoff
+Name: CC On & Off (Roothide)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.cconoff.json
+
+Package: com.tqm-mos.complications
+Version: 4.0
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 3436
+Depends: mobilesubstrate
+Filename: ./debs/com.tqm-mos.complications_4.0_iphoneos-arm.deb
+Size: 892734
+MD5sum: a08dca2ee41c5ef9668850b16d98f83b
+SHA1: 4a03c89f2a41c064d176924a77d2479725675e99
+SHA256: 2e699f0e2834e591d5408808f660d83fc6aeb08b786bc1216d21a5afe52cfa0d
+Section: Tweaks
+Description: tiện ích watchOS trên màn hình khóa của bạn
+Author: Ben Giannis
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.complications
+Icon: https://repo.packix.com/api/Packages/5ded52b95a6db7001a569c7d/icon/download?size=medium
+Name: Complications
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.complications.json
+
+Package: com.tqm-mos.complications
+Version: 4.0
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Installed-Size: 3022
+Depends: mobilesubstrate
+Filename: ./debs/com.tqm-mos.complications_4.0_iphoneos-arm64.deb
+Size: 912492
+MD5sum: 6a96fdbb25badecc0d8f52b96f88f10f
+SHA1: 02fc2344e6f896e323fc2d2edabcf0aabd0534ca
+SHA256: 5cb3138b9cd1b07256e7be2d906ad8586c8eafb4f8cc72fd55144051f998249e
+Section: Tweaks
+Description: Các tiện ích watchOS trên màn hình khóa của bạn
+Author: Ben Giannis
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.complications
+Icon: https://repo.packix.com/api/Packages/5ded52b95a6db7001a569c7d/icon/download?size=medium&hash=5ded52b95a6db7001a569c82
+Name: Complications (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.complications.json
+
+Package: com.tqm-mos.cracktool
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: ldid (>= 1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Filename: ./debs/com.tqm-mos.cracktool_1.4_iphoneos-arm.deb
+Size: 164072
+MD5sum: 6e2793a331fd932a37ac4ad56ca5dda3
+SHA1: 38dc391fb63c4e281afa20115e5c1c6feff517f4
+SHA256: 2fa057fec72b0388b674f6e3795389255574bb6624b9a7c8d6c518906e92269d
+Section: Tweaks
+Description: Bẻ khóa các tinh chỉnh chỉ với một cú nhấp chuột
+Author: julioverne
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.cracktool
+Name: CrackTool
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.cracktool.json
+
+Package: com.tqm-mos.cracktool
+Version: 2.2
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: ldid (>= 1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Filename: ./debs/com.tqm-mos.cracktool_2.2_iphoneos-arm.deb
+Size: 238390
+MD5sum: eb6ce33c716816a56f4de7d6c711e348
+SHA1: d2d603316adf8dc4565b69859da134cf6f07dc42
+SHA256: 182d1adeef33a88b5ca0b643b8c4d09ecb9f9a2ef3e9fb9cd97296eb2ea57e54
+Section: Tweaks
+Description: Bẻ khóa các tinh chỉnh chỉ với một cú nhấp chuột
+Author: julioverne
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.cracktool
+Name: CrackTool
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.cracktool.json
+
+Package: com.tqm-mos.cracktool2
+Version: 2.3~beta7
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: ldid (>= 1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Filename: ./debs/com.tqm-mos.cracktool2_2.3~beta7_iphoneos-arm.deb
+Size: 423900
+MD5sum: 8913eb64ae87fba39aaf09c9ba40c91d
+SHA1: 323b8ff906857e7d15be94287fe5ca18c57a57f0
+SHA256: e3a9a441fe1d278f573eee161fc874535e5979889fd587190615633515a9495f
+Section: Tweaks
+Description: Bẻ khóa các tinh chỉnh chỉ với một cú nhấp chuột
+Author: julioverne
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.cracktool2
+Name: CrackTool2
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.cracktool2.json
+
+Package: com.tqm-mos.cracktool2
+Version: 2.3~beta9
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: ldid (>= 1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Filename: ./debs/com.tqm-mos.cracktool2_2.3~beta9_iphoneos-arm.deb
+Size: 487690
+MD5sum: 240d3ebe5b305f79fbfc1deea84f0598
+SHA1: cf21f9aa6edc9e517f2f0a731bc8b41b8e47a18b
+SHA256: 460c0b36b7ef5d16f6760f05a8627d078ea1e9cc30b50ff27b2d57bd1d00edf1
+Section: Tweaks
+Description: Bẻ khóa các tinh chỉnh chỉ với một cú nhấp chuột
+Author: julioverne
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.cracktool2
+Name: CrackTool2
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.cracktool2.json
+
+Package: com.tqm-mos.cracktool4
+Version: 4.0~beta10b
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils, odcctools
+Filename: ./debs/com.tqm-mos.cracktool4_4.0~beta10b_iphoneos-arm.deb
+Size: 2957370
+MD5sum: 08063c044c514779ccb7745bb6103d05
+SHA1: 977b65024a0690590fb07192eb6c1e68ee94517d
+SHA256: 4182accf19991e2797079eb934e2a017ff014bd23a313d92d7a1fac81039ba05
+Section: Utilities
+Description: Crack Tweaks chỉ với một cú nhấp chuột
+Author: julioverne
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.cracktool4
+Name: CrackTool4
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.cracktool4.json
+
+Package: com.tqm-mos.cracktool5
+Version: 5.0~beta0
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Filename: ./debs/com.tqm-mos.cracktool5_5.0~beta0_iphoneos-arm64.deb
+Size: 1287874
+MD5sum: 923b819effe090b3df4140d611be26d7
+SHA1: a2606ef94079117d14a0d13b625e63b9b480cccf
+SHA256: 9eaf2c0ee08f3dc4762b7219b8290202b1594a3ddf78d21e6ee740d85b506c3c
+Section: Utilities
+Description: Crack Tweaks trên một cú nhấp chuột
+Author: julioverne
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.cracktool5
+Name: CrackTool5 (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.cracktool5l.json
+
+Package: com.tqm-mos.cracktool5
+Version: 5.1
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Filename: ./debs/com.tqm-mos.cracktool5_5.1_iphoneos-arm64.deb
+Size: 1411776
+MD5sum: 228a9f26a6efc1431e15ed476fcc8b9d
+SHA1: 961a431ce66b7fa20bf83abb322189ba38d63205
+SHA256: 68a868f380c8f2b1ae3ac303b68f9f693f72ccc3b3dff25c2227b38426699d12
+Section: Utilities
+Description: Crack Tweaks chỉ với một cú nhấp chuột
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.cracktool5
+Name: CrackTool5 (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.cracktool5.json
+
+Package: com.tqm-mos.crackxi+
+Version: 1.1.16
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: firmware (>= 11.0)
+Filename: ./debs/com.tqm-mos.crackxi+_1.1.16_iphoneos-arm.deb
+Size: 9960986
+MD5sum: 031a33f6b7559edab5f96d454f0b70b0
+SHA1: 0a6103b0f085bbb1dd790a80f8e67afee73718a5
+SHA256: b9106479851548f391c5f50aad8d8b221fe285e5399f9a8a6db1fece92d6eab0
+Section: System
+Description: Trích xuất IPA một ứng dụng bất kỳ !
+Author: c0pyn1nja
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.crackxi+
+Name: CrackerXI+
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.crackxi+.json
 
 Package: com.tqm-mos.displaycandy
 Version: 1.0.7-48
@@ -517,6 +1863,157 @@ Author: Josh Kugelmann (ProtoSphere)
 Depiction: https://tqm-mos.com/Classic/Info/com.tqm-mos.displaycandy
 Name: DisplayCandy
 
+Package: com.tqm-mos.downgrade10xto841
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: firmware (>= 10.0)
+Filename: ./debs/com.tqm-mos.downgrade10xto841_1.0_iphoneos-arm.deb
+Size: 1052
+MD5sum: e9ae21e515ecdbb1273a65122868072a
+SHA1: 856d54e50709911d8bdcc74e1204c0e77db08a48
+SHA256: 8e3a6e137469cfdcd0ec1d97fd2ce3a5e7087cde7be15fd9c6c2df60cf5dbef6
+Section: System
+Description: Hạ cấp iOS 10.x xuống 8.4.1
+Author: @tqmmos
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.downgrade10xto841
+Name: Downgrade iOS 10.x to 8.4.1
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.downgrade10xto841.json
+
+Package: com.tqm-mos.downgrade9xto841
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: firmware (>= 9.0)
+Filename: ./debs/com.tqm-mos.downgrade9xto841_1.0_iphoneos-arm.deb
+Size: 1062
+MD5sum: b9c56290bce0f34614684bca16c64325
+SHA1: d60780d9e45391b6e0c6ac316bef5221519e9714
+SHA256: d4b8d323be7dac9c3bf5da4bcce95b3fade18a380c9b15c4c8ad9e2fa0bcdf44
+Section: System
+Description: Hạ cấp iOS 9.x xuống 8.4.1
+Author: @tqmmos
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.downgrade9xto841
+Name: Downgrade iOS 9.x to 8.4.1
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.downgrade9xto841.json
+
+Package: com.tqm-mos.eneko
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 464
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.eneko
+Filename: ./debs/com.tqm-mos.eneko_1.4_iphoneos-arm.deb
+Size: 52018
+MD5sum: bf17b4e1413783640b8b2547c070c999
+SHA1: cf324224435e78ceae38af9e6ce48024c0bb5d33
+SHA256: c15703af03e2f8106e5ab25f9c0fc559923456f93d6963d55a4b7357b4e4a0e1
+Section: Tweaks
+Description: Hình nền video cho iOS.
+Author: Traurige <hello@traurige.dev>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.eneko
+Name: Eneko
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.eneko.json
+
+Package: com.tqm-mos.eneko
+Version: 1.4.2
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Installed-Size: 464
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.eneko, dev.traurige.eneko, net.limneos.voicechangerx-rootless
+Filename: ./debs/com.tqm-mos.eneko_1.4.2_iphoneos-arm64.deb
+Size: 49438
+MD5sum: 2805acb850d61d39e6edc9f5d5a7f823
+SHA1: f84ef3e5e9eaf6ee31548fa6c7cb5c7d746aed38
+SHA256: 301339d54151c290fc269a1e8683ec772400b304dbb8b13f070758fcb80d1242
+Section: Tweaks
+Description: Hình nền video cho iOS.
+Author: Traurige <hello@traurige.dev>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.eneko
+Name: Eneko (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.eneko.json
+
+Package: com.tqm-mos.filza
+Version: 3.9.7-2
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 34244
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit
+Filename: ./debs/com.tqm-mos.filza_3.9.7-2_iphoneos-arm.deb
+Size: 13712806
+MD5sum: 4511736a148423382ee8c9d7bd1cde96
+SHA1: 174b19609f7c2f175b23d26d7bedf76e70f34a94
+SHA256: 86e958cbf851f838f08dc82eb6be615179710e34d784751861fcf0d65d1b9bc6
+Section: Utilities
+Description: Trình quản lý tệp cho iOS
+Author: TIGI Software
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.filza
+Name: Filza File Manager
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.filza.json
+
+Package: com.tqm-mos.filza
+Version: 4.0.1-3K
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Installed-Size: 31822
+Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39, com.bvnsupport.filza
+Filename: ./debs/com.tqm-mos.filza_4.0.1-3K_iphoneos-arm64.deb
+Size: 13915520
+MD5sum: 1e3b5e4b264d4799344944312ad7324e
+SHA1: 1b4efad61a14e60790e982e02e912f4537dffec1
+SHA256: f5ead5f879566982d09915b51923f9e252f6531febb6365bcf5e4fc8349d6ec0
+Section: Utilities
+Priority: optional
+Description: Trình quản lý tệp cho iPhone, iPad, iPod Touch. Hỗ trợ iOS 7+
+Tag: purpose::uikit
+Author: TIGI Software <satashi2009@gmail.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.filza
+Dev: satashi2009
+Name: Filza File Manager (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.filza.json
+
+Package: com.tqm-mos.filza64bit
+Version: 4.0.0-6
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 23200
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/com.tqm-mos.filza64bit_4.0.0-6_iphoneos-arm.deb
+Size: 8975458
+MD5sum: bf1dfb26ff215fd97ee2a4f4d27b5f82
+SHA1: a49d8b94d8178784f06d85b0272923d54ec6d2bd
+SHA256: 40d9a06fd6981ba7174c2ca21780dfad822b3442cca21801bbff9f17f662cab5
+Section: Utilities
+Description: Trình quản lý tệp cho iOS
+Author: TIGI Software
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.filza64bit
+Name: Filza File Manager 64-bit
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.filza64bit.json
+
+Package: com.tqm-mos.filza64bit
+Version: 4.0.1-5K
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Installed-Size: 23200
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39, com.bienvannhat.filza64bit
+Filename: ./debs/com.tqm-mos.filza64bit_4.0.1-5K_iphoneos-arm64.deb
+Size: 8707306
+MD5sum: 1235a21583de4c1944ee447749303c5e
+SHA1: cb8249904c7c7de67f189aaa2c3cf8bd66ee5f0b
+SHA256: b419d67dca36e97259290912f24db749a0cd1220097dc465b3c015fcc820e5ed
+Section: Utilities
+Description: Trình quản lý tệp cho iPhone, iPad, iPod Touch. Hỗ trợ iOS 11+. Phiên bản này chỉ hỗ trợ các thiết bị 64-bit
+Author: TIGI Software
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.filza64bit
+Name: Filza File Manager 64-bit (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.filza64bit.json
+
 Package: com.tqm-mos.fontchococooky
 Version: 1.0
 Architecture: iphoneos-arm
@@ -531,6 +2028,709 @@ Description: Phông chữ thay trực tiếp hệ thống.
 Author: @tqmmos
 Depiction: https://tqm-mos.com/Classic/Info/com.tqm-mos.fontchococooky
 Name: Chococooky (iOS6)
+
+Package: com.tqm-mos.galaxy
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 65137
+Filename: ./debs/com.tqm-mos.galaxy_1.1_iphoneos-arm.deb
+Size: 2955872
+MD5sum: 5c5766ffe69de3cf3683444cc9d22841
+SHA1: 1d7e0fdfbcdefc20432ef5daea58e3619c675623
+SHA256: f35c9afc4bf43d9dec8661e9a04ccb8e44d060de068683a1cb34f6d93e287060
+Section: Themes
+Description: Chủ đề Galaxy màu sắc thiên h�
+Author: @tqmmos
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.galaxy
+Name: Galaxy
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.galaxy.json
+
+Package: com.tqm-mos.galaxy
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Installed-Size: 65137
+Filename: ./debs/com.tqm-mos.galaxy_1.1_iphoneos-arm64.deb
+Size: 2956464
+MD5sum: ba4a05ad5767576c0c70521d7217f636
+SHA1: f1ac55833a9ae1171863410466b67fbf7444fd93
+SHA256: 20d695a0bd1c72d63b67bc72183a1de061a3e2e7239240553dacea4420ec7d85
+Section: Themes
+Description: Chủ đề Galaxy màu sắc thiên h�
+Author: @tqmmos
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.galaxy
+Name: Galaxy (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.galaxy.json
+
+Package: com.tqm-mos.galaxy
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: @tqmmos
+Installed-Size: 65137
+Filename: ./debs/com.tqm-mos.galaxy_1.1_iphoneos-arm64e.deb
+Size: 2955884
+MD5sum: 693bf44a557f08b94e9e93f94aedc294
+SHA1: 3cc9e82a5a8d7c58ccf1097a84da7bd03a75f0b7
+SHA256: 80f7d6ecdbab7901514d536e1a7c1b0f9435327ede26f20714be848697a0edf2
+Section: Themes
+Description: Chủ đề Galaxy màu sắc thiên h�
+Author: @tqmmos
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.galaxy
+Name: Galaxy (Roothide)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.galaxy.json
+
+Package: com.tqm-mos.hidenosim
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.tqm-mos.hidenosim_1.0_iphoneos-arm.deb
+Size: 6724
+MD5sum: 33c67ec82b6b56a595e2a24d544333ee
+SHA1: 1b805e961925533a5b14ab366a3424695b5b90d4
+SHA256: 978982fb44aaf76b0643b0b6173ac8fa27e6996a41bf72790e65c08d8f0d70c5
+Section: Tweaks
+Description: Ẩn thông báo chưa lắp SIM
+Author: @tqmmos
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.hidenosim
+Name: HideNoSIM
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.hidenosim.json
+
+Package: com.tqm-mos.horseshoe
+Version: 2.1.1-1
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 947
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.tqm-mos.horseshoe_2.1.1-1_iphoneos-arm.deb
+Size: 358066
+MD5sum: b68d9f20c5782b054bdee0450ad242f1
+SHA1: ce8f5ead32658f8e339f278fd4a37a9c5e61e095
+SHA256: 695dc221235656d8e1ab1d82a38dd5cf5bae8964128265adfabc1ec36143d450
+Section: Tweaks
+Description: Trung tâm điều khiển iOS 10 được cải tiến hơn!
+Author: ATWiiks <cardflourish101@gmail.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.horseshoe
+Name: Horseshoe
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.horseshoe.json
+
+Package: com.tqm-mos.laetus
+Version: 3.4.0
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 1804
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkcolourpicker (>= 1.0.1)
+Filename: ./debs/com.tqm-mos.laetus_3.4.0_iphoneos-arm.deb
+Size: 965206
+MD5sum: f49fd15919a2b3b33274bf9a6c3cce0c
+SHA1: 01b5b93a1a89ff8e44ae355fe96d199cd2e06f3f
+SHA256: c637f114a41f06cbd192dfa5ef84e84c0e1e0676e2fb6de7c93d8e372b6e4f70
+Section: Tweaks
+Description: Tùy chỉnh bàn phím tuyệt vời
+Author: Spark
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.laetus
+Name: Laetus
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.laetus.json
+
+Package: com.tqm-mos.laetus
+Version: 3.5.1-rootless
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Installed-Size: 1756
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkcolourpicker (>= 1.0.1)
+Filename: ./debs/com.tqm-mos.laetus_3.5.1-rootless_iphoneos-arm64.deb
+Size: 952848
+MD5sum: 8f91cd5ac7629692b0f767e8097effbc
+SHA1: 669204896da5aed67ad3d971b18056b247b96c5f
+SHA256: a2a83c31ccaa00c06587b9840f71dde14fe60c65691f69b94b3b509f85046137
+Section: Tweaks
+Description: Tùy chỉnh bàn phím tuyệt vời
+Author: Spark
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.laetus
+Name: Laetus ( Rootless )
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.laetus.json
+
+Package: com.tqm-mos.libhookersupport
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: firmware (>=12), mobilesubstrate
+Conflicts: org.coolstar.libhooker
+Provides: org.coolstar.libhooker
+Filename: ./debs/com.tqm-mos.libhookersupport_1.0.0_iphoneos-arm.deb
+Size: 14044
+MD5sum: fae2cf50826f403397a852f54b677149
+SHA1: 6db5f6ea13c3b422d310f64e71c13ae59373cde3
+SHA256: 70411c65720de4840182a1634eb7f9215889ad3363456c168fe38b4a79a56106
+Section: System
+Description: Lớp tương thích để sử dụng các tinh chỉnh Coolstar trên các bootstrap dựa trên chất nền/chất thay thế
+Author: ren7995 <lau7995ren@gmail.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.libhookersupport
+Icon: https://repo.lauren.sh/assets/me.lau.libhookersupport/icon.png
+Name: libhooker support
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.libhookersupport.json
+Tags: compatible_min::ios12, compatible_max::ios15, role::developer
+
+Package: com.tqm-mos.limneos-crack
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.tqm-mos.limneos-crack_1.0_iphoneos-arm64.deb
+Size: 7874
+MD5sum: 3b81adb7da69411129a9f213dc3b62af
+SHA1: 81968b67a37754fbdffc0016b651f586caca0318
+SHA256: b177d65c2febfe226446d9d9b4490bef51dcb64820868785e9a3fa3ab0582408
+Section: Tweaks
+Description: Crack cho các tinh chỉnh của Limneos
+Author: CBZ
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.limneos-crack
+Name: Limneos Crack (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.limneos-crack.json
+
+Package: com.tqm-mos.liquidglass26
+Version: 0.0.9a
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Installed-Size: 1184
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.tqm-mos.liquidglass26_0.0.9a_iphoneos-arm64.deb
+Size: 1805370
+MD5sum: 0e3bbe3706573682cf5937699cad53ee
+SHA1: bcfe3f0b29169447068d625f882f06ee26723c06
+SHA256: 29421b194d4f75f69a747c4cfd3330c41ca6da9a42081f0cb4b2295afc60f27f
+Section: Tweaks
+Description: Trải nghiệm hiệu ứng LiquidGlass iOS 26 trên thiết bị đời cũ.
+Author: dylv
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.liquidglass26
+Name: Liquidass (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.liquidglass26.json
+
+Package: com.tqm-mos.liquidglass26
+Version: 0.0.9a
+Architecture: iphoneos-arm64e
+Maintainer: @tqmmos
+Installed-Size: 1184
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.tqm-mos.liquidglass26_0.0.9a_iphoneos-arm64e.deb
+Size: 1795588
+MD5sum: 7ba8a622101fb66d0e8e984556d4d251
+SHA1: 8f03aaa184e311c27d458101fb607a18bc9f6d90
+SHA256: a9fedf672201acaf2d8e17b608c28178c65adc4120495a16ea54c807d2cdfe04
+Section: Tweaks
+Description: Trải nghiệm hiệu ứng LiquidGlass iOS 26 trên thiết bị đời cũ.
+Author: dylv
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.liquidglass26
+Name: Liquidass (Roothide)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.liquidglass26.json
+
+Package: com.tqm-mos.liquidglass26
+Version: 7.alpha
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 1184
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.tqm-mos.liquidglass26_7.alpha_iphoneos-arm.deb
+Size: 385110
+MD5sum: 5aebfd956adc5a77949d886dee9b8460
+SHA1: f2cfb1ee65b9c222484916c0504372576c0f098c
+SHA256: 42126d4ce73fd51ecf31a8a847464d2828401aef818159184f12bc705e01771d
+Section: Tweaks
+Description: Trải nghiệm hiệu ứng LiquidGlass iOS 26 trên thiết bị đời cũ.
+Author: dylv
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.liquidglass26
+Name: Liquidass
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.liquidglass26.json
+
+Package: com.tqm-mos.maize
+Version: 1.0.5-1
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 5221
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.a3tweaks.flipswitch
+Conflicts: org.thebigboss.vigor, com.ioscreatix.maizepreview, com.atwiiks.horseshoe, org.thebigboss.horseshoe
+Replaces: com.ioscreatix.maizepreview, com.atwiiks.horseshoe, org.thebigboss.horseshoe
+Filename: ./debs/com.tqm-mos.maize_1.0.5-1_iphoneos-arm.deb
+Size: 935338
+MD5sum: 157190afffbfbf627f648e6adbd06f55
+SHA1: eb8c2d1b5f9566b592208f5e200d82bf0e8bf8d6
+SHA256: e54fe6be9f06fded2b8e41b273a3c289e997fde1ca5b8007c344b7768393a1ca
+Section: Tweaks
+Description: Trung tâm điều khiển iOS 11 trên iOS 10
+Author: Creatix <ioscreatix@gmail.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.maize
+Icon: file:///Library/PreferenceBundles/MaizeSettings.bundle/SettingsIcon@2x.png
+Name: Maize (iOS 10)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.maize.json
+
+Package: com.tqm-mos.maize
+Version: 2.2
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 5221
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.a3tweaks.flipswitch
+Conflicts: org.thebigboss.vigor, com.ioscreatix.maizepreview, com.atwiiks.horseshoe, org.thebigboss.horseshoe
+Replaces: com.ioscreatix.maizepreview, com.atwiiks.horseshoe, org.thebigboss.horseshoe
+Filename: ./debs/com.tqm-mos.maize_2.2_iphoneos-arm.deb
+Size: 974886
+MD5sum: adb0f5982fedeb9aece9d1ce0c6ebcb5
+SHA1: 0fa6616bc55c014094048261f61d54f97780db46
+SHA256: c33d8b2cf61d254053557488706f72bdef4ab34f2441f45bc6e824fef770b69c
+Section: Tweaks
+Description: Trung tâm điều khiển iOS 11 trên iOS 10
+Author: TQM / Creatix <ioscreatix@gmail.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.maize
+Icon: file:///Library/PreferenceBundles/MaizeSettings.bundle/SettingsIcon@2x.png
+Name: Maize (iOS 10)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.maize.json
+
+Package: com.tqm-mos.neptune
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: @tqmmos <anhminh311105@gmail.com>
+Depends: mobilesubstrate, firmware(>=12.0)
+Filename: ./debs/com.tqm-mos.neptune_1.4_iphoneos-arm.deb
+Size: 30746
+MD5sum: c881f41f42801ee4c7ccc9d146a96159
+SHA1: a6b3281e05ac90b6156e6d41c7d13b31123318c9
+SHA256: bf25ce0d829cb8adb8e666c7f2dd6362cc94a9676615f989fb1d73d11af19ccc
+Section: Tweaks
+Description: Kích hoạt giao diện cử chỉ mượt mà hiện đại của Apple trên tất cả các thiết bị.
+Author: Duraid Abdul <feedback.100@icloud.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.neptune
+Name: Neptune
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.neptune.json
+
+Package: com.tqm-mos.nougat
+Version: 1.3.2
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 5756
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16), com.a3tweaks.flipswitch (>= 1.0.16)
+Filename: ./debs/com.tqm-mos.nougat_1.3.2_iphoneos-arm.deb
+Size: 1500368
+MD5sum: 247d7585d8a846a384e91834464d867d
+SHA1: dc9c12d3f004c78d311b8892f2b8f924fc57fbe4
+SHA256: 013f9e6de2049ca5b5dd9a56f7062087d8c9490ace94c10f4addd13a8baaded4
+Section: Tweaks
+Description: Trung tâm thông báo kiểu Android
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.nougat
+Icon: https://chariz.com/cdn/icon/nougat/icon@3x.png
+Name: Nougat
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.nougat.json
+
+Package: com.tqm-mos.oneko
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 220
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.tqm-mos.oneko_1.1_iphoneos-arm.deb
+Size: 54094
+MD5sum: 0d7d6a3531bb5b41fb4fbcceee103278
+SHA1: df309a9566c2284f1d4f4a07721b607729d3cbd1
+SHA256: 5e8fb3aa1c6067ac66e2ebe816df077e1b25296723676f3e5e4dd2f0cdc8c247
+Section: Tweaks
+Description: 1 con mèo sẽ chạy trên màn hình chính.
+Author: @tqmmos
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.oneko
+Name: Oneko
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.oneko.json
+
+Package: com.tqm-mos.sixls
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 2137
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Filename: ./debs/com.tqm-mos.sixls_1.1_iphoneos-arm.deb
+Size: 1588274
+MD5sum: ff51749fc0d41e2d322e04a2e0dc8b5d
+SHA1: 9db1f2255641b2d7049eb26eea75528620076ad5
+SHA256: 608bf201d09ee57588a6a46ee95ffff389f7e80d7a1d8aa0bdf0cd1673de51f9
+Section: Tweaks
+Description: Màn hình khóa phong cách iOS 6
+Author: Skitty
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.sixls
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.sixls.png
+Name: Six (LS)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.sixls.json
+
+Package: com.tqm-mos.sixls
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Installed-Size: 2137
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Filename: ./debs/com.tqm-mos.sixls_1.1_iphoneos-arm64.deb
+Size: 1597036
+MD5sum: 4283110d86e4a2e1e52a4820fd77af8a
+SHA1: 603464ac87102c183f19f26d898d0a490b4dbbee
+SHA256: 8866da3372555a93ab10902082f83470a8631da7522b13677ffd4e2180d02746
+Section: Tweaks
+Description: Màn hình khóa phong cách iOS 6
+Author: Skitty
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.sixls
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.sixls.png
+Name: Six (LS) ( Rootless )
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.sixls.json
+
+Package: com.tqm-mos.springtomize
+Version: 1.5-7
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: firmware (>= 4.0), mobilesubstrate, preferenceloader, libactivator
+Conflicts: com.heaveniphone.springtomize2
+Filename: ./debs/com.tqm-mos.springtomize_1.5-7_iphoneos-arm.deb
+Size: 955402
+MD5sum: 861b6c42fabbe75d2da27fcafd6343c7
+SHA1: b03895daf0192644f040f9ede99a0f2bb23b43ad
+SHA256: 37ab857ee21c6c1ef97c76603635a17233f3975aed70cd79565c51ea4e914003
+Section: Tweaks
+Description: SpringBoard, theo cách bạn muốn.
+Author: Banned<Banned@www.bannediphone.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.springtomize
+Name: Springtomize - iOS 4.x
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.springtomize.json
+
+Package: com.tqm-mos.springtomize2
+Version: 1.4.5-1
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader, com.filippobiga.springtomize2-icons, com.filippobiga.springtomize2-localizations
+Conflicts: com.filippobiga.springtomize
+Filename: ./debs/com.tqm-mos.springtomize2_1.4.5-1_iphoneos-arm.deb
+Size: 252092
+MD5sum: bde5a5db879b6f7606c02756b3e7684c
+SHA1: 352548cdd6cc44ef9b1f15023b1e55142960f2f8
+SHA256: 40a4525c7ccaf542f9289b6c6fef42fa8424ae5d7727ec05d1b0dbfb9bdc1a3c
+Section: Tweaks
+Description: SpringBoard, theo cách bạn muốn. Lại một lần nữa.
+Author: FilippoBiga
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.springtomize2
+Name: Springtomize 2 - iOS 5 & 6
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.springtomize2.json
+
+Package: com.tqm-mos.springtomize3
+Version: 1.4.5-1
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), com.rpetrich.rocketbootstrap
+Conflicts: com.filippobiga.springtomize2
+Filename: ./debs/com.tqm-mos.springtomize3_1.4.5-1_iphoneos-arm.deb
+Size: 865570
+MD5sum: 921d4e829b4de2c2b7e9edf3c5a5d5b2
+SHA1: 50e180df81ab01bb355628435e3a1e5419d28353
+SHA256: 9a9eee2e5c47a79f58d40dd4b376ce26e3a1cb4591c94d533274c23225c4f81d
+Section: Tweaks
+Description: Tùy chỉnh thiết bị của bạn theo cách chưa từng có trước đây.
+Author: Filippo & Janosch
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.springtomize3
+Name: Springtomize 3 (iOS 9/8/7)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.springtomize3.json
+
+Package: com.tqm-mos.springtomize4
+Version: 4.1.0
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 3294
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Replaces: com.springtomize.st4
+Provides: com.springtomize.st4.new
+Filename: ./debs/com.tqm-mos.springtomize4_4.1.0_iphoneos-arm.deb
+Size: 923494
+MD5sum: 4e423432fbb1968e4965b6f53e35b51e
+SHA1: 59ba8a425a6f4a0fb949fb9abc424ebd0714abcc
+SHA256: 2121e7b9ec73c0a1f12163a31120a47381f7e4bd92daea0badbf3bd3c638d3db
+Section: Tweaks
+Description: Tùy chỉnh thiết bị của bạn theo cách chưa từng có trước đây.
+Author: sharedRoutine
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.springtomize4
+Name: Springtomize 4
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.springtomize4.json
+
+Package: com.tqm-mos.springtomize5
+Version: 5.2.6
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 2488
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Filename: ./debs/com.tqm-mos.springtomize5_5.2.6_iphoneos-arm.deb
+Size: 714016
+MD5sum: 4eee5b3e3db0d272d5027aac11bc7c7d
+SHA1: 4faf905d965cb40dffce9fe6cd2e217db25a8a87
+SHA256: 5ae465943c15c531b90808537cca011170e6936f8a7f481e9071cecc3b040d0e
+Section: Tweaks
+Description: Springtomize 5 là tinh chỉnh duy nhất bạn cần để tùy chỉnh thiết bị theo ý thích.
+Author: sharedRoutine
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.springtomize5
+Icon: file:///Applications/Cydia.app/Sections/tinhchinhh1.png
+Name: Springtomize 5
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.springtomize5.json
+
+Package: com.tqm-mos.statushud
+Version: 2.0.0
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 194
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0), preferenceloader (>= 2.2.2)
+Filename: ./debs/com.tqm-mos.statushud_2.0.0_iphoneos-arm.deb
+Size: 44244
+MD5sum: 64dafa2c2e5c16731944331a5d915a6b
+SHA1: 5d177bdcbcb5ac6373bd22b7bc819e4fde7b778a
+SHA256: 90c6ba3ee36e56f9ab95f0b6bb45392a7b3f97f2b115ef7a7b636d616b074782
+Section: Tweaks
+Description: Đặt HUD âm lượng vào thanh trạng thái
+Author: Alan Yip <alan@tweak.cc>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.statushud
+Icon: file:///Library/PreferenceBundles/SHUDPreference.bundle/SHUDPreference@2x.png
+Name: StatusHUD 2
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.statushud.json
+
+Package: com.tqm-mos.unsubs
+Version: 0.0.6
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: ./debs/com.tqm-mos.unsubs_0.0.6_iphoneos-arm.deb
+Size: 12712
+MD5sum: 1bd0e8a549b81424dde1e0be3febfe1a
+SHA1: 9cf2a2c935028e76bdd6bac0cf365eca188b382b
+SHA256: d31879fabc85d36fefb3385e0fae6607b57c81f35c9b03ea6f7d6dd8793dcf8e
+Section: Development
+Description: Kích hoạt tinh chỉnh Limneo
+Author: MainRepo
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.unsubs
+Name: Unsubs
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.unsubs.json
+
+Package: com.tqm-mos.unsubs
+Version: 1.10
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: ./debs/com.tqm-mos.unsubs_1.10_iphoneos-arm64.deb
+Size: 7136
+MD5sum: 2591f4b9432d79232f5d1c0f8594f8f0
+SHA1: faaf1d1f63492766d4da3294206058eee8c61f07
+SHA256: 8a077cb54acc4d34708c5adb4ce59c53820838587a0468ec2671b16e4d70850c
+Section: Development
+Description: Kích hoạt tinh chỉnh Limneo
+Author: MainRepo
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.unsubs
+Name: Unsubs ( Rootless )
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.unsubs.json
+
+Package: com.tqm-mos.vcamaudio
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.tqm-mos.vcamaudio_1.0-2_iphoneos-arm.deb
+Size: 62626
+MD5sum: 9f363d1135b1e6aa98ae94387c85b253
+SHA1: b01813fa46c69674eaca7b4cc8b8b230fa2de16c
+SHA256: 1791710acfecadb898daa3e17cea9f74aa1c17197c553f2931828417074ca9aa
+Section: Tweaks
+Description: Máy ảnh giả iPhone Kích hoạt bằng cách nhấn nút âm lượng +-
+Author: 34306 <vcamios@gmail.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.vcamaudio
+Name: Vcam Audio
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.vcamaudio.json
+
+Package: com.tqm-mos.vcamaudio
+Version: 1.0-2
+Architecture: iphoneos-arm64e
+Maintainer: @tqmmos
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.tqm-mos.vcamaudio_1.0-2_iphoneos-arm64e.deb
+Size: 123930
+MD5sum: 83dbb90f9545cc912968b69d5b60dfca
+SHA1: c11c6ab10e2ce03bd459e95127292f633ffca17e
+SHA256: f8273b6285e7dec0d4653736c6e60bf0fddeb5cf873a3def8ef399a9b5ae5fc8
+Section: Tweaks
+Description: Máy ảnh giả iPhone Kích hoạt bằng cách nhấn nút âm lượng +-
+Author: 34306 <vcamios@gmail.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.vcamaudio
+Name: Vcam Audio (Roothide)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.vcamaudio.json
+
+Package: com.tqm-mos.vcamaudio
+Version: 1.0-3
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Pre-Depends: firmware (>= 15)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.tqm-mos.vcamaudio_1.0-3_iphoneos-arm64.deb
+Size: 62584
+MD5sum: 87f8ab9a63a9637ed6f5d38c8b2da449
+SHA1: 6e4eb3e10404c61878b751eda19624ee48371b51
+SHA256: 42687021ddfc77bd327fe012600ec087993e3e657bff9606cf8a02afbf6e2ba5
+Section: Tweaks
+Description: Máy ảnh giả iPhone Kích hoạt bằng cách nhấn nút âm lượng +-
+Author: 34306 <vcamios@gmail.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.vcamaudio
+Name: Vcam Audio (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.vcamaudio.json
+
+Package: com.tqm-mos.voicechangerx
+Version: 2.4-10
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 1391
+Depends: mobilesubstrate, preferenceloader, ru.rejail.limneosos
+Conflicts: com.hackyouriphone.limneosos, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: ./debs/com.tqm-mos.voicechangerx_2.4-10_iphoneos-arm.deb
+Size: 451280
+MD5sum: 0d8720e8da846636ab5e199315c2f273
+SHA1: cfb749a2824c0f71e6c251fc62ecf4bc31e049d3
+SHA256: 7aca30c978076362d9e201752c64c6a9d24f3b4b938159a85fa56719d6645bde
+Section: Tweaks
+Description: Thay đổi giọng nói của bạn khi nói chuyện
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.voicechangerx
+Icon: file:///Library/PreferenceBundles/voicechanger.bundle/icon@2x.png
+Name: VoiceChanger XS
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.voicechangerx.json
+
+Package: com.tqm-mos.voicechangerx
+Version: 2.4-3
+Architecture: iphoneos-arm64
+Maintainer: @tqmmos
+Installed-Size: 1420
+Depends: mobilesubstrate, preferenceloader, com.tqm-mos.unsubs, com.tqm-mos.limneos-crack
+Conflicts: com.hackyouriphone.limneosos, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: ./debs/com.tqm-mos.voicechangerx_2.4-3_iphoneos-arm64.deb
+Size: 447804
+MD5sum: b5886d18f91fc5397d6ddb5e54861783
+SHA1: c79e458493fe9a908f7bbd194c57b63a6c150d04
+SHA256: e514c23c8bb413c06f1a39c504a5ea5717b3cfc18dcadafe480330c9a03812ec
+Section: Tweaks
+Description: Thay đổi giọng nói của bạn trong khi gọi!
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.voicechangerx
+Icon: https://cydia.saurik.com/icon/net.limneos.voicechangerx.png
+Name: VoiceChanger XS (Rootless)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.voicechangerx.json
+
+Package: com.tqm-mos.vwallpaper2os12
+Version: 0.5.0-3a
+Architecture: iphoneos-arm
+Maintainer: QM
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 10.0)
+Conflicts: com.skrew.vwallpaper2os11, com.skrew.vwallpaper2os
+Replaces: com.skrew.skrewcommon2, com.skrew.vwallpaper2os9, com.skrew.vwallpaper2os10
+Filename: ./debs/com.tqm-mos.vwallpaper2os12_0.5.0-3a_iphoneos-arm.deb
+Size: 3656364
+MD5sum: 63097cc9a56f0c1b38bc664c4b6919d7
+SHA1: 1c581ec774670ab0942bb86444dbc087dfbca18c
+SHA256: e85ae7e062a29fc00013dcacfab75b92a93f81b04d54687c13321108c45fbd8c
+Section: Tweaks
+Description: Thêm video, nhạc chuông video, hiệu ứng thú vị (hạt, đối tượng 3D), Tiện ích HTML (...) trên Springboard và / hoặc chế độ xem Away. Mang iPhone của bạn vào cuộc sống! (Giai đoạn Beta)
+Author: skrew, julioverne
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.vwallpaper2os12
+Name: vWallpaper 2 (iOS 12)
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.vwallpaper2os12.json
+
+Package: com.tqm-mos.vwallpaper2os5
+Version: 0.0.9-29
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 37220
+Depends: mobilesubstrate (>= 0.9.3228), firmware (>= 5.0)
+Replaces: com.skrew.skrewcommon2
+Filename: ./debs/com.tqm-mos.vwallpaper2os5_0.0.9-29_iphoneos-arm.deb
+Size: 33993678
+MD5sum: b379d24cec1ef21a22c3ca19f2068fdb
+SHA1: affa640d50e9798740f65d99055f0058fee018a1
+SHA256: bba111282b6720b2bebae0b85534d25e8be8445af50f2f0687d54cbe43d3c6fa
+Section: Tweaks
+Description: Tuỳ biến hệ thống mạnh mẽ
+Author: skrew
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.vwallpaper2os5
+Name: vWallpaper2 for iOS5
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.vwallpaper2os5.json
+
+Package: com.tqm-mos.vwallpaper2os6
+Version: 0.1.0-21
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 38500
+Depends: mobilesubstrate (>= 0.9.3228), firmware (>= 6.0)
+Replaces: com.skrew.skrewcommon2, com.skrew.vwallpaper2os5, vn.gsm.vwallpaper2os5
+Filename: ./debs/com.tqm-mos.vwallpaper2os6_0.1.0-21_iphoneos-arm.deb
+Size: 35277228
+MD5sum: 13a519a739c86d73badd12094d793f57
+SHA1: 7d0ae70ffe729200621ca80e5551876876900dc9
+SHA256: 5eed40ddefde2ac3b45079eaeb0bd1ce0c18d3bc607e7ac083e41f42c6b98425
+Section: Tweaks
+Description: Tuỳ biến hệ thống mạnh mẽ
+Author: skrew
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.vwallpaper2os6
+Name: vWallpaper2 for iOS6
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.vwallpaper2os6.json
+
+Package: com.tqm-mos.vwallpaper2os7
+Version: 0.2.0-16
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
+Replaces: com.skrew.skrewcommon2, com.skrew.vwallpaper2os5, com.jjr.vwallpaper2os5
+Filename: ./debs/com.tqm-mos.vwallpaper2os7_0.2.0-16_iphoneos-arm.deb
+Size: 35833662
+MD5sum: 371af1acca6dc6f24da62d16fbb0a906
+SHA1: c7b32a4e8d59404bd5b0d3d91d8f685dceadb40b
+SHA256: c69342691e404b7496dd04085ca27ea8cf881e4b4262ab395438b1bb4c201a13
+Section: Tweaks
+Description: Tuỳ biến hệ thống mạnh mẽ
+Author: skrew
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.vwallpaper2os7
+Name: vWallpaper2 for iOS7
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.vwallpaper2os7.json
+
+Package: com.tqm-mos.vwallpaper2os8
+Version: 0.3.0-1
+Architecture: iphoneos-arm
+Maintainer: skrew
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
+Replaces: com.skrew.skrewcommon2, com.skrew.vwallpaper2os7, com.jjr.vwallpaper2os7
+Filename: ./debs/com.tqm-mos.vwallpaper2os8_0.3.0-1_iphoneos-arm.deb
+Size: 35877672
+MD5sum: 9c442388fb8ac9a708ec8a84e22a066b
+SHA1: ea224c60a65bb38f7f4b5f466efc99b6b9bb5048
+SHA256: e4b7444faa96830367f2b8ea892cb66075d1728a2dbda3ec4464968e4c506712
+Section: Tweaks
+Description: Tuỳ biến hệ thống mạnh mẽ
+Author: skrew
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.vwallpaper2os8
+Name: vWallpaper2 for iOS8
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.vwallpaper2os8.json
+
+Package: com.tqm-mos.vwallpaper2os9
+Version: 0.4.0-18
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 16380
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0)
+Replaces: com.skrew.skrewcommon2, com.skrew.vwallpaper2os8
+Filename: ./debs/com.tqm-mos.vwallpaper2os9_0.4.0-18_iphoneos-arm.deb
+Size: 13329936
+MD5sum: ef8867e5ecc2c674537e69a8d802dd1c
+SHA1: e470ffafd4a1ad04c0b7fecdfd34b5c35203efbb
+SHA256: 9f54976aebd4d2b6a443ecbf8bc6535d4c2cbb5b7db15427fa1914c53a267e39
+Section: Tweaks
+Description: Tuỳ biến hệ thống mạnh mẽ
+Author: skrew
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.vwallpaper2os9
+Name: vWallpaper 2 iOS9
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.vwallpaper2os9.json
 
 Package: com.tqm-mos.weatherx
 Version: 3.3
@@ -548,6 +2748,25 @@ Description: Sửa lỗi ứng dụng thời tiết iOS từ iPhone OS 2 đến 
 Author: Requis
 Depiction: https://tqm-mos.com/Classic/Info/com.tqm-mos.weatherx
 Name: WeatherX
+
+Package: com.tqm-mos.zephyr
+Version: 1.6.4-1
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Pre-Depends: firmware (>= 5.0)
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.layersnapshotter
+Conflicts: com.dapetcu21.MultiCleaner (<= 2.9.4), com.xsellize.multicleaner, com.xsellize.zephyr
+Filename: ./debs/com.tqm-mos.zephyr_1.6.4-1_iphoneos-arm.deb
+Size: 44382
+MD5sum: 7d7d4f7a674af6f0e3c2bc3ec884974a
+SHA1: d25ca0cfc7d9b9ab3d70a464519b2628fcae28ea
+SHA256: 4c78a4a665cd5254a9a1a8cdf2df532c6ae6504fbd97fcf4c20f0a4552457630
+Section: Tweaks
+Description: Tính năng đa nhiệm và cử chỉ vuốt tuyệt vời!
+Author: chpwn
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.zephyr
+Name: Zephyr
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.zephyr.json
 
 Package: com.victorlobe.googlefix
 Version: 1.0.2
@@ -823,6 +3042,25 @@ SHA256: fa0fcc6dfba2b2e6df3b2c55aa90a886ed23c70f7f9ee9377726378476dfad3d
 Section: Applications
 Description: youtube ios 5 da fix va tich hop chay nen
 Name: Youtube-ios5
+
+Package: ru.rejail.limneosos
+Version: 2.0.2
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Installed-Size: 212
+Depends: mobilesubstrate
+Filename: ./debs/com.tqm-mos.limneosos_2.0.2_iphoneos-arm.deb
+Size: 36154
+MD5sum: d4d98e47cc469163595a5e78a6589a41
+SHA1: 708279788a42abbe51479fdd4b12b52a610be6e7
+SHA256: 55dd2fb53945f49f6c20c60436ab5be3b4675a4badb8a0c5af422c1e2f45ad69
+Section: Tweaks
+Priority: optional
+Description: Crack cho các tinh chỉnh của Limneos
+Author: ReJail <rejail@rejail.ru>
+Depiction: https://tqm-mos.com/repo/info.html?id=com.tqm-mos.limneos-crack
+Name: Limneosos
+Sileodepiction: https://tqm-mos.com/repo/info/com.tqm-mos.limneos-crack.json
 
 Package: sbsettings
 Version: 6.0.5-1
@@ -1719,5 +3957,21 @@ SHA256: 9f4b152dcea66c9a888d9a13bd1a9c232bf2b03da49dc7f368e641c8acd518de
 Section: Tweak
 Description: Background playing for YouTube app on iOS 5 - 9.
 Author: iOSSupportVN
+Name: YTLegacyBG
+
+Package: vn.iossp.ytlegacybg
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: iOSSupportVN <iossp@hotmail.com>
+Installed-Size: 236
+Depends: mobilesubstrate (>= 0.9.5000), vn.iossp.iconrepo
+Filename: ./debs/vn.iossp.ytlegacybg_1.2_iphoneos-arm.deb
+Size: 17612
+MD5sum: 68705df11df3b4935e2cddce16d23b19
+SHA1: 37cf51420868a726397ab29f17ea28882ad3bb36
+SHA256: 656e5ab98f180732b7fbca5e42f8c730e5cbaa8a8035f4d61f1810de020dd2a9
+Section: Tweak
+Description: Background playing for YouTube app on iOS 5 - 9.
+Author: iOSSupportVN <iossp@hotmail.com>
 Name: YTLegacyBG
 
