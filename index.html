@@ -2,188 +2,192 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Phúc Nguyên Repo - Classic Apps</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phúc Nguyên Repo</title>
+    <link rel="icon" type="image/png" href="CydiaIcon.png">
     <style>
-        /* ================= CƠ BẢN ================= */
         body {
+            /* Màu nền xám sọc đặc trưng của Cydia/iOS 6 */
+            background-color: #cbd2d8; 
+            color: #000;
             font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-            background-color: #cbd2d8; /* Màu nền xám xanh chuẩn iOS cổ */
             margin: 0;
             padding: 15px;
             -webkit-text-size-adjust: none;
         }
-        .container {
-            max-width: 800px;
-            margin: auto;
-        }
 
-        /* ================= HEADER & LINK ================= */
         .header {
             text-align: center;
-            margin-bottom: 25px;
+            margin-bottom: 20px;
         }
+
         .header img {
-            width: 80px;
-            height: 80px;
-            border-radius: 18px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            width: 72px;
+            height: 72px;
+            border-radius: 15px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+            border: 1px solid #777;
         }
+
         .header h1 {
-            color: #333;
             font-size: 22px;
+            font-weight: bold;
+            text-shadow: 0 1px 1px #fff;
+            color: #4c566c;
             margin: 10px 0 5px 0;
         }
+
         .header p {
-            color: #666;
-            font-size: 14px;
-            margin: 0 0 12px 0;
-        }
-        
-        /* Chỉnh lại 2 nút Link Web và YouTube nằm ngay dưới Header */
-        .header-links {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-        }
-        .header-links a {
-            display: inline-block;
-            background-color: #fff;
-            color: #0056b3;
-            text-decoration: none;
             font-size: 13px;
-            font-weight: bold;
-            padding: 6px 15px;
-            border-radius: 20px;
-            border: 1px solid #ababab;
-            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-        }
-        .header-links a:active {
-            background-color: #e5e5ea;
+            color: #4c566c;
+            margin: 0;
+            text-shadow: 0 1px 1px #fff;
         }
 
-        /* ================= TIÊU ĐỀ MỤC LỚN ================= */
-        .section-label {
-            font-size: 13px;
-            color: #6d6d72;
-            text-transform: uppercase;
-            margin: 20px 0 5px 15px;
-            font-weight: normal;
-        }
-
-        /* ================= KHUNG TRẮNG (GROUP) ================= */
+        /* Khung bo tròn kiểu cài đặt iOS cổ */
         .group {
             background-color: #fff;
             border: 1px solid #ababab;
             border-radius: 10px;
+            margin-bottom: 20px;
             overflow: hidden;
-            margin-bottom: 15px;
-        }
-        
-        .list-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 12px 15px;
-            border-bottom: 1px solid #c8c7cc;
-            text-decoration: none;
-            color: #000;
-            font-size: 16px;
-            background: #fff;
-        }
-        .list-item:last-child { border-bottom: none; }
-        .list-item:active { background-color: #d9d9d9; }
-        
-        /* Mũi tên > bên phải */
-        .list-item::after, .btn-install::after {
-            content: '>';
-            color: #c7c7cc;
-            font-size: 18px;
-            font-weight: bold;
-            margin-left: 10px;
         }
 
-        /* ================= MỤC ỨNG DỤNG CÓ APP ICON ================= */
-        details summary {
-            padding: 10px 15px;
-            font-size: 17px;
+        .group-title {
+            font-size: 15px;
+            font-weight: bold;
+            color: #4c566c;
+            text-shadow: 0 1px 1px #fff;
+            margin: 0 0 5px 15px;
+        }
+
+        /* Nút bấm (danh sách) */
+        .row {
+            display: block;
+            padding: 12px 15px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #000;
+            text-decoration: none;
+            border-bottom: 1px solid #ababab;
+            position: relative;
+        }
+        
+        .row:last-child {
+            border-bottom: none;
+        }
+
+        .row:active {
+            background-color: #0584fc;
+            color: #fff;
+        }
+
+        /* Nút tải màu xanh Cydia */
+        .text-blue {
+            color: #324f85;
+        }
+
+        /* Mũi tên > ở cuối dòng */
+        .chevron {
+            position: absolute;
+            right: 15px;
+            color: #7f7f7f;
+            font-weight: normal;
+        }
+        .row:active .chevron {
+            color: #fff;
+        }
+
+        /* Phần mở rộng chứa IPAs */
+        details {
+            background-color: #fff;
+            border-bottom: 1px solid #ababab;
+        }
+        
+        details:last-child {
+            border-bottom: none;
+        }
+
+        summary {
+            padding: 12px 15px;
+            font-size: 16px;
             font-weight: bold;
             color: #000;
             cursor: pointer;
             outline: none;
-            list-style: none;
-            background-color: #fff;
-            display: flex;
-            align-items: center;
-            border-bottom: 1px solid #c8c7cc;
-        }
-        details[open] summary { background-color: #e5e5ea; }
-        
-        /* ĐÃ PHÓNG TO LOGO IOS 6, 7, 8 BẰNG VỚI ICON APP (50x50) */
-        .os-logo {
-            width: 50px;
-            height: 50px;
-            margin-right: 12px;
-            border-radius: 12px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.3);
-            object-fit: cover;
+            list-style: none; /* Ẩn mũi tên mặc định */
+            position: relative;
         }
 
-        .app-item {
+        /* Mũi tên tùy chỉnh cho danh sách IPA */
+        summary::after {
+            content: '▼';
+            position: absolute;
+            right: 15px;
+            color: #7f7f7f;
+            font-size: 12px;
+            line-height: 20px;
+        }
+
+        details[open] summary::after {
+            content: '▲';
+        }
+
+        details[open] summary {
+            background-color: #e5e5ea;
+        }
+
+        .ipa-list {
+            background-color: #f2f2f2;
+            padding: 0;
+            margin: 0;
+        }
+
+        .ipa-item {
             display: flex;
+            justify-content: space-between;
             align-items: center;
             padding: 10px 15px;
-            border-bottom: 1px solid #c8c7cc;
-            background: #fff;
+            border-bottom: 1px solid #d9d9d9;
             text-decoration: none;
             color: #000;
         }
-        .app-item:last-child { border-bottom: none; }
-        .app-item:active { background-color: #d9d9d9; }
 
-        .app-icon {
-            width: 50px;
-            height: 50px;
-            border-radius: 12px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.3);
-            margin-right: 12px;
-            flex-shrink: 0;
-            object-fit: cover;
+        .ipa-item:last-child {
+            border-bottom: none;
         }
 
-        .app-info { flex-grow: 1; }
-        .app-version { font-size: 11px; color: #8f8f94; margin-bottom: 2px; }
-        .app-title { font-size: 16px; font-weight: bold; margin: 0 0 2px 0; }
-        .app-rating { font-size: 11px; color: #ff9500; }
-        .vip-tag { color: #8f8f94; font-weight: normal; margin-left: 4px; }
-
-        .btn-install {
+        .ipa-info h4 {
+            margin: 0 0 3px 0;
             font-size: 15px;
-            color: #8f8f94;
-            display: flex;
-            align-items: center;
+        }
+
+        .ipa-info p {
+            margin: 0;
+            font-size: 12px;
+            color: #666;
+        }
+
+        .btn-download {
+            background: linear-gradient(to bottom, #f8f8f8, #d4d4d4);
+            border: 1px solid #a1a1a1;
+            padding: 5px 12px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: bold;
+            color: #333;
         }
     </style>
 </head>
 <body>
 
-<div class="container">
-
-    <!-- PHẦN LOGO, TIÊU ĐỀ VÀ LINK NGUỒN ĐƯỢC ĐẨY LÊN ĐÂY -->
     <div class="header">
-        <link rel="icon" type="image/png" href="CydiaIcon.png">
+        <img src="CydiaIcon.png" alt="Phúc Nguyên Repo">
         <h1>Phúc Nguyên Repo</h1>
         <p>Kho lưu trữ dành cho thiết bị iOS cổ</p>
-        
-        <!-- Nút Link Web và Youtube -->
-        <div class="header-links">
-            <a href="https://phucnguyenvlog.blogspot.com/" target="_blank">🌐 Trang Web</a>
-            <a href="https://www.youtube.com/channel/UCQK6oJ7kFxpd36FJMv-fVMg" target="_blank">📺 YouTube</a>
-        </div>
     </div>
 
-    <!-- MỤC TRÌNH QUẢN LÝ GÓI -->
-  <div class="group-title">THÊM VÀO TRÌNH QUẢN LÝ GÓI</div>
+    <div class="group-title">THÊM VÀO TRÌNH QUẢN LÝ GÓI</div>
     <div class="group">
         <a href="cydia://url/addsource=https://phucnguyenvlog.pages.dev/" class="row text-blue">
             Thêm Nguồn vào Cydia <span class="chevron">></span>
@@ -196,75 +200,60 @@
         </a>
     </div>
 
-    <!-- MỤC CÔNG CỤ HỖ TRỢ -->
-    <div class="section-label">CÔNG CỤ HỖ TRỢ (BẮT BUỘC)</div>
+    <div class="group-title">CÔNG CỤ HỖ TRỢ (BẮT BUỘC)</div>
     <div class="group">
-        <a href="link-chung-chi-cua-ban" class="list-item">Cài Chứng Chỉ SSL cho iOS Cổ</a>
+        <a href="Certificates for Legacy iOS.mobileconfig" class="row">
+            Cài Chứng Chỉ SSL cho iOS Cổ <span class="chevron">></span>
+        </a>
     </div>
 
-    <!-- MỤC KHO ỨNG DỤNG IPA -->
-    <div class="section-label">KHO ỨNG DỤNG IPA (CÀI TRỰC TIẾP OTA)</div>
-    
-    <!-- JS SẼ TỰ ĐỘNG CHÈN DANH SÁCH APP VÀO ĐÂY -->
-    <div id="app-container"></div>
-
-</div>
-
-<!-- SCRIPT TỰ ĐỘNG TẠO GIAO DIỆN APP -->
-<script>
-    // =========================================================
-    // DỮ LIỆU APP - BẠN ĐIỀN THÔNG TIN VÀO ĐÂY
-    // =========================================================
-    .
-
-    // =========================================================
-    // CODE TỰ ĐỘNG VẼ GIAO DIỆN
-    // =========================================================
-    const container = document.getElementById('app-container');
-    let htmlContent = "";
-
-    // Duyệt qua từng phiên bản iOS (ví dụ: 8, 7, 6)
-    Object.keys(repoData).sort((a,b) => b - a).forEach(iosVersion => {
-        const osData = repoData[iosVersion];
+    <div class="group-title">KHO ỨNG DỤNG (.IPA) NGOÀI CYDIA</div>
+    <div class="group">
         
-        // Tạo khung (details) cho từng bản iOS
-        htmlContent += `
-        <div class="group">
-            <details>
-                <summary>
-                    <img src="${osData.osIcon}" class="os-logo" alt="iOS ${iosVersion}">
-                    Ứng dụng iOS ${iosVersion}
-                </summary>
-                <div>
-        `;
+        <!-- Bắt đầu mục iOS 6 -->
+        <details>
+            <summary>📱 Ứng dụng iOS 6</summary>
+            <div class="ipa-list">
+                
+                <!-- Thay link archive.org của bạn vào chỗ href -->
+                <a href="https://archive.org/download/kho-cua-ban/app-ios6-1.ipa" class="ipa-item">
+                    <div class="ipa-info">
+                        <h4>Facebook (Bản cũ)</h4>
+                        <p>Dung lượng: 24MB</p>
+                    </div>
+                    <div class="btn-download">Tải về</div>
+                </a>
 
-        // Tạo danh sách App bên trong
-        osData.apps.forEach(app => {
-            const installLink = `itms-services://?action=download-manifest&url=${app.plistUrl}`;
-            
-            htmlContent += `
-                    <a href="${installLink}" class="app-item">
-                        <img src="${app.icon}" class="app-icon">
-                        <div class="app-info">
-                            <div class="app-version">${app.version}</div>
-                            <div class="app-title">${app.name}</div>
-                            <div class="app-rating">${app.stars} <span class="vip-tag">VIP</span></div>
-                        </div>
-                        <div class="btn-install">Cài đặt</div>
-                    </a>
-            `;
-        });
+                <a href="link_tai_game_2.ipa" class="ipa-item">
+                    <div class="ipa-info">
+                        <h4>Flappy Bird</h4>
+                        <p>Dung lượng: 5MB</p>
+                    </div>
+                    <div class="btn-download">Tải về</div>
+                </a>
 
-        htmlContent += `
-                </div>
-            </details>
-        </div>
-        `;
-    });
+            </div>
+        </details>
+        <!-- Kết thúc mục iOS 6 -->
 
-    // Xuất ra web
-    container.innerHTML = htmlContent;
-</script>
+        <!-- Bắt đầu mục iOS 5 -->
+        <details>
+            <summary>📱 Ứng dụng iOS 5</summary>
+            <div class="ipa-list">
+                
+                <a href="link_tai_app_ios5.ipa" class="ipa-item">
+                    <div class="ipa-info">
+                        <h4>YouTube (Cổ)</h4>
+                        <p>Dung lượng: 12MB</p>
+                    </div>
+                    <div class="btn-download">Tải về</div>
+                </a>
+
+            </div>
+        </details>
+        <!-- Kết thúc mục iOS 5 -->
+
+    </div>
 
 </body>
 </html>
