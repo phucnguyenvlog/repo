@@ -1,3 +1,20 @@
+Package: idv.aqua.iGameGuardian
+Version: 6.0.0
+Architecture: iphoneos-arm
+Maintainer: Aqua Wu <igameguardian@gmail.com>
+Installed-Size: 1700
+Filename: kho-phu-1/iGameGuardian.6.0.deb
+Size: 562350
+MD5sum: 82e4567f220607ed829c4fc5b627c7aa
+SHA1: eab67f1c871e5973128b80af05cd8c17ad49ea61
+SHA256: b62975f331ef6aa8630ab3188f3e6780220ff9e426c7af3be8191f12d708884a
+Section: utils
+Priority: optional
+Description: iGameGuardian is a game cheating engine for iOS 5.1.1/6.x/7.x.
+Author: Aqua Wu <igameguardian@gmail.com>
+Name: iGameGuardian
+
+
 Package: ca.adrien.appdrop
 Version: 3.2.1
 Architecture: iphoneos-arm

@@ -1,29 +1,25 @@
 Architectures: iphoneos-arm
 Codename: ios5
 Components: main
-Date: Tue, 18 Aug 2026 03:49:07 +0000
+Date: Tue, 18 Aug 2026 10:14:52 +0000
 Description: Kho luu tru 18GB Tweak
 Label: Phuc Nguyen Repo
 Origin: Phuc Nguyen Repo
 Suite: stable
 Version: 1.0
 MD5Sum:
- 5b034a60d6527c16829b40e03296ce7e          2947989 Packages
- ed00848c77f797fc1c2bc113017c8376           610255 Packages.bz2
- 0d1fe4f73822e359126130c3fc2d2408              210 Release
- 1f0de0ab7fa68c7a6d29526a59a65514              172 iphone4s-tv/Release
+ 536e74a64ad8f6a3b581109fbd888377          2948520 Packages
+ ba3aa64394c6d84c8c4f2a9f451bda7b           610542 Packages.bz2
+ e8d78992cfc4e6b5f51c1928b0d48796              210 Release
 SHA1:
- 4ebcc228fbaac0f0c1b86caa4919890014bb9b95          2947989 Packages
- d39bfd8a2fc7ce7901c2d6ca2bbfd2774bb02c86           610255 Packages.bz2
- f723859b95bbeb37102927c589b4c073e20c2856              210 Release
- 6d0bb052ae7ac08ca9d3d4b06cd6a77ce3b9c9af              172 iphone4s-tv/Release
+ ad84ea39eb1505d1ecacf25e78c8dd339d76775f          2948520 Packages
+ 69d98a88b0577fc60324aa340589fbe02bc507af           610542 Packages.bz2
+ b276daa4743c00186ed88e3aaf8643775017c4a9              210 Release
 SHA256:
- 6e033b9ff61ad1ac95aea7b39c4be5a9d30a292be27c27bbefbbce62cb945205          2947989 Packages
- a4e2069d2fdbd877393b9bbd6034de6dcdbafcaa784476dcfdea1cfdafcbb8ec           610255 Packages.bz2
- 7f4214e9d0e961666217769c4d4de71f35abccc57e5ab2c2c61410212d9b601d              210 Release
- c54e7611a39f7a4975731a1ca74a4493ef2ac38a5903b798e88386dccdc39574              172 iphone4s-tv/Release
+ c50a4f6de8cd90f64d3dbd20e0799513ad1974401c304c048c7c739619410441          2948520 Packages
+ 24a4b28bf0df187996898dad9b518a0b6e5d0a3528a7f68c0dcaf54f5b23519c           610542 Packages.bz2
+ 9b21f8e5057f9e9972a6800f24436de38467fabd7c6c3ad0293fbf5e69d3bc04              210 Release
 SHA512:
- 49f74f1291fecc723d00fb98368e48b7263f1ce4469ebe624f3a4302e46f1830d6c19b97f18498f2667b3f1c0ed8ea65571860e311d6810e3ea6cbd039c42669          2947989 Packages
- 9ba365efb4c0a2e0060889c1abee82f876f788aac23c9e0f02f59920b8ebf41adba8621433f2a042bc2268c1019b310c792bb55eaabab3d0ba728101a31bc793           610255 Packages.bz2
- e7ddf1c0f29e42d1c0105838aebd31054ec5aa17b944e5f71c2ed44779d8447ecd05f6361ab5e6b95ef25c9cbc9b20e758d2670d312aee836ac0fc976f495510              210 Release
- 49fbc74fa1c047e8caeb4ce005d463e5a15cdcb1140f6578fd933f2ae0331e17ac61c59201f23e742f990dc398816f9e5fa2d0e5bd16ddf356195ea9b46d8393              172 iphone4s-tv/Release
+ 66c93e0c990ee65429daf72cd136cfa4680933f83399a0ba2888e4636af70c28c0230232e2ef7f86fd6c58bd3c867d84a252d85b5742c2f887a1af34611df173          2948520 Packages
+ 4a72a1ea02a161285a07e101fbcf6502301c896b377a3f565e8204e0a71f66a64462382f5de1872037b99fdb858b4d2eda9abaa331f0d34a056a80cbe48765f2           610542 Packages.bz2
+ bb6f8ba19d9b5138da1cc9bc21f340f8461bcf0c1fc3f18ecdec6eb750bc97f2d965ec994f8c9fe9982cffb9f56db7b56a99ef950c740b69cb939922a319f402              210 Release
