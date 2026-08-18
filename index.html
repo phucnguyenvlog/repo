@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phuc Nguyen Repo</title>
+    <style>
+        body {
+            background-color: #0b0f19;
+            color: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 480px;
+            width: 100%;
+        }
+        .repo-icon {
+            width: 110px;
+            height: 110px;
+            border-radius: 26px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+        h1 {
+            font-size: 30px;
+            margin: 10px 0;
+            font-weight: 700;
+        }
+        p.subtitle {
+            color: #9ca3af;
+            font-size: 15px;
+            margin: 5px 0 25px 0;
+            line-height: 1.5;
+        }
+        .url-box {
+            background-color: #161e2e;
+            border: 1px solid #1f2937;
+            border-radius: 14px;
+            padding: 14px 20px;
+            font-family: monospace;
+            color: #60a5fa;
+            margin-bottom: 25px;
+            word-break: break-all;
+            font-size: 14px;
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.3);
+        }
+        .btn-group {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .btn {
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 14px;
+            padding: 15px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: block;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+        }
+        .btn:hover {
+            background-color: #1d4ed8;
+            transform: translateY(-1px);
+        }
+        .btn-secondary {
+            background-color: #161e2e;
+            color: #e5e7eb;
+            border: 1px solid #1f2937;
+            box-shadow: none;
+        }
+        .btn-secondary:hover {
+            background-color: #1f2937;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Icon kho của bạn (lấy luôn file Cydialcon.png đã có sẵn trên repo) -->
+        <img src="Cydialcon.png" alt="Repo Icon" class="repo-icon">
+        
+        <h1>Phuc Nguyen Repo</h1>
+        <p class="subtitle">Classic Jailbreak Repository<br>for iOS 5 • iOS 6 • iOS 7 • iOS 8 • iOS 9</p>
+        
+        <div class="url-box">https://phucnguyenvlog.pages.dev/</div>
+        
+        <div class="btn-group">
+            <a href="cydia://url/addsource=https://phucnguyenvlog.pages.dev/" class="btn">Thêm vào Cydia</a>
+            <a href="sileo://source/https://phucnguyenvlog.pages.dev/" class="btn btn-secondary">Thêm vào Sileo</a>
+            <a href="zbra://sources/add/https://phucnguyenvlog.pages.dev/" class="btn btn-secondary">Thêm vào Zebra</a>
+        </div>
+    </div>
+</body>
+</html>
