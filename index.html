@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phuc Nguyen Repo</title>
+    <title>Phúc Nguyên Repo</title>
+    <!-- Logo trên tab trình duyệt -->
+    <link rel="icon" type="image/png" href="CydiaIcon.png">
     <style>
         body {
             background-color: #0b0f19;
@@ -85,15 +87,21 @@
         .btn-secondary:hover {
             background-color: #1f2937;
         }
+        .btn-cert {
+            background-color: #059669;
+            box-shadow: 0 4px 12px rgba(5, 150, 105, 0.3);
+        }
+        .btn-cert:hover {
+            background-color: #047857;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Tự động trỏ chuẩn xác đến file CydiaIcon.png của bạn -->
         <img src="CydiaIcon.png" alt="Repo Icon" class="repo-icon">
         
-        <h1>Phuc Nguyen Repo</h1>
-        <p class="subtitle">Classic Jailbreak Repository<br>for iOS 5 • iOS 6 • iOS 7 • iOS 8 • iOS 9</p>
+        <h1>Phúc Nguyễn Repo</h1>
+        <p class="subtitle">Kho lưu trữ tweak, ứng dụng và tiện ích dành cho thiết bị iOS cổ</p>
         
         <div class="url-box">https://phucnguyenvlog.pages.dev/</div>
         
@@ -101,6 +109,7 @@
             <a href="cydia://url/addsource=https://phucnguyenvlog.pages.dev/" class="btn">Thêm vào Cydia</a>
             <a href="sileo://source/https://phucnguyenvlog.pages.dev/" class="btn btn-secondary">Thêm vào Sileo</a>
             <a href="zbra://sources/add/https://phucnguyenvlog.pages.dev/" class="btn btn-secondary">Thêm vào Zebra</a>
+            <a href="Certificates for Legacy iOS.mobileconfig" class="btn btn-cert" download>Tải Chứng Chỉ iOS Cổ (.mobileconfig)</a>
         </div>
     </div>
 </body>
