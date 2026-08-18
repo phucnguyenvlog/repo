@@ -1,8 +1,29 @@
-Origin: Phúc nguyên Vlog
-Label: Phúc nguyên Vlog
+Architectures: iphoneos-arm
+Codename: ios5
+Components: main
+Date: Tue, 18 Aug 2026 03:49:07 +0000
+Description: Kho luu tru 18GB Tweak
+Label: Phuc Nguyen Repo
+Origin: Phuc Nguyen Repo
 Suite: stable
 Version: 1.0
-Codename: ios
-Architectures: iphoneos-arm
-Components: main
-Description: Hỗ trợ ios thấp
+MD5Sum:
+ 5b034a60d6527c16829b40e03296ce7e          2947989 Packages
+ ed00848c77f797fc1c2bc113017c8376           610255 Packages.bz2
+ 0d1fe4f73822e359126130c3fc2d2408              210 Release
+ 1f0de0ab7fa68c7a6d29526a59a65514              172 iphone4s-tv/Release
+SHA1:
+ 4ebcc228fbaac0f0c1b86caa4919890014bb9b95          2947989 Packages
+ d39bfd8a2fc7ce7901c2d6ca2bbfd2774bb02c86           610255 Packages.bz2
+ f723859b95bbeb37102927c589b4c073e20c2856              210 Release
+ 6d0bb052ae7ac08ca9d3d4b06cd6a77ce3b9c9af              172 iphone4s-tv/Release
+SHA256:
+ 6e033b9ff61ad1ac95aea7b39c4be5a9d30a292be27c27bbefbbce62cb945205          2947989 Packages
+ a4e2069d2fdbd877393b9bbd6034de6dcdbafcaa784476dcfdea1cfdafcbb8ec           610255 Packages.bz2
+ 7f4214e9d0e961666217769c4d4de71f35abccc57e5ab2c2c61410212d9b601d              210 Release
+ c54e7611a39f7a4975731a1ca74a4493ef2ac38a5903b798e88386dccdc39574              172 iphone4s-tv/Release
+SHA512:
+ 49f74f1291fecc723d00fb98368e48b7263f1ce4469ebe624f3a4302e46f1830d6c19b97f18498f2667b3f1c0ed8ea65571860e311d6810e3ea6cbd039c42669          2947989 Packages
+ 9ba365efb4c0a2e0060889c1abee82f876f788aac23c9e0f02f59920b8ebf41adba8621433f2a042bc2268c1019b310c792bb55eaabab3d0ba728101a31bc793           610255 Packages.bz2
+ e7ddf1c0f29e42d1c0105838aebd31054ec5aa17b944e5f71c2ed44779d8447ecd05f6361ab5e6b95ef25c9cbc9b20e758d2670d312aee836ac0fc976f495510              210 Release
+ 49fbc74fa1c047e8caeb4ce005d463e5a15cdcb1140f6578fd933f2ae0331e17ac61c59201f23e742f990dc398816f9e5fa2d0e5bd16ddf356195ea9b46d8393              172 iphone4s-tv/Release
