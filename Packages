@@ -1,3 +1,109 @@
+Package: bag.xml.tuberepair
+Version: 1.2-Beta-1-1+debug
+Architecture: iphoneos-arm
+Maintainer: bag.xml, Requis
+Installed-Size: 216
+Depends: mobilesubstrate, preferenceloader
+Filename: ./deb/bag.xml.tuberepair_1.2-Beta-1-1+debug_iphoneos-arm.deb
+Size: 98822
+MD5sum: f88db53a0f673748e2a57da94a2fafa7
+SHA1: 5e18a699385bfa0c8ae18ddea4d3650311054994
+SHA256: 5729e216abe21e5ac7d959b3d3b647b5d6f00f0085da532a2e1ed9b54d2a4421
+Section: Tweaks
+Description: TubeRepair is a tweak that redirects YouTube API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.bag-xml.com/guide/)
+Author: bag.xml, Requis
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/index.html
+Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
+Name: TubeRepair [BETA]
+
+Package: ca.adrien.appdrop
+Version: 3.2.1.1
+Architecture: iphoneos-arm
+Maintainer: Adrien Ruest-Lorquet
+Installed-Size: 89
+Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
+Filename: ./deb/ca.adrien.appdrop_3.2.1.1_iphoneos-arm.deb
+Size: 736536
+MD5sum: 4633049c6e9102e8b773243d6eca5625
+SHA1: 4f14510c7ed4002338eb98ef54e1b3a488540aab
+SHA256: 1bd15efdd0a5845fb7e38728a495637cd7a463f013cada4a2801eb05487a3bc4
+Section: Utilities
+Homepage: https://github.com/AdrienRL1/AppDrop
+Description: Browse 43,000+ iOS apps by category and install them on iOS 5-10. Fully iPad-optimized. v3.2: new "Most Downloaded" home shortcut + per-app download counts + sort by downloads, live active-users count. Also fixes version/compatibility selection (always the newest installable, non-encrypted build) and a category-loading glitch. v3.2.0.1: "Uncategorized" category now lists apps that have no category, download counts & Most Downloaded refresh continuously, and the iOS 5.x launch crash is fixed. v3.2.0.3: community "compatibility builds" (an app re-targeted to a lower iOS) merge cleanly and are fully reversible. v3.2.1: freezing is a lot better now, especially on older devices; the catalogue is tidier, with apps that don't belong no longer recommended; the Search, Install and Settings icons at the bottom look a lot sharper; and on a colour or dark theme the selected tab follows your theme instead of always being blue. v3.2.1.1: fixes the big one on iOS 5-8 — AppDrop could say "Installed" for an app that was never installed, because ipainstaller reports a REFUSAL with the same exit code as a success. AppDrop now confirms with the device that the app really registered before claiming success, on every iOS version, and when an app is turned down it tells you exactly why (e.g. "requires iOS 7.0 while your system is 5.1.1") instead of a vague retry message. (17 themes + dark mode, Favorites & folders, 9 languages.)
+Tag: compatible_min::ios5.0
+Author: Adrien Ruest-Lorquet
+Depiction: https://adrienrl1.github.io/cydia/depiction.html
+Icon: https://adrienrl1.github.io/cydia/PackageIcon.png
+Name: AppDrop
+
+Package: com.soundwave.app
+Version: 1.0.0-136+debug
+Architecture: iphoneos-arm
+Maintainer: anazerka
+Installed-Size: 1200
+Filename: ./deb/com.soundwave.app_1.0.0-136+debug_iphoneos-arm.deb
+Size: 827524
+MD5sum: a291ff3a14445c045ea185209d2f1cea
+SHA1: dc286186b91261d3afb305a5a3942ee3ba1cec76
+SHA256: 2b8b4981fb4255c9be94e95218c03a10f8bf927aea9fbbb26c095e958c2fc968
+Section: Applications
+Description: SoundCloud client for iOS 3
+Author: anazerka
+Name: SoundWave
+
+Package: com.victorlobe.googlefix
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Victor
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./deb/com.victorlobe.googlefix_1.0.2_iphoneos-arm.deb
+Size: 6114
+MD5sum: f68ba5e89b84d96d873ecbe152bc0f1e
+SHA1: d22e4d853f293aa5c4a9afb3ef2652c27db3b7ff
+SHA256: 83282f991a2e4fa918c9f7c3b4a37de1e6871ca09bda43f08bedec5f4e93e457
+Section: Tweaks
+Description: Fixes Google on iOS 6
+Author: Victor
+Name: GoogleFix
+
+Package: com.victorlobe.veteris
+Version: 3.2
+Architecture: iphoneos-arm
+Maintainer: Victor
+Installed-Size: 5064
+Depends: firmware (>= 5.0), com.victorlobe.veterishelper
+Conflicts: com.ixmoe.1pwn.veteris, moe.yzu.veterishelper
+Replaces: com.ixmoe.1pwn.veteris, moe.yzu.veterishelper
+Filename: ./deb/com.victorlobe.veteris_3.2_iphoneos-arm.deb
+Size: 2207580
+MD5sum: 6afd1791b7cef36c392ca76abec19a6c
+SHA1: 74db1199440e7ec0969d63a88f62358742ecdef2
+SHA256: 76aa85bebaa52e8d05c56acd3ee1d791f2dce95c009a2d72778c3e6e4e006150
+Section: Utilities
+Homepage: http://www.veteris.victorlobe.me/
+Description: Welcome back!
+Author: Victor
+Compatibility: iOS 5.0+
+Depiction: http://repo.victorlobe.me/depictions/depiction.html?id=com.victorlobe.veteris
+Icon: file:///Applications/Veteris.app/AppIcon57x57@2x.png
+Name: Veteris
+
+Package: vn.iossp.legacywififix
+Version: 0.2.1
+Architecture: iphoneos-arm
+Maintainer: iOSSupportVN <iossp@hotmail.com>
+Depends: mobilesubstrate (>= 0.9.3367), vn.iossp.iconrepo
+Filename: ./deb/vn.iossp.legacywififix_0.2.1_iphoneos-arm.deb
+Size: 15230
+MD5sum: 4c8aa1b3f4b9df8ccd9324d2da31409a
+SHA1: c181fc2d796863a45ba71f997bfc90abc70ec65f
+SHA256: 6c042b9e86c87c86a765128b619394cc5b514ee3a67f0e48b6e27a18ea72d64d
+Section: Tweak
+Description: Fixes the RSN IE AKM-selection bug on iOS 3.x-12.x: strips AKM suites outside the range the OS supports (1..2 on iOS 3-5, 1..4 on iOS 6-7, 1..6 on iOS 8+) from IE_KEY_RSN_AUTHSELS so the AKM selector picks a supported AKM instead of being poisoned by a later unknown one (e.g. SAE=8). Restores association with WPA2/WPA3 transitional networks.
+Author: PlayDay
+Name: Legacy WiFi Fix
+
 Package: idv.aqua.iGameGuardian
 Version: 6.0.0
 Architecture: iphoneos-arm
