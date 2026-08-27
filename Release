@@ -3,10 +3,10 @@ Label: Phúc Nguyên Vlog
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Kho luu tru Tweak cua Phúc Nguyên Vlog
-Date: Thu, 27 Aug 2026 05:14:01 +0000
+Date: Thu, 27 Aug 2026 05:27:13 +0000
 MD5Sum:
  3a34318bd7e49a34bd0365f35837b179          2954271 Packages
  38d73fd5c37fe44f49ca877dbce21909           598351 Packages.bz2
