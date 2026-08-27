@@ -1,29 +1,25 @@
-Architectures: iphoneos-arm
-Codename: ios5
-Components: main
-Date: Tue, 18 Aug 2026 10:14:52 +0000
-Description: Kho luu tru 18GB Tweak
-Label: Phuc Nguyen Repo
-Origin: Phuc Nguyen Repo
+Origin: Phúc Nguyên Repo
+Label: Phúc Nguyên Vlog
 Suite: stable
 Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64
+Components: main
+Description: Kho luu tru Tweak cua Phúc Nguyên Vlog
+Date: Thu, 27 Aug 2026 04:22:48 +0000
 MD5Sum:
- e61e1ace5e63ae919b36c85d991b6a18          2954246 Packages
- b00cf52def5a608a7d7b676570aa3d5c           598527 Packages.bz2
- 7cd44c333928359027d25cb86b560e2e           622376 Packages.zst
- 57428117ae38e2f4f48855041a70bc43               38 Release
+ 1dead7ab181ef605d57c54e63556bd21          2954258 Packages
+ c6686aa9cf3f71d2aaf74ece0b2f3217           612028 Packages.bz2
+ d2aa32f9cbc2162fed252db713fd2698           622189 Packages.zst
 SHA1:
- fe89a1ac6616a8ee6bb5d37bdfb6d58858834d40          2954246 Packages
- b53f208c0940ae9a8ab173438b7aa70832e8480b           598527 Packages.bz2
- ee0e4dde0cb21c9c19569d8d60e6076d3b0d4917           622376 Packages.zst
- 47d849cba261b1867c8d07cb58f180fcc235ff90               38 Release
+ b98b5c8ab0f51385065c3198df1e249e6c976e40          2954258 Packages
+ cd4229b89b2d47f3252a6dbf97a74a6401b6f50f           612028 Packages.bz2
+ 0777b870ce7fa2b63126d8e62115faf4b1c7bb0a           622189 Packages.zst
 SHA256:
- b0f3c4a287901fd78fcbcc55f513e3ecfa90c38353e2be110107c58824eb5bfc          2954246 Packages
- f589264db2b53035b6b679c14fee46f31c51d532cf902918ba2c4305679653e3           598527 Packages.bz2
- 0c7bd172817f863c705df45f89c68242c5f84a4bf29acbe13fbab60e752a94b1           622376 Packages.zst
- d4de43a7d5b3bf31c99e25c64385ee6a752fd06b81e94c432d3f001780d2133c               38 Release
+ 304498e55e3713d028a2a84fefc7d84cb888e95506478409b03233111f683a66          2954258 Packages
+ 8c46de0cfbcc174498b38bb1346ff72a3f7e4e93391a71abee47caf31050754c           612028 Packages.bz2
+ c6a6c186252dbd347d86b5949ac2ee35192737cb56c29e7f9421c3ecbfe359fd           622189 Packages.zst
 SHA512:
- 5eded084187e9d1aff7cb3767cf864120364579712173b11f36b12b58998882867f03210b0f4a747449c91020c5579bd893a62076678ecf1a2a1dda0dab93776          2954246 Packages
- 8824c1a37616cffeed52e9de586d865060c1f93ae336944619e70c29fe217eff45827f4b5909d7e0e54737a0d21a3f915b0689789ad7487e0a7a7653a79e2e6a           598527 Packages.bz2
- ae4fb24e863c2be01a9d693d97def55d2a2a6a214d02c72682ee60d9d7926db2cc6a500b3262809b29ef3301a401e4fcf63e3e8f1fa953a4050e471f3dbecb0c           622376 Packages.zst
- 43b07b986232e870bdb75381fb7f3c752d7b91d404d10f9d502e2ca07be7941566d1619c1d9df0bcc1108fd08c0c7dbad6b2c7eb4be040f6d863f107c3b97a1b               38 Release
+ 5b0832eb6f21c2c4ff7583e346ea9e0479cefadc35804a47a64a2af46bf2cf60472e7cc5c6ad40b50c1a8b9c45bd5ce2c28fca66587bbc62d90b4bce84d6c72c          2954258 Packages
+ fe68a55b0366bae26d1e484e20698764f18f8df762eadb0145339ba3c509c55a15b23d6bf39933aabb4946c96c75819a71577c61c1ecaa99e2250df95f5c8a29           612028 Packages.bz2
+ 0f0d3539783a2113b4d12572c7bb4486367b4c4cfdba4f2582fa767e526a64d4636046fad4a66fee38c6c7beeff980432d7bba4d76b67213da220d32a8e18783           622189 Packages.zst
