@@ -103,67 +103,6 @@ Icon: https://jtisvn.github.io/sectionIcons/Ultrasound.png
 Name: Ultrasound (Rootless)
 Sileodepiction: https://jtisvn.github.io/sileodepictions/Ultrasound.json
 
-Package: applist
-Version: 1.5.16
-Architecture: iphoneos-arm64
-Maintainer: Ryan Petrich <rpetrich@gmail.com>
-Installed-Size: 780
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0), cy+cpu.arm64v8 | oldabi-xina | oldabi
-Conflicts: com.a3tweaks.polus (<< 2.0.7)
-Filename: kho-phu-11/applist_1.5.16_iphoneos-arm64.deb
-Size: 58768
-MD5sum: 7bbe8b81aae32a6b3c3418e6c8c9a93d
-SHA1: f36baaaaf6bffa073c615b012244f3999db45530
-SHA256: 3b16b4fd60eaf7faa25def59cba7792b6fa41006f7149ff820d4dc56415d16c4
-Section: System
-Description: Allow extensions to read the list of installed apps
-Author: Ryan Petrich <rpetrich@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
-Dev: rpetrich
-Name: AppList
-Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
-
-Package: applist
-Version: 1.5.16
-Architecture: iphoneos-arm64e
-Maintainer: Ryan Petrich <rpetrich@gmail.com>
-Installed-Size: 780
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0), cy+cpu.arm64v8 | oldabi-xina | oldabi
-Conflicts: com.a3tweaks.polus (<< 2.0.7)
-Filename: kho-phu-11/applist_1.5.16_iphoneos-arm64e.deb
-Size: 80176
-MD5sum: 32753e7e5be6378acb7ad21773b5fedf
-SHA1: 91cda7c4b916fc7a0451e42581d85ea0a5a48da9
-SHA256: f9484a4e47a25d3280f99160415cf037158d61d504b2007a10be99edc10c1375
-Section: System
-Description: Allow extensions to read the list of installed apps
-Author: Ryan Petrich <rpetrich@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
-Dev: rpetrich
-Name: AppList
-Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
-
-Package: applist
-Version: 1.5.16-palera1n1
-Architecture: iphoneos-arm
-Maintainer: Ryan Petrich <rpetrich@gmail.com>
-Installed-Size: 780
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
-Conflicts: com.a3tweaks.polus (<< 2.0.7)
-Filename: kho-phu-11/applist_1.5.16-palera1n1_iphoneos-arm.deb
-Size: 105304
-MD5sum: 9202536254b06f362da123436a37a0d5
-SHA1: 06f5d55ef2a987c160f487c449a75ee960e4f3df
-SHA256: 1b3b324b66ad5818f1d6b5f35dcc087ca3b9ca1c04fce609a45aabff83b4ad36
-Section: System
-Description: Allow extensions to read the list of installed apps
-Author: Ryan Petrich <rpetrich@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
-Dev: rpetrich
-Name: AppList
-Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
-
 Package: cc.igerman.taptapslumber
 Version: 0.0.3
 Architecture: iphoneos-arm64
@@ -23962,53 +23901,6 @@ Description: Vibrant Clock/Date on LS!
 Author: CydiaGeek <lucaluca86@aol.com>
 Name: LSVibrantClockDate
 
-Package: cydia
-Version: 1.1.36-3
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 6496
-Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=12.0)
-Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd
-Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
-Provides: bigbossbetarepo, cydia-sources, cydia-lproj
-Filename: kho-phu-11/cydia_1.1.36-3_iphoneos-arm.deb
-Size: 1242528
-MD5sum: f55218a68a1f0ac9966bd40d8cc5ee67
-SHA1: 6f175ddec364c843427ac50372a57bf36d79b353
-SHA256: 340a1b8ee2048f24ef50ba89cd405e205721180ab2f87f45c333640092d3c3ac
-Section: Packaging
-Priority: important
-Description: graphical iPhone front-end for APT
-Tag: purpose::uikit, role::enduser
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/cydia/
-Icon: file:///Applications/Cydia.app/Icon-60.png
-Name: Cydia Installer
-
-Package: cydia-dark
-Version: 1.9.3~b5
-Architecture: iphoneos-arm
-Maintainer: JTISVN Repo
-Installed-Size: 8880
-Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
-Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), xz, cydia
-Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
-Filename: kho-phu-11/cydia-dark_1.9.3~b5_iphoneos-arm.deb
-Size: 1283232
-MD5sum: 137ea5dffb36a6c93c839546e5200987
-SHA1: da8471d7f074a1fbaebacc6ece04c27b40aaa353
-SHA256: 76c05fff2937f344c8bbe2c6dbc8cb4442c1cc23d943276cd07b55b6db9915fd
-Section: Packaging
-Priority: required
-Description: giao diện người dùng iPhone đồ họa cho APT
-Tag: purpose::uikit, role::enduser
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/cydia/
-Icon: https://jtisvn.github.io/sectionIcons/Cydia.png
-Name: Cydia Installer
-
 Package: dev.ayden.ios.lib.sys.aurora
 Version: 1.0.3
 Architecture: iphoneos-arm
@@ -25656,60 +25548,6 @@ Description: An awesome library of some sort!!
 Tag: role::developer
 Author: Bailey Seymour
 Name: libcolorpicker
-
-Package: preferenceloader
-Version: 2.2.6-11+debug
-Architecture: iphoneos-arm64e
-Maintainer: ProcursusTeam <support@procurs.us>
-Installed-Size: 456
-Depends: mobilesubstrate
-Filename: kho-phu-11/preferenceloader_2.2.6-11+debug_iphoneos-arm64e.deb
-Size: 27818
-MD5sum: a2e0ba8d486df80c3deebee923f9081e
-SHA1: d232922d88a46ee8bf70af7fb7d036a4736ebd5b
-SHA256: 2713b727e8d14c553e6d39a3ef10f967073240f995d40a471026f36dc50c0fea
-Section: System
-Description: load preferences in style
-Author: Dhinak G <dhinak@dhinak.net>
-Name: PreferenceLoader
-
-Package: preferenceloader
-Version: 2.2.7
-Architecture: iphoneos-arm
-Maintainer: JTISVN Repo
-Installed-Size: 526
-Depends: mobilesubstrate
-Conflicts: ru.rj.meredith, org.mr.meredith, org.mr.smartvolumemixer2, org.mr.smartvolumecontrol3, ru.rj.smartvolumemixer2, ru.rj.smartvolumecontrol3, ru.rj.appdatamanager, org.mr.multipla, org.mr.autotouch, github.io.gfp.veloxreloaded, github.io.gfp.veza, github.io.gfp.indy, github.io.gfp.aperio, org.mr.dra1n, org.mr.fabric2, ru.rj.fabric2, org.mr.filza, ru.rj.veloxreloaded, org.mr.veloxreloaded, org.mr.veza, ru.rj.veza, org.mr.indy, ru.rj.indy, org.mr.safeshutdownn
-Filename: kho-phu-11/preferenceloader_2.2.7_iphoneos-arm.deb
-Size: 36968
-MD5sum: efe94d4b7defc217257296cd4f998e06
-SHA1: 0229e5004b6af2264a3488177d1cf1d595632b07
-SHA256: 994fe799ef5e12b0e0abcc436df2ea38b4a04cac4bda95f02d8418d87ebfc997
-Section: System
-Description: load preferences in style
-Tag: role::hacker, purpose::library, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
-Author: Sam Bingner <maintainer@sbdhi.com>
-Icon: file:///Applications/Cydia.app/Sections/hethongg1.png
-Name: PreferenceLoader
-
-Package: preferenceloader
-Version: 2.2.7
-Architecture: iphoneos-arm64
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 386
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: kho-phu-11/preferenceloader_2.2.7_iphoneos-arm64.deb
-Size: 17648
-MD5sum: aea57683cc4a8dabdcb1bfd6795cd3e7
-SHA1: 12d9cba2552e23a39fc2c9595e97495b5c8dc541
-SHA256: fd8548b1a042e2956198bb2f2da11ad7d78afdc0b29e5012dc4f78109da38998
-Section: System
-Description: load preferences in style
-Tag: role::hacker, purpose::library
-Author: Dhinak G
-Depiction: https://apt.htv123.com/view/97
-Icon: file:///Applications/Cydia.app/Sections/hethongg1.png
-Name: PreferenceLoader
 
 Package: ru.rejail.dleasy
 Version: 2.14.4
