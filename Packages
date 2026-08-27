@@ -104,6 +104,7 @@ Description: Fixes the RSN IE AKM-selection bug on iOS 3.x-12.x: strips AKM suit
 Author: PlayDay
 Name: Legacy WiFi Fix
 
+
 Package: idv.aqua.iGameGuardian
 Version: 6.0.0
 Architecture: iphoneos-arm
