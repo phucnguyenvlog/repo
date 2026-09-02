@@ -101450,24 +101450,6 @@ Author: Requis, Electimon
 Depiction: http://cydia.skyglow.es/depictions/com.skyglow.weatherx/depictions/index.html
 Name: Weather & Stocks
 
-Package: curl
-Version: 7.65.0-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 1896
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: libnghttp2-14, libssh2, libssl1.0
-Filename: kho-phu-10/curl_7.65.0-1_iphoneos-arm.deb
-Size: 322348
-MD5sum: 5b755c7b00631efaa87b157048f29b66
-SHA1: 1f3b280ea398194680c63fe884ef0c1774053d66
-SHA256: 5e89a61fc6cb427cff1d34e5ce2edfbb129ab086dcc5471b2ddf7c329dceaaac
-Section: Networking
-Priority: standard
-Homepage: http://curl.haxx.se/
-Description: flexible multi-protocol file transfers
-Name: cURL
-
 Package: gsm.videorec3.full
 Version: 3.1.0.1
 Architecture: iphoneos-arm
