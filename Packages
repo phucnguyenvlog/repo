@@ -107992,9 +107992,9 @@ Installed-Size: 48218
 Depends: gsmicon, firmware (>= 4.1), curl, vn.gsm.xbmc-iconpack
 Filename: kho-phu-10/xbmc-ios_12.3-1.deb
 Size: 51518114
-MD5sum: 3b47117733dfb7c4b2f72b672d0fabb6
-SHA1: 9074d8128159f31929acb077612905a43b7eec37
-SHA256: dad9300881558610b5e809388af74ceed24cebdaf9db2a404e2a8fb57e2df178
+MD5sum: 69ce3097ab94dc0ee129564c0d2b0736
+SHA1: adfccdb45a92c99667fc55356a4394a1b170a40f
+SHA256: 9bc34b7691ca6314dcf07e5d291c22309a02bdb433eb1ab12074d0f37b737e92
 Section: !CydiaVn-Apps
 Homepage: http://xbmc.org/
 Description: XBMC Multimedia Center for 4.x iOS
