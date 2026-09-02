@@ -27,10 +27,19 @@
             padding: 20px 15px; border-radius: 12px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.08); border: 1px solid #d1d1d6;
         }
-        .header img {
+        
+        /* Đã chuyển logo chính sang background-image */
+        .header-logo {
+            display: inline-block;
             width: 90px; height: 90px; border-radius: 20px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.15); margin-bottom: 10px;
+            background-image: url('https://raw.githubusercontent.com/phucnguyenvlog/repo/main/CydiaIcon.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: #f0f0f0;
         }
+        
         .header h1 { color: #1c1c1e; font-size: 24px; margin: 0 0 5px 0; font-weight: bold; }
         .header p { color: #8e8e93; font-size: 15px; margin: 0 0 18px 0; }
 
@@ -44,10 +53,6 @@
         .btn-web { background-color: #007aff; color: #fff; }
         .btn-youtube { background-color: #ff0000; color: #fff; }
         .btn-facebook { background-color: #1877F2; color: #fff; }
-        .social-icon { 
-            width: 18px; height: 18px; 
-            vertical-align: middle; margin-top: -3px; margin-right: 4px; 
-        }
 
         .section-label {
             font-size: 13px; color: #4d4d53; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
@@ -78,10 +83,17 @@
             -webkit-tap-highlight-color: rgba(0,0,0,0.1);
         }
         .accordion-header.active { background-color: #e5e5ea; }
+        
+        /* Đã tối ưu OS Logo sang background-image */
         .os-logo { 
+            display: inline-block;
             width: 50px; height: 50px; margin-right: 12px; 
             border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.3); 
             vertical-align: middle;
+            background-color: #f0f0f0;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
         }
 
         .app-item {
@@ -92,9 +104,16 @@
         .app-item:last-child { border-bottom: none; }
 
         .app-icon-cell { display: table-cell; width: 65px; vertical-align: middle; padding-left: 15px; }
+        
+        /* Đã tối ưu App Icon sang background-image */
         .app-icon { 
+            display: inline-block;
             width: 50px; height: 50px; border-radius: 12px; 
             box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+            background-color: #f0f0f0;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
         }
 
         .app-info-cell { display: table-cell; vertical-align: middle; padding-left: 5px; }
@@ -116,7 +135,7 @@
 <body>
 <div class="container">
     <div class="header">
-        <img src="https://raw.githubusercontent.com/phucnguyenvlog/repo/main/CydiaIcon.png" alt="Phúc Nguyên Repo Logo">
+        <div class="header-logo"></div>
         <h1>Phúc Nguyên Repo</h1>
         <p>Kho lưu trữ dành cho thiết bị iOS cổ</p>
 
@@ -276,7 +295,7 @@
         if (osData.apps.length > 0) {
             htmlContent += '<div class="group">' +
                            '<div class="accordion-header" onclick="toggleAccordion(this)">' +
-                           '<img src="' + osData.osIcon + '" class="os-logo" alt="iOS ' + iosVersion + '">' +
+                           '<div class="os-logo" style="background-image: url(\'' + osData.osIcon + '\');"></div>' +
                            '<span style="vertical-align: middle;">Ứng dụng iOS ' + iosVersion + '</span>' +
                            '</div>' +
                            '<div class="accordion-content" style="display: none;">';
@@ -287,10 +306,9 @@
                 var safePlistUrl = encodeURI(app.plistUrl);
                 var installLink = 'itms-services://?action=download-manifest&url=' + safePlistUrl;
                 
-                // Đã gỡ hoàn toàn lệnh onerror fallback logo phucnguyen, trả lại thẻ img nguyên bản và tinh gọn nhất
                 htmlContent += '<a href="' + installLink + '" class="app-item">' +
                                '<div class="app-icon-cell">' +
-                               '<img src="' + app.icon + '" class="app-icon">' +
+                               '<div class="app-icon" style="background-image: url(\'' + app.icon + '\');"></div>' +
                                '</div>' +
                                '<div class="app-info-cell">' +
                                '<div class="app-title">' + app.name + '</div>' +
