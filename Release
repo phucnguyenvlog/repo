@@ -7,20 +7,20 @@ Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Icon: https://phucnguyenvlog.pages.dev/CydiaIcon.png
 Description: Kho luu tru Tweak cua Phúc Nguyên Vlog
-Date: Sat, 19 Sep 2026 14:45:17 +0000
+Date: Sat, 19 Sep 2026 14:51:36 +0000
 MD5Sum:
- c7f3cf5c64150e73e9595fc44104d1c6          4008706 Packages
- f71aedb44fc8f80298fcec4bd69b4a1c           783258 Packages.bz2
- 2a8680a31b981cf2ba4c331beda3b994           807157 Packages.zst
+ 14fc2d28f2a43fd69165ea95d9adb005          4008216 Packages
+ 1d07170b638bca103968e3f3cc9db9b9           783077 Packages.bz2
+ d50ddf0f95a84b7147bdd1067c2efab6           807016 Packages.zst
 SHA1:
- 8d5fdfeb03bf97b8da96ec204a0311d5f082e826          4008706 Packages
- 401c3e5f521ff47edf285d400dd9ad790e7724f7           783258 Packages.bz2
- 5ca856607e1abb7193d163a3600e7252ba24e7a0           807157 Packages.zst
+ 1e21ba8491c45f3b48bc1f214f6aeb6169794443          4008216 Packages
+ d3792f87ed65e09bb9053d2dce33b56519d8ba7a           783077 Packages.bz2
+ 548984a8a0c26c3f726aa41dc41ba7e7bf16f79b           807016 Packages.zst
 SHA256:
- 6785f4ac7be77281ec9ccc63ed94ea91e2c3cbb9d4ca58389572085d3b3e9abc          4008706 Packages
- 97aeee6337a6efb4c14c9f5711597ed042a0955379a5a0a9f5e40f7f2661ba16           783258 Packages.bz2
- 8eb7cc733cc2a4ae5d0b6ae412465c9637c6955974af3b3e31074c7e35228f93           807157 Packages.zst
+ ade3d92c445a0ab6903b958b82a426634908b7a4cb72045b1f1f4423e3c73762          4008216 Packages
+ 0e777d02bf77646cd1b501b089152342453e3f96546a92b79212df434bb83104           783077 Packages.bz2
+ ff25d7c78325b3ae6d693b458f4020721e73af1531803f971aa808b8168eec7e           807016 Packages.zst
 SHA512:
- dd60a7c0d884cf1269e5dcfad2fc85fc35632b7861962eff6401a828fece9294a50dc548a7cf7db2a4f1c18da3954c0b64641990be6a4bda6b853a808bec61ec          4008706 Packages
- 9996f59e82ec0e1a8f2e3c4b9f1443ca2ffe23c6d04f2cc3ce67c271d09d70f0f19b372d80a2cbfe108919c93dbd9d5f97baa4dc002b5d9f6cebcf5c0dc07758           783258 Packages.bz2
- 37d0c91a04c242ebe8de02986a6d215d91097a54657d1a55d17db79e1874a5cb15e02334f1df1d6e63cbfca1b58df72d76413b71abc89bd1a2847ca2548a4fcc           807157 Packages.zst
+ 30c3ab2689b4f01ba2564bc9284bbaf0852da9107fd4f91bfedaf5f0387cf7993ead1cc53a668471c0a53ea862ae8d689c713176e7ef3628a698b008fd1eee0d          4008216 Packages
+ 8c6acbdc07e181ad509cac9dcb423bc41ac0599745c1e834875ebd31040d9c062d5778e8609bd6e4821af0175d09005af06344666ee73742bb11cc5fd78a795b           783077 Packages.bz2
+ c90a130b4eef3dddc9f2ecef882aa7877f4b22e3a58bd9b59a01da4e4454f08df70baf4d5e0132fc843ae285df1db97ab0f19d42bdf0ddeee2ee9b120588031b           807016 Packages.zst

@@ -109209,23 +109209,6 @@ Description: procyon untether for iOS 10.0-10.3.4 (32bit)
 Author: staturnz
 Name: procyon untether
 
-Package: firmware
-Version: 6.1.3
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 0
-Filename: kho-phu-10/firmware_6.1.3_iphoneos-arm.deb
-Size: 640
-MD5sum: d0d0fdb645a7d552ac093ec856448f31
-SHA1: 389f49fd6a81aa8543d065ce8ee572f8e1670b74
-SHA256: 690d964e3ff3b1e4d12b8a11add8e4ffe0005b592e02737f4f6885e6c012af20
-Section: System
-Priority: required
-Description: almost impressive Apple frameworks
-Tag: role::cydia
-Name: iOS Firmware
-
 Package: uk.invoxiplaygames.checkmatestore
 Version: 1.2
 Architecture: iphoneos-arm
