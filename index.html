@@ -6,63 +6,70 @@
     <title>Phúc Nguyên Repo - Classic Apps</title>
     <link rel="icon" type="image/png" href="CydiaIcon.png">
     <style>
-        /* ================= KHOẢNG CHUNG ================= */
+        /* ================= KHOẢNG CHUNG - NỀN SỌC CỔ ĐIỂN ================= */
         body {
             font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
             background-color: #caced7;
-            /* Hỗ trợ nền sọc cho trình duyệt hiện đại */
             background-image: repeating-linear-gradient(to right, #caced7, #caced7 3px, #d3d8df 3px, #d3d8df 6px);
-            /* Fallback hiển thị nền sọc cho WebKit/Safari cũ trên iOS 5/6 */
             background-image: -webkit-repeating-linear-gradient(left, #caced7, #caced7 3px, #d3d8df 3px, #d3d8df 6px);
             margin: 0;
-            padding: 15px 10px 40px 10px;
+            padding: 20px 10px 50px 10px;
             -webkit-text-size-adjust: none;
-            -webkit-tap-highlight-color: rgba(0,0,0,0.1);
+            -webkit-tap-highlight-color: rgba(0,0,0,0.3);
         }
         
         .container { max-width: 800px; margin: auto; }
         
-        /* ================= HEADER "CỔ + HIỆN ĐẠI" ================= */
+        /* ================= HEADER - IN CHÌM NATIVE iOS ================= */
         .header {
-            background-color: #ffffff;
-            border-radius: 20px; -webkit-border-radius: 20px;
-            box-shadow: 0 8px 24px rgba(0,0,0,0.06); -webkit-box-shadow: 0 8px 24px rgba(0,0,0,0.06);
             text-align: center; 
-            margin-bottom: 25px; 
-            padding: 30px 20px; 
-            border: 1px solid rgba(255,255,255,0.8);
+            margin-bottom: 30px; 
         }
         
         .header-logo {
             display: inline-block;
-            width: 80px; height: 80px; 
-            border-radius: 18px; -webkit-border-radius: 18px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.15); -webkit-box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-            margin-bottom: 15px;
+            width: 72px; height: 72px; 
+            border-radius: 16px; -webkit-border-radius: 16px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.4), inset 0 1px 1px rgba(255,255,255,0.5); 
+            -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.4), inset 0 1px 1px rgba(255,255,255,0.5);
+            margin-bottom: 10px;
             background-image: url('https://raw.githubusercontent.com/phucnguyenvlog/repo/main/CydiaIcon.png');
             background-size: cover; background-position: center;
         }
         
-        .header h1 { font-size: 24px; margin: 0 0 8px 0; font-weight: 800; color: #1c1c1e; }
-        .header p { color: #8e8e93; font-size: 15px; margin: 0 0 20px 0; font-weight: 500; }
+        /* Chữ khắc chìm xuống nền */
+        .header h1 { 
+            font-size: 22px; margin: 0 0 5px 0; font-weight: bold; 
+            color: #4c566c; 
+            text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+        }
+        .header p { 
+            color: #4c566c; font-size: 14px; margin: 0 0 15px 0; 
+            text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+        }
 
-        /* Sửa lỗi Flexbox trên iOS cũ bằng inline-block và margin */
-        .social-links { text-align: center; }
+        /* Nút Social kiểu bóng bẩy iOS 6 */
+        .social-links { text-align: center; margin-top: 15px; }
         
         .btn-social {
             display: inline-block; 
-            padding: 10px 20px; 
-            margin: 5px; /* Thay thế gap để tương thích iOS 5 */
-            border-radius: 25px; -webkit-border-radius: 25px;
-            text-decoration: none; font-weight: 700; font-size: 14px; color: #ffffff;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2); -webkit-box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            padding: 8px 18px; 
+            margin: 0 4px;
+            border-radius: 8px; -webkit-border-radius: 8px;
+            text-decoration: none; font-weight: bold; font-size: 13px; color: #333;
+            /* Đổ màu bóng bẩy */
+            background: #f4f5f7;
+            background: -webkit-linear-gradient(top, #ffffff 0%, #e6e8ec 50%, #d8dbe2 51%, #f0f1f4 100%);
+            border: 1px solid #999ea9;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.8), 0 1px 2px rgba(0,0,0,0.1);
+            -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.8), 0 1px 2px rgba(0,0,0,0.1);
+            text-shadow: 0 1px 0 rgba(255,255,255,0.8);
         }
-        .btn-social:active { opacity: 0.8; }
-        .btn-website { background-color: #007aff; }
-        .btn-youtube { background-color: #ff2d55; }
-        .btn-facebook { background-color: #1877f2; }
+        .btn-social:active { 
+            background: -webkit-linear-gradient(top, #d8dbe2 0%, #c4c8d2 100%);
+        }
 
-        /* ================= GIAO DIỆN APP CỔ ĐIỂN ================= */
+        /* ================= GIAO DIỆN DANH SÁCH ================= */
         .section-label {
             font-size: 15px; color: #4c566c; 
             margin: 20px 0 6px 15px; font-weight: bold; 
@@ -73,11 +80,19 @@
             background-color: #ffffff; 
             border: 1px solid #abafb5;
             border-radius: 10px; -webkit-border-radius: 10px;
-            overflow: hidden; margin-bottom: 15px; 
+            margin-bottom: 15px; 
+            /* Fix lỗi lòi góc viền trên Safari cũ */
+            -webkit-mask-image: -webkit-radial-gradient(white, black);
         }
-        .group.tinted { background-color: #dbe0ff; }
 
-        /* Sửa lỗi list-item trên iOS 5 (Dùng Block thay vì Flex) */
+        /* Đảm bảo góc bo tròn không bị mất ở item đầu và cuối */
+        .group > a:first-child, .group > div:first-child {
+            -webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px;
+        }
+        .group > a:last-child, .group > div:last-child {
+            -webkit-border-bottom-left-radius: 10px; -webkit-border-bottom-right-radius: 10px;
+        }
+
         .list-item {
             display: block; position: relative;
             padding: 12px 35px 12px 15px; 
@@ -88,15 +103,15 @@
         .list-item:last-child { border-bottom: none; }
         
         .list-item::after {
-            content: '›'; position: absolute; right: 15px; top: 50%; margin-top: -14px;
-            color: #7f7f7f; font-size: 28px; font-family: monospace; line-height: 1;
+            content: '›'; position: absolute; right: 15px; top: 50%; margin-top: -16px;
+            color: #8f8f94; font-size: 28px; font-family: monospace; line-height: 1;
         }
         .list-item:active::after { color: #fff; }
 
-        /* Sửa cấu trúc Accordion để an toàn trên Safari cũ */
+        /* Accordion */
         .accordion-header {
             display: table; width: 100%; box-sizing: border-box;
-            padding: 12px 15px; font-size: 18px; font-weight: bold; color: #000;
+            padding: 10px 15px; font-size: 17px; font-weight: bold; color: #000;
             cursor: pointer; background-color: #ffffff; 
             border-bottom: 1px solid #abafb5;
         }
@@ -104,57 +119,58 @@
         .accordion-header.active { border-bottom: 1px solid #abafb5; }
         .accordion-header:last-child { border-bottom: none; }
 
-        .os-logo-cell { display: table-cell; vertical-align: middle; width: 70px; }
+        .os-logo-cell { display: table-cell; vertical-align: middle; width: 65px; }
         .os-title-cell { display: table-cell; vertical-align: middle; }
         
-        /* Phóng to Icon iOS */
         .os-logo { 
-            display: block; width: 55px; height: 55px; 
-            border-radius: 12px; -webkit-border-radius: 12px;
+            display: block; width: 52px; height: 52px; 
+            border-radius: 10px; -webkit-border-radius: 10px;
             box-shadow: 0 1px 3px rgba(0,0,0,0.3); -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.3);
             background-size: cover; background-position: center;
         }
 
-        /* Sửa layout App Item tương thích ngược */
+        .accordion-content > a:last-child { border-bottom: none; }
+
         .app-item {
             display: table; width: 100%; padding: 10px 15px;
             border-bottom: 1px solid #abafb5; background: #ffffff; 
             text-decoration: none; color: #000; box-sizing: border-box;
         }
         .app-item:active { background-color: #e5e5e5; }
-        .app-item:last-child { border-bottom: none; }
 
-        .app-icon-cell { display: table-cell; vertical-align: middle; width: 50px; }
-        .app-info-cell { display: table-cell; vertical-align: middle; padding-left: 12px; }
-        .btn-install-cell { display: table-cell; vertical-align: middle; width: 70px; text-align: right; }
+        .app-icon-cell { display: table-cell; vertical-align: middle; width: 55px; }
+        .app-info-cell { display: table-cell; vertical-align: middle; padding-left: 10px; }
+        .btn-install-cell { display: table-cell; vertical-align: middle; width: 75px; text-align: right; }
         
         .app-icon { 
-            display: block; width: 50px; height: 50px; 
+            display: block; width: 52px; height: 52px; 
             border-radius: 10px; -webkit-border-radius: 10px;
-            box-shadow: 0 1px 4px rgba(0,0,0,0.3), inset 0 1px 1px rgba(255,255,255,0.4);
-            -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3), inset 0 1px 1px rgba(255,255,255,0.4);
+            box-shadow: 0 1px 4px rgba(0,0,0,0.4), inset 0 1px 1px rgba(255,255,255,0.4);
+            -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.4), inset 0 1px 1px rgba(255,255,255,0.4);
             background-size: cover; background-position: center;
         }
 
-        .app-title { font-size: 16px; font-weight: bold; margin: 0 0 3px 0; color: #000; }
+        .app-title { font-size: 16px; font-weight: bold; margin: 0 0 2px 0; color: #000; }
         .app-version { font-size: 13px; color: #555; margin-bottom: 2px; }
-        .app-rating { font-size: 12px; color: #ff9500; letter-spacing: 1px;}
+        .app-rating { font-size: 12px; color: #ff9500; }
         .vip-tag { 
-            color: #fff; background-color: #d13030; font-weight: bold; margin-left: 6px; 
-            font-size: 10px; padding: 1px 5px; 
+            color: #fff; background-color: #d13030; font-weight: bold; margin-left: 5px; 
+            font-size: 9px; padding: 2px 4px; 
             border-radius: 3px; -webkit-border-radius: 3px;
         }
 
+        /* Nút Cài Đặt (Glossy Blue như App Store cũ) */
         .btn-install { 
             display: inline-block;
-            background: linear-gradient(to bottom, #fcfcfc, #e0e0e0);
-            background: -webkit-linear-gradient(top, #fcfcfc, #e0e0e0);
-            border: 1px solid #999; color: #333; font-size: 13px; font-weight: bold;
-            padding: 5px 10px; 
-            border-radius: 5px; -webkit-border-radius: 5px;
-            box-shadow: inset 0 1px 0 #fff; -webkit-box-shadow: inset 0 1px 0 #fff;
-            text-shadow: 0 1px 0 #fff;
+            background: -webkit-linear-gradient(top, #4b92df 0%, #175cb5 100%);
+            border: 1px solid #0f4082; color: #fff; font-size: 13px; font-weight: bold;
+            padding: 5px 12px; 
+            border-radius: 15px; -webkit-border-radius: 15px;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 2px rgba(0,0,0,0.2); 
+            -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 2px rgba(0,0,0,0.2);
+            text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
         }
+        .app-item:active .btn-install { opacity: 0.7; }
     </style>
 </head>
 <body>
@@ -165,21 +181,21 @@
         <p>Kho lưu trữ dành cho thiết bị iOS cổ</p>
 
         <div class="social-links">
-            <a href="https://phucnguyenvlog.blogspot.com/" target="_blank" class="btn-social btn-website">Website</a>
-            <a href="https://www.youtube.com/channel/UCQK6oJ7kFxpd36FJMv-fVMg" target="_blank" class="btn-social btn-youtube">YouTube</a>
-            <a href="https://www.facebook.com/phucnguyen.tran.7315/" target="_blank" class="btn-social btn-facebook">Facebook</a>
+            <a href="https://phucnguyenvlog.blogspot.com/" target="_blank" class="btn-social">Website</a>
+            <a href="https://www.youtube.com/channel/UCQK6oJ7kFxpd36FJMv-fVMg" target="_blank" class="btn-social">YouTube</a>
+            <a href="https://www.facebook.com/phucnguyen.tran.7315/" target="_blank" class="btn-social">Facebook</a>
         </div>
     </div>
 
     <div class="section-label">THÊM VÀO TRÌNH QUẢN LÝ GÓI</div>
-    <div class="group tinted">
+    <div class="group">
         <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://phucnguyenvlog.pages.dev/" class="list-item">Thêm Nguồn vào Cydia</a>
         <a href="sileo://source/https://phucnguyenvlog.pages.dev/" class="list-item">Thêm Nguồn vào Sileo</a>
         <a href="zbra://sources/add/https://phucnguyenvlog.pages.dev/" class="list-item">Thêm Nguồn vào Zebra</a>
     </div>
 
     <div class="section-label">CÔNG CỤ HỖ TRỢ (BẮT BUỘC)</div>
-    <div class="group tinted">
+    <div class="group">
         <a href="https://raw.githubusercontent.com/phucnguyenvlog/repo/main/Certificates%20for%20Legacy%20iOS.mobileconfig" class="list-item">Cài Chứng Chỉ SSL cho iOS Cổ</a>
     </div>
 
@@ -313,7 +329,6 @@
         var osData = repoData[iosVersion];
         
         if (osData.apps.length > 0) {
-            /* Sửa cấu trúc HTML để sử dụng table-cell, và sửa title "Ứng dụng iOS X" -> "iOS X" */
             htmlContent += '<div class="group">' +
                            '<div class="accordion-header" onclick="toggleAccordion(this)">' +
                            '<div class="os-logo-cell"><div class="os-logo" style="background-image: url(\'' + osData.osIcon + '\');"></div></div>' +
