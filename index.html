@@ -6,12 +6,12 @@
     <title>Phúc Nguyên Repo - Classic Apps</title>
     <link rel="icon" type="image/png" href="CydiaIcon.png">
     <style>
-        /* ================= KHOẢNG CHUNG - NỀN SỌC CỔ ĐIỂN ================= */
+        /* ================= KHOẢNG CHUNG - NỀN SỌC CỔ ĐIỂN CYDIA ================= */
         body {
             font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-            background-color: #caced7;
-            background-image: repeating-linear-gradient(to right, #caced7, #caced7 3px, #d3d8df 3px, #d3d8df 6px);
-            background-image: -webkit-repeating-linear-gradient(left, #caced7, #caced7 3px, #d3d8df 3px, #d3d8df 6px);
+            background-color: #c7ced5;
+            background-image: repeating-linear-gradient(to right, transparent 0px, transparent 1px, rgba(255, 255, 255, 0.4) 1px, rgba(255, 255, 255, 0.4) 2px);
+            background-image: -webkit-repeating-linear-gradient(left, transparent 0px, transparent 1px, rgba(255, 255, 255, 0.4) 1px, rgba(255, 255, 255, 0.4) 2px);
             margin: 0;
             padding: 20px 10px 50px 10px;
             -webkit-text-size-adjust: none;
@@ -48,26 +48,46 @@
             text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
         }
 
-        /* Nút Social kiểu bóng bẩy iOS 6 */
+        /* ================= NÚT SOCIAL BÓNG BẨY (CÓ MÀU) ================= */
         .social-links { text-align: center; margin-top: 15px; }
         
         .btn-social {
             display: inline-block; 
-            padding: 8px 18px; 
+            padding: 7px 14px; 
             margin: 0 4px;
             border-radius: 8px; -webkit-border-radius: 8px;
-            text-decoration: none; font-weight: bold; font-size: 13px; color: #333;
-            /* Đổ màu bóng bẩy */
-            background: #f4f5f7;
+            text-decoration: none; font-weight: bold; font-size: 13px;
+            /* Đổ bóng viền và chữ chung */
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.4), 0 1px 2px rgba(0,0,0,0.2);
+            -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.4), 0 1px 2px rgba(0,0,0,0.2);
+        }
+
+        /* Nút Website - Xám bạc Safari */
+        .btn-website {
+            color: #333;
             background: -webkit-linear-gradient(top, #ffffff 0%, #e6e8ec 50%, #d8dbe2 51%, #f0f1f4 100%);
             border: 1px solid #999ea9;
-            box-shadow: inset 0 1px 0 rgba(255,255,255,0.8), 0 1px 2px rgba(0,0,0,0.1);
-            -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.8), 0 1px 2px rgba(0,0,0,0.1);
             text-shadow: 0 1px 0 rgba(255,255,255,0.8);
         }
-        .btn-social:active { 
-            background: -webkit-linear-gradient(top, #d8dbe2 0%, #c4c8d2 100%);
+        .btn-website:active { background: -webkit-linear-gradient(top, #d8dbe2 0%, #c4c8d2 100%); }
+
+        /* Nút YouTube - Đỏ bóng bẩy */
+        .btn-youtube {
+            color: #fff;
+            background: -webkit-linear-gradient(top, #e86363 0%, #d32f2f 50%, #b71c1c 51%, #d32f2f 100%);
+            border: 1px solid #9a1616;
+            text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
         }
+        .btn-youtube:active { background: -webkit-linear-gradient(top, #b71c1c 0%, #9a1616 100%); }
+
+        /* Nút Facebook - Xanh đậm bóng bẩy */
+        .btn-facebook {
+            color: #fff;
+            background: -webkit-linear-gradient(top, #698cce 0%, #4667a5 50%, #3b5998 51%, #4667a5 100%);
+            border: 1px solid #253a66;
+            text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+        }
+        .btn-facebook:active { background: -webkit-linear-gradient(top, #2f477a 0%, #253a66 100%); }
 
         /* ================= GIAO DIỆN DANH SÁCH ================= */
         .section-label {
@@ -181,9 +201,9 @@
         <p>Kho lưu trữ dành cho thiết bị iOS cổ</p>
 
         <div class="social-links">
-            <a href="https://phucnguyenvlog.blogspot.com/" target="_blank" class="btn-social">Website</a>
-            <a href="https://www.youtube.com/channel/UCQK6oJ7kFxpd36FJMv-fVMg" target="_blank" class="btn-social">YouTube</a>
-            <a href="https://www.facebook.com/phucnguyen.tran.7315/" target="_blank" class="btn-social">Facebook</a>
+            <a href="https://phucnguyenvlog.blogspot.com/" target="_blank" class="btn-social btn-website">🌐 Website</a>
+            <a href="https://www.youtube.com/channel/UCQK6oJ7kFxpd36FJMv-fVMg" target="_blank" class="btn-social btn-youtube">► YouTube</a>
+            <a href="https://www.facebook.com/phucnguyen.tran.7315/" target="_blank" class="btn-social btn-facebook"><span style="font-weight: bold; font-family: 'Times New Roman', serif; font-size: 15px; margin-right: 3px; font-style: italic;">f</span> Facebook</a>
         </div>
     </div>
 
@@ -353,10 +373,12 @@
                                '<div class="btn-install-cell"><span class="btn-install">Cài đặt</span></div>' +
                                '</a>';
             }
+            // ĐÓNG THẺ HTML CỦA DANH SÁCH ỨNG DỤNG SAU KHI VÒNG LẶP KẾT THÚC
             htmlContent += '</div></div>';
         }
     }
     
+    // GẮN TOÀN BỘ HTML VÀO GIAO DIỆN
     container.innerHTML = htmlContent;
 </script>
 </body>
