@@ -7,23 +7,13 @@
     <link rel="icon" type="image/png" href="CydiaIcon.png">
     <style>
         /* ================= KHOẢNG CHUNG ================= */
-        :root {
-            --text-main: #000000;
-            --text-sub: #4c566c;
-            --border-color: #abafb5;
-        }
-
         body {
             font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-            /* Phông nền sọc dọc chuẩn Apple ngày xưa */
             background-color: #caced7;
-            background-image: repeating-linear-gradient(
-                to right,
-                #caced7,
-                #caced7 3px,
-                #d3d8df 3px,
-                #d3d8df 6px
-            );
+            /* Hỗ trợ nền sọc cho trình duyệt hiện đại */
+            background-image: repeating-linear-gradient(to right, #caced7, #caced7 3px, #d3d8df 3px, #d3d8df 6px);
+            /* Fallback hiển thị nền sọc cho WebKit/Safari cũ trên iOS 5/6 */
+            background-image: -webkit-repeating-linear-gradient(left, #caced7, #caced7 3px, #d3d8df 3px, #d3d8df 6px);
             margin: 0;
             padding: 15px 10px 40px 10px;
             -webkit-text-size-adjust: none;
@@ -34,9 +24,9 @@
         
         /* ================= HEADER "CỔ + HIỆN ĐẠI" ================= */
         .header {
-            background-color: #ffffff; /* Nền trắng hiện đại */
-            border-radius: 20px; /* Bo góc mềm mại */
-            box-shadow: 0 8px 24px rgba(0,0,0,0.06); /* Đổ bóng để nổi lên trên nền sọc */
+            background-color: #ffffff;
+            border-radius: 20px; -webkit-border-radius: 20px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.06); -webkit-box-shadow: 0 8px 24px rgba(0,0,0,0.06);
             text-align: center; 
             margin-bottom: 25px; 
             padding: 30px 20px; 
@@ -46,133 +36,129 @@
         .header-logo {
             display: inline-block;
             width: 80px; height: 80px; 
-            border-radius: 18px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.15); 
+            border-radius: 18px; -webkit-border-radius: 18px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15); -webkit-box-shadow: 0 4px 10px rgba(0,0,0,0.15);
             margin-bottom: 15px;
             background-image: url('https://raw.githubusercontent.com/phucnguyenvlog/repo/main/CydiaIcon.png');
-            background-size: cover;
-            background-position: center;
+            background-size: cover; background-position: center;
         }
         
-        .header h1 { 
-            font-size: 24px; margin: 0 0 8px 0; font-weight: 800; 
-            color: #1c1c1e; /* Đen nhạt hiện đại */
-        }
-        .header p { 
-            color: #8e8e93; font-size: 15px; margin: 0 0 20px 0; 
-            font-weight: 500;
-        }
+        .header h1 { font-size: 24px; margin: 0 0 8px 0; font-weight: 800; color: #1c1c1e; }
+        .header p { color: #8e8e93; font-size: 15px; margin: 0 0 20px 0; font-weight: 500; }
 
-        /* Nút Social Hiện Đại (Nổi bật, bo tròn) */
-        .social-links { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+        /* Sửa lỗi Flexbox trên iOS cũ bằng inline-block và margin */
+        .social-links { text-align: center; }
         
         .btn-social {
             display: inline-block; 
-            padding: 10px 24px; 
-            border-radius: 25px; /* Bo tròn hoàn toàn (viên thuốc) */
-            text-decoration: none;
-            font-weight: 700; font-size: 14px; 
-            color: #ffffff;
-            border: none;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* Đổ bóng nút */
-            transition: transform 0.2s, box-shadow 0.2s;
+            padding: 10px 20px; 
+            margin: 5px; /* Thay thế gap để tương thích iOS 5 */
+            border-radius: 25px; -webkit-border-radius: 25px;
+            text-decoration: none; font-weight: 700; font-size: 14px; color: #ffffff;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2); -webkit-box-shadow: 0 4px 12px rgba(0,0,0,0.2);
         }
-        
-        .btn-social:active { 
-            transform: scale(0.95); 
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
-        }
-
-        /* Màu sắc cụ thể cho từng nút giống ảnh */
-        .btn-website { background-color: #007aff; box-shadow: 0 4px 12px rgba(0, 122, 255, 0.3); }
-        .btn-youtube { background-color: #ff2d55; box-shadow: 0 4px 12px rgba(255, 45, 85, 0.3); }
-        .btn-facebook { background-color: #1877f2; box-shadow: 0 4px 12px rgba(24, 119, 242, 0.3); }
+        .btn-social:active { opacity: 0.8; }
+        .btn-website { background-color: #007aff; }
+        .btn-youtube { background-color: #ff2d55; }
+        .btn-facebook { background-color: #1877f2; }
 
         /* ================= GIAO DIỆN APP CỔ ĐIỂN ================= */
         .section-label {
-            font-size: 15px; color: var(--text-sub); 
-            margin: 20px 0 6px 15px; 
-            font-weight: bold; 
+            font-size: 15px; color: #4c566c; 
+            margin: 20px 0 6px 15px; font-weight: bold; 
             text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
         }
 
         .group {
             background-color: #ffffff; 
-            border: 1px solid var(--border-color);
-            border-radius: 10px;
-            overflow: hidden; 
-            margin-bottom: 15px; 
+            border: 1px solid #abafb5;
+            border-radius: 10px; -webkit-border-radius: 10px;
+            overflow: hidden; margin-bottom: 15px; 
         }
-
         .group.tinted { background-color: #dbe0ff; }
 
+        /* Sửa lỗi list-item trên iOS 5 (Dùng Block thay vì Flex) */
         .list-item {
-            display: flex; justify-content: space-between; align-items: center;
-            padding: 12px 15px; border-bottom: 1px solid var(--border-color);
+            display: block; position: relative;
+            padding: 12px 35px 12px 15px; 
+            border-bottom: 1px solid #abafb5;
             text-decoration: none; color: #000; font-size: 16px; font-weight: bold;
         }
         .list-item:active { background-color: #0584f2; color: #fff; }
-        .list-item:active::after { color: #fff; }
         .list-item:last-child { border-bottom: none; }
         
         .list-item::after {
-            content: '›'; color: #7f7f7f; font-size: 26px; 
-            font-family: monospace; line-height: 1; padding-bottom: 4px;
+            content: '›'; position: absolute; right: 15px; top: 50%; margin-top: -14px;
+            color: #7f7f7f; font-size: 28px; font-family: monospace; line-height: 1;
         }
+        .list-item:active::after { color: #fff; }
 
+        /* Sửa cấu trúc Accordion để an toàn trên Safari cũ */
         .accordion-header {
-            padding: 10px 15px; font-size: 16px; font-weight: bold; color: #000;
+            display: table; width: 100%; box-sizing: border-box;
+            padding: 12px 15px; font-size: 18px; font-weight: bold; color: #000;
             cursor: pointer; background-color: #ffffff; 
-            border-bottom: 1px solid var(--border-color);
-            display: flex; align-items: center;
+            border-bottom: 1px solid #abafb5;
         }
         .accordion-header:active { background-color: #e5e5e5; }
-        .accordion-header.active { border-bottom: 1px solid var(--border-color); }
+        .accordion-header.active { border-bottom: 1px solid #abafb5; }
         .accordion-header:last-child { border-bottom: none; }
+
+        .os-logo-cell { display: table-cell; vertical-align: middle; width: 70px; }
+        .os-title-cell { display: table-cell; vertical-align: middle; }
         
+        /* Phóng to Icon iOS */
         .os-logo { 
-            display: inline-block; width: 36px; height: 36px; margin-right: 12px; 
-            border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.3); 
+            display: block; width: 55px; height: 55px; 
+            border-radius: 12px; -webkit-border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.3); -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.3);
             background-size: cover; background-position: center;
         }
 
+        /* Sửa layout App Item tương thích ngược */
         .app-item {
-            display: flex; align-items: center; width: 100%; padding: 10px 15px;
-            border-bottom: 1px solid var(--border-color); background: #ffffff; 
+            display: table; width: 100%; padding: 10px 15px;
+            border-bottom: 1px solid #abafb5; background: #ffffff; 
             text-decoration: none; color: #000; box-sizing: border-box;
         }
         .app-item:active { background-color: #e5e5e5; }
         .app-item:last-child { border-bottom: none; }
 
-        .app-icon-cell { flex-shrink: 0; }
+        .app-icon-cell { display: table-cell; vertical-align: middle; width: 50px; }
+        .app-info-cell { display: table-cell; vertical-align: middle; padding-left: 12px; }
+        .btn-install-cell { display: table-cell; vertical-align: middle; width: 70px; text-align: right; }
         
         .app-icon { 
-            display: block; width: 50px; height: 50px; border-radius: 10px;
+            display: block; width: 50px; height: 50px; 
+            border-radius: 10px; -webkit-border-radius: 10px;
             box-shadow: 0 1px 4px rgba(0,0,0,0.3), inset 0 1px 1px rgba(255,255,255,0.4);
+            -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3), inset 0 1px 1px rgba(255,255,255,0.4);
             background-size: cover; background-position: center;
         }
 
-        .app-info-cell { flex-grow: 1; padding-left: 12px; }
         .app-title { font-size: 16px; font-weight: bold; margin: 0 0 3px 0; color: #000; }
         .app-version { font-size: 13px; color: #555; margin-bottom: 2px; }
         .app-rating { font-size: 12px; color: #ff9500; letter-spacing: 1px;}
         .vip-tag { 
             color: #fff; background-color: #d13030; font-weight: bold; margin-left: 6px; 
-            font-size: 10px; padding: 1px 5px; border-radius: 3px; 
-            box-shadow: inset 0 1px 0 rgba(255,255,255,0.3);
+            font-size: 10px; padding: 1px 5px; 
+            border-radius: 3px; -webkit-border-radius: 3px;
         }
 
-        .btn-install-cell { 
-            flex-shrink: 0; background: linear-gradient(to bottom, #fcfcfc, #e0e0e0);
+        .btn-install { 
+            display: inline-block;
+            background: linear-gradient(to bottom, #fcfcfc, #e0e0e0);
+            background: -webkit-linear-gradient(top, #fcfcfc, #e0e0e0);
             border: 1px solid #999; color: #333; font-size: 13px; font-weight: bold;
-            padding: 4px 10px; border-radius: 5px; box-shadow: inset 0 1px 0 #fff;
+            padding: 5px 10px; 
+            border-radius: 5px; -webkit-border-radius: 5px;
+            box-shadow: inset 0 1px 0 #fff; -webkit-box-shadow: inset 0 1px 0 #fff;
             text-shadow: 0 1px 0 #fff;
         }
     </style>
 </head>
 <body>
 <div class="container">
-    <!-- KHỐI HEADER TRẮNG HIỆN ĐẠI -->
     <div class="header">
         <div class="header-logo"></div>
         <h1>Phúc Nguyên Repo</h1>
@@ -185,7 +171,6 @@
         </div>
     </div>
 
-    <!-- KHỐI APP CỔ ĐIỂN BÊN DƯỚI -->
     <div class="section-label">THÊM VÀO TRÌNH QUẢN LÝ GÓI</div>
     <div class="group tinted">
         <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://phucnguyenvlog.pages.dev/" class="list-item">Thêm Nguồn vào Cydia</a>
@@ -239,10 +224,10 @@
                 {"name": "BeautyCam", "version": "3.3.1", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/BeautyCam.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/BeautyCam.plist"}, 
                 {"name": "BeautyPlus", "version": "3.0.1", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/BeautyPlus.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/BeautyPlus.plist"}, 
                 {"name": "CamScanner", "version": "3.1.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/CamScanner.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/CamScanner.plist"}, 
-                {"name": "ChatGPT", "version": "1.0.2-openrouter", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/ChatGPT.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/ChatGPT.plist"}, 
+                {"name": "ChatGPT", "version": "1.0.2", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/ChatGPT.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/ChatGPT.plist"}, 
                 {"name": "Chrome", "version": "37.2062.60", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Chrome.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Chrome.plist"}, 
                 {"name": "Cycloramic", "version": "4.9.1", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Cycloramic.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Cycloramic.plist"}, 
-                {"name": "Dich", "version": "2.1.1.7574", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Dichc.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Dich.plist"}, 
+                {"name": "Dich", "version": "2.1.1", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Dichc.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Dich.plist"}, 
                 {"name": "Discord", "version": "0.9.7b7", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Discord.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Discord.plist"}, 
                 {"name": "Drive", "version": "2.2.3", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Drive.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Drive.plist"}, 
                 {"name": "Facebook", "version": "11.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Facebook.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Facebook.plist"}, 
@@ -263,7 +248,7 @@
                 {"name": "myviettel", "version": "1.1.4", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/myviettel.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/myviettel.plist"}, 
                 {"name": "NCT", "version": "5.3.2", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/NCT.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/NCT.plist"}, 
                 {"name": "NCTLTE", "version": "1.0.1", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/NCTLTE.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/NCTLTE.plist"}, 
-                {"name": "OperaMini", "version": "7.0.5.45389", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/OperaMini.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/OperaMini.plist"}, 
+                {"name": "OperaMini", "version": "7.0.5", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/OperaMini.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/OperaMini.plist"}, 
                 {"name": "picsart", "version": "3.2.3", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/picsart.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/picsart.plist"}, 
                 {"name": "Pinterest", "version": "13.28", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Pinterest.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Pinterest.plist"}, 
                 {"name": "PlayMusic", "version": "1.2.1", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/PlayMusic.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/PlayMusic.plist"}, 
@@ -320,7 +305,6 @@
 
     var container = document.getElementById('app-container');
     var htmlContent = "";
-
     var keys = Object.keys(repoData);
     keys.sort(function(a, b) { return b - a; });
 
@@ -329,10 +313,11 @@
         var osData = repoData[iosVersion];
         
         if (osData.apps.length > 0) {
+            /* Sửa cấu trúc HTML để sử dụng table-cell, và sửa title "Ứng dụng iOS X" -> "iOS X" */
             htmlContent += '<div class="group">' +
                            '<div class="accordion-header" onclick="toggleAccordion(this)">' +
-                           '<div class="os-logo" style="background-image: url(\'' + osData.osIcon + '\');"></div>' +
-                           '<span style="flex-grow: 1;">Ứng dụng iOS ' + iosVersion + '</span>' +
+                           '<div class="os-logo-cell"><div class="os-logo" style="background-image: url(\'' + osData.osIcon + '\');"></div></div>' +
+                           '<div class="os-title-cell">iOS ' + iosVersion + '</div>' +
                            '</div>' +
                            '<div class="accordion-content" style="display: none;">';
 
@@ -350,7 +335,7 @@
                                '<div class="app-version">Phiên bản ' + app.version + '</div>' +
                                '<div class="app-rating">' + app.stars + ' <span class="vip-tag">VIP</span></div>' +
                                '</div>' +
-                               '<div class="btn-install-cell">Cài đặt</div>' +
+                               '<div class="btn-install-cell"><span class="btn-install">Cài đặt</span></div>' +
                                '</a>';
             }
             htmlContent += '</div></div>';
