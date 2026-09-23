@@ -1,3 +1,24 @@
+Package: dev.preloading.tubereplacer
+Version: 2.0.0
+Architecture: iphoneos-arm
+Maintainer: Preloading <me@preloading.dev>
+Installed-Size: 2984
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 5.0), firmware (<< 11.0)
+Conflicts: bag.xml.tuberepair
+Filename: kho-phu-1/dev.preloading.tubereplacer_2.0.0_iphoneos-arm.deb
+Size: 755364
+MD5sum: 95fa756c615548b758e974e3cbd3f3ba
+SHA1: b4de4eb43961bda350cb344ac7e8c35348a251c1
+SHA256: 2bbb278757797699069616a8c14721816c70c5f22ee00c643baa73fbbb310890
+Section: Tweaks
+Homepage: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
+Description: A fix for YouTube with sign-in.
+Author: Preloading <me@preloading.dev>
+Depiction: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
+Icon: file:///Library/PreferenceBundles/TubeReplacerPrefs.bundle/icon@full.png
+Name: TubeReplacer
+
+
 Package: ai.akemi.appsyncunified
 Version: 112.0
 Architecture: iphoneos-arm64
