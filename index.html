@@ -136,7 +136,6 @@
 
         .accordion-content > div:last-child { border-bottom: none; }
 
-        /* Item Ứng dụng dạng DIV để chứa 2 nút bấm riêng */
         .app-item {
             display: table; width: 100%; padding: 10px 15px;
             border-bottom: 1px solid #abafb5; background: #ffffff; 
@@ -236,19 +235,104 @@
         }
     }
 
-    // Dữ liệu ứng dụng (Đã được tự động thêm trường ipaUrl cho nút tải IPA)
     var repoData = {
         "5": {
             "osIcon": "https://github.com/phucnguyenvlog/repo/blob/main/ICON/IOS_5_logo.png?raw=true", 
             "apps": [
-                {"name": "Instagram", "version": "4.1.4", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Instagram.png", "stars": "★★★★★", "ipaUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/app/IPA5/InstagramClassic.ipa", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA5/Instagram.plist"},
-                {"name": "Battery LED Pro", "version": "1.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Battery_LED_Pro.png", "stars": "★★★★★", "ipaUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/app/IPA5/Battery_LED_Pro.ipa", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA5/Battery_LED_Pro.plist"}
+                {"name": "Instagram", "version": "4.1.4", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Instagram.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA5/Instagram.plist"},
+                {"name": "Battery LED Pro", "version": "1.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Battery_LED_Pro.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA5/Battery_LED_Pro.plist"},
+                {"name": "DaoVang", "version": "3.0.3", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/DaoVang.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA5/DaoVang.plist"},
+                {"name": "FLACMusic", "version": "1.8", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/FLACMusic.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA5/FLACMusic.plist"},
+                {"name": "Twitter", "version": "5.0.3", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Twitter.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA5/Twitter.plist"}, 
+                {"name": "Troubadour", "version": "1.5", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Troubadour.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA5/Troubadour.plist"}, 
+                {"name": "YouTube-v1.3.0", "version": "1.3.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/YouTube_1_3_0_beta2.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA5/YouTube_1.3.0beta2.plist"}
             ]
         }, 
         "6": {
             "osIcon": "https://github.com/phucnguyenvlog/repo/blob/main/ICON/IOS_6_logo.png?raw=true", 
             "apps": [
-                {"name": "FlappyBird", "version": "1.2", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/FlappyBird.png", "stars": "★★★★★", "ipaUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/app/IPA6/FlappyBird.ipa", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/FlappyBird.plist"}
+                {"name": "YouTube-v2.0.0", "version": "2.0.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/YouTube-v2_0_0.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/YouTube-v2.0.0.plist"},
+				{"name": "Authenticator", "version": "2.1.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Authenticator.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Authenticator.plist"}, 
+                {"name": "AVPlayer", "version": "2.50", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/AVPlayer.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/AVPlayer.plist"}, 
+                {"name": "BaoMoi", "version": "3.1.5", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/BaoMoi.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/BaoMoi.plist"}, 
+                {"name": "BeautyCam", "version": "3.3.1", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/BeautyCam.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/BeautyCam.plist"}, 
+                {"name": "BeautyPlus", "version": "3.0.1", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/BeautyPlus.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/BeautyPlus.plist"}, 
+                {"name": "CamScanner", "version": "3.1.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/CamScanner.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/CamScanner.plist"}, 
+                {"name": "ChatGPT", "version": "1.0.2", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/ChatGPT.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/ChatGPT.plist"}, 
+                {"name": "Chrome", "version": "37.2062.60", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Chrome.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Chrome.plist"}, 
+                {"name": "Cycloramic", "version": "4.9.1", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Cycloramic.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Cycloramic.plist"}, 
+                {"name": "Dich", "version": "2.1.1", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Dichc.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Dich.plist"}, 
+                {"name": "Discord", "version": "0.9.7b7", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Discord.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Discord.plist"}, 
+                {"name": "Drive", "version": "2.2.3", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Drive.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Drive.plist"}, 
+                {"name": "Facebook", "version": "11.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Facebook.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Facebook.plist"}, 
+                {"name": "FindiPhone", "version": "2.0.2", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/FindiPhone.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/FindiPhone.plist"}, 
+                {"name": "FlappyBird", "version": "1.2", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/FlappyBird.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/FlappyBird.plist"}, 
+                {"name": "foobar2000", "version": "1.0.33", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/foobar2000.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/foobar2000.plist"}, 
+                {"name": "Google", "version": "3.2.1", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Google.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Google.plist"}, 
+                {"name": "GoogleMaps", "version": "4.3.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/GoogleMaps.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/GoogleMaps.plist"}, 
+                {"name": "iBooks", "version": "3.1.3", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/iBooks.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/iBooks.plist"}, 
+                {"name": "Instagram", "version": "6.5.1", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Instagram.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Instagram.plist"}, 
+                {"name": "lichviet", "version": "2.9", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/lichviet.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/lichviet.plist"}, 
+                {"name": "Meitu", "version": "4.3.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Meitu.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Meitu.plist"}, 
+                {"name": "Messenger", "version": "111.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Messenger.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Messenger.plist"}, 
+                {"name": "Mixcloud", "version": "3.4.1", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Mixcloud.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Mixcloud.plist"}, 
+                {"name": "Momo", "version": "1.9.32", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Momo.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Momo.plist"}, 
+                {"name": "MoviePro", "version": "1.9.1", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/MoviePro.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/MoviePro.plist"}, 
+                {"name": "Movies", "version": "1.2.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Movies.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Movies.plist"}, 
+                {"name": "myviettel", "version": "1.1.4", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/myviettel.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/myviettel.plist"}, 
+                {"name": "NCT", "version": "5.3.2", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/NCT.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/NCT.plist"}, 
+                {"name": "NCTLTE", "version": "1.0.1", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/NCTLTE.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/NCTLTE.plist"}, 
+                {"name": "OperaMini", "version": "7.0.5", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/OperaMini.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/OperaMini.plist"}, 
+                {"name": "picsart", "version": "3.2.3", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/picsart.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/picsart.plist"}, 
+                {"name": "Pinterest", "version": "13.28", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Pinterest.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Pinterest.plist"}, 
+                {"name": "PlayMusic", "version": "1.2.1", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/PlayMusic.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/PlayMusic.plist"}, 
+                {"name": "RecordMyScreen", "version": "1.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/RecordMyScreen.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/RecordMyScreen.plist"}, 
+                {"name": "Reddit", "version": "2.9.10", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Reddit.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Reddit.plist"}, 
+                {"name": "sendanywhere", "version": "4.7.16", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/sendanywhere.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/sendanywhere.plist"}, 
+                {"name": "Shazam", "version": "7.3.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Shazam.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Shazam.plist"}, 
+                {"name": "Skype", "version": "4.17.126", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Skype.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Skype.plist"}, 
+                {"name": "Snapchat", "version": "6.1.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Snapchat.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Snapchat.plist"}, 
+                {"name": "SoundCloud", "version": "1.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/SoundCloud.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/SoundCloud.plist"}, 
+                {"name": "Soundhound", "version": "6.2.2", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Soundhound.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Soundhound.plist"}, 
+                {"name": "SpeedTest", "version": "3.4.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/SpeedTest.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/SpeedTest.plist"}, 
+                {"name": "Spotify", "version": "1.8.1", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Spotify.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Spotify.plist"}, 
+                {"name": "TikTok", "version": "1.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/TikTok.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/TikTok.plist"}, 
+                {"name": "TikTokDouyin", "version": "2.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/TikTokDouyin.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/TikTokDouyin.plist"}, 
+                {"name": "Tinder", "version": "2.2.3", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Tinder.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Tinder.plist"}, 
+                {"name": "Tumblr", "version": "3.4.3", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Tumblr.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Tumblr.plist"}, 
+                {"name": "Twitter", "version": "6.13.6", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Twitter.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Twitter.plist"}, 
+                {"name": "UCBrowser", "version": "10.6.1", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/UCBrowser.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/UCBrowser.plist"}, 
+                {"name": "vcb", "version": "2.1", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/vcb.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/vcb.plist"}, 
+                {"name": "VivaVideo", "version": "3.9.1", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/VivaVideo.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/VivaVideo.plist"}, 
+                {"name": "VLC", "version": "2.1.3", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/VLC.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/VLC.plist"}, 
+                {"name": "VnExpress", "version": "6.4.6", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/VnExpress.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/VnExpress.plist"}, 
+                {"name": "YouTubeClassic", "version": "1.4.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/YouTubeB.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/YouTubeB.plist"}, 
+                {"name": "YouTube", "version": "1.4.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/YouTube_1_4_0_AppOnly-beta6.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/YouTube_1.4.0_AppOnly-beta6.plist"}, 
+                {"name": "Zalo", "version": "4.2.1", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Zalo.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/Zalo.plist"}, 
+                {"name": "ZingMP3", "version": "5.10", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/ZingMp3.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA6/ZingMP3.plist"}
+            ]
+        }, 
+        "7": {
+            "osIcon": "https://github.com/phucnguyenvlog/repo/blob/main/ICON/IOS_7_number_logo.png?raw=true", 
+            "apps": [
+                {"name": "Facebook", "version": "544.0.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Facebook.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA7/Facebook.plist"}, 
+                {"name": "Messenger", "version": "84.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/Messenger.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA7/Messenger.plist"}, 
+                {"name": "ZingMP3", "version": "18.01.04", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/ZingMp3.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA7/ZingMP3.plist"}
+            ]
+        }, 
+        "8": {
+            "osIcon": "https://github.com/phucnguyenvlog/repo/blob/main/ICON/IOS_8_logo.png?raw=true", 
+            "apps": [
+                {"name": "NCT", "version": "6.2.6", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/NCT.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA8/NCT.plist"}, 
+                {"name": "GoTV", "version": "1.2.2", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/GoTV.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA8/GoTV.plist"},
+                {"name": "NCTLTE", "version": "1.0.43", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/NCTLTE.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA8/NCTLTE.plist"}, 
+                {"name": "ZingMP3", "version": "20.02.03", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/ZingMp3.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA8/ZingMP3.plist"}
+            ]
+        }, 
+        "9": {
+            "osIcon": "https://github.com/phucnguyenvlog/repo/blob/main/ICON/IOS_9_Logo.png?raw=true", 
+            "apps": [
+                {"name": "SoundCloud", "version": "5.31.0", "icon": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/icons/SoundCloud.png", "stars": "★★★★★", "plistUrl": "https://raw.githubusercontent.com/phucnguyenvlog/app/main/plist/IPA9/SoundCloud.plist"}
             ]
         }
     };
@@ -274,7 +358,14 @@
                 var app = osData.apps[j];
                 var safePlistUrl = encodeURI(app.plistUrl);
                 var installLink = 'itms-services://?action=download-manifest&url=' + safePlistUrl;
-                var downloadIpaLink = app.ipaUrl ? app.ipaUrl : '#';
+                
+                // Mẹo nhỏ: Tự động đổi link /plist/ thành /app/ và .plist thành .ipa nếu data chưa có ipaUrl
+                var downloadIpaLink = app.ipaUrl;
+                if (!downloadIpaLink && app.plistUrl) {
+                    downloadIpaLink = app.plistUrl.replace('/plist/', '/app/').replace('.plist', '.ipa');
+                } else if (!downloadIpaLink) {
+                    downloadIpaLink = '#';
+                }
                 
                 htmlContent += '<div class="app-item">' +
                                '<div class="app-icon-cell">' +
