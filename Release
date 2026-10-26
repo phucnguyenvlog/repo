@@ -1,26 +1,25 @@
-Origin: Phúc Nguyên Repo
-Label: Phúc Nguyên Vlog
+Origin: Phuc Nguyen Repo
+Label: Phuc Nguyen Vlog
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Architectures: iphoneos-arm iphoneos-arm64
 Components: main
-Icon: https://phucnguyenvlog.pages.dev/CydiaIcon.png
-Description: Kho luu tru Tweak cua Phúc Nguyên Vlog
-Date: Wed, 23 Sep 2026 01:34:41 +0000
+Description: Kho luu tru Tweak cua Phuc Nguyen Vlog
+Date: Mon, 26 Oct 2026 13:57:09 +0000
 MD5Sum:
- cbc1665e11bc89a2e28762eab726a37d          4009067 Packages
- 26109e55bc0c5e4990cd8124069c714a           783151 Packages.bz2
- 9c472fa30ed3db4c9946efccfc2c39e1           806775 Packages.zst
+ 77b11006be3482a6afeb0d32ba7e0744          4009911 Packages
+ 4c79e3618ae15d74343540fadd452c60           783404 Packages.bz2
+ d8c8d160987b1bc6ab59e765f940ebad           806762 Packages.zst
 SHA1:
- 84b60eba0462b0da055ffa1a6a572294994718f1          4009067 Packages
- 03260d479f3804d93e10dfb1b395522ff8c44b89           783151 Packages.bz2
- a3f7c05431dbf5e0847912f1627cbe66ce64eb9b           806775 Packages.zst
+ e42bd994535f233b45f078da9602dc7ca17efcc0          4009911 Packages
+ 26c595935cef4f2d64d1d6f48b99dd6d6efdceee           783404 Packages.bz2
+ 7a9c4f7e34d74dfb2cf11e04c487a75d79a5d99c           806762 Packages.zst
 SHA256:
- bc7d4208994c4d35132b140b7c64a97173e8def4b0a8e0b1506629e52a457d4c          4009067 Packages
- 52b3c02e17b27427d96bd438259a09e08c303e032f3dcd1d87854582c2714a93           783151 Packages.bz2
- 07681a1c99016b68edead9ed3e9d02885a5f5c79126a85082267d5c3641b5338           806775 Packages.zst
+ cb62b747fb7c659f14dca97e2b3791bd6bffd24c126c15af4408f4443750140b          4009911 Packages
+ e80c5eb2a7f918fd0c03d1ce61ab6ba9048bbcb0aec70017e0922d5801cb8487           783404 Packages.bz2
+ 2c0bb643ff9caa41175d923a018da1ec6db2055d0f9c7a970730bc115403d7a8           806762 Packages.zst
 SHA512:
- 52a3e72da2e4a33e30e6d1e2e664e523145934d1f91c3f62575040fb5097c96d60e134b7630f6e24f42487bf84a846420df94a54963960eeea4c09c3e4f4301d          4009067 Packages
- 4a08bbc55e0946a48b71232fc6aec9c55b585de17a02ebe4b84a04565a136957e5aff8e8265a2fd87a4aae8da6c775f8ea490808be74e33206c53e908d935526           783151 Packages.bz2
- 070132456c69b2f6943280990b566cda70b406457eed2dc10f653e0d38cd33eb8ee7cb32d81571a43c954f434c9f733b885d7627ef39aa71d465455e7dacc068           806775 Packages.zst
+ 17ca98a826028fbf2e528ce9838cd55fc8e794dd50522dcd750184ec88fe9a6199d1f00db88aafc99986288a6581639f5f0c997f27f67ca1271873e50ac7407e          4009911 Packages
+ 609096acd3cdbb057f47fb96f32849d3a210ae3fdb3ba59f9f775223781cee7fd0779d17a949a2efa574c92fdf09dfdb1b2f3e7476156440dd5bd73c61d2a131           783404 Packages.bz2
+ 845137d66207a463fc504bf2aad9b576860939458325e0c060d6017aa9101cd6887de76bfd03f9440953c18c40a7a7f9defd2a3124c31f95a80a0a14c4645ca8           806762 Packages.zst

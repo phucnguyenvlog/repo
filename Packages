@@ -1,3 +1,22 @@
+Package: me.lululab.wk
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: lululab
+Installed-Size: 93124
+Depends: firmware (>= 6.0), firmware (<< 8.0), mobilesubstrate, preferenceloader, applist, me.lululab.prefs, me.lululab.stbridge (>= 1.0.0) | com.skyglow.tlsfix, libssl3 (>= 3.0.0), me.lululab.libvlc
+Recommends: com.ps.emojiportlegacy
+Conflicts: cy+cpu.arm64
+Filename: kho-phu-1/me.lululab.wk_1.0.0_iphoneos-arm.deb
+Size: 24307824
+MD5sum: 29fb9fd5e8c1eb43bfa61ca63bead3f7
+SHA1: 4cb2e90e07884a3465498d8c200adbed5ae5d8c3
+SHA256: ce23f24d898f22cddc5364ccef1864472158560de83a2721eee855cb56b24063
+Section: Tweaks
+Description: Bring today's web back to your iOS 6 device. Sites that stopped loading or look broken in Safari work again. Very heavy web apps can still crash the browser, since memory is limited.
+Author: lululab
+Name: Web Port
+
+
 Package: dev.preloading.tubereplacer
 Version: 2.0.0
 Architecture: iphoneos-arm
