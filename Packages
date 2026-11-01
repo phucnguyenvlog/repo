@@ -1,3 +1,20 @@
+Package: com.samcejko.tikieplus
+Version: 0.5.1
+Architecture: iphoneos-arm
+Maintainer: samcejko
+Installed-Size: 2120
+Depends: firmware (>= 6.0), firmware (<< 11.0)
+Filename: kho-phu-1/com.samcejko.tikieplus_0.5.1_iphoneos-arm.deb
+Size: 1055302
+MD5sum: 476e4fd2d773a4dc172d4536888cf1bf
+SHA1: c07eb7fc26b64a1c0e557c53f528e0c98354443f
+SHA256: ba08035ca0efffe035db086fa481084f85698e37d8b30dff579da83132ec4fd5
+Section: Multimedia
+Description: Direct TikTok viewer with Explore, public profiles, video and photo playback, comments, saved posts and verified local session import. No helper server required; some TikTok account/search endpoints may be unavailable.
+Author: samcejko
+Name: TikTak+
+
+
 Package: me.lululab.wk
 Version: 1.0.0
 Architecture: iphoneos-arm
